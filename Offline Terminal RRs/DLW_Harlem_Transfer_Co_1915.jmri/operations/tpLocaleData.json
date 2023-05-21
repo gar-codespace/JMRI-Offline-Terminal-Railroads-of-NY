@@ -1,0 +1,72 @@
+{
+  "locations": {
+    "HTC": [
+      "1", 
+      "2", 
+      "3", 
+      "4", 
+      "5", 
+      "6", 
+      "7", 
+      "9"
+    ], 
+    "Harlem River": [
+      "8"
+    ], 
+    "Unreported": [
+      "00"
+    ]
+  }, 
+  "tracks": {
+    "00": [
+      "Unreported", 
+      "~", 
+      "class yard"
+    ], 
+    "1": [
+      "HTC", 
+      "Cement House", 
+      "industry"
+    ], 
+    "2": [
+      "HTC", 
+      "Feed", 
+      "industry"
+    ], 
+    "3": [
+      "HTC", 
+      "Grain", 
+      "industry"
+    ], 
+    "4": [
+      "HTC", 
+      "Freight House", 
+      "industry"
+    ], 
+    "5": [
+      "HTC", 
+      "Railroad Avenue", 
+      "industry"
+    ], 
+    "6": [
+      "HTC", 
+      "Team Tracks", 
+      "industry"
+    ], 
+    "7": [
+      "HTC", 
+      "Overhead Crane", 
+      "industry"
+    ], 
+    "8": [
+      "Harlem River", 
+      "Car Barge", 
+      "staging"
+    ], 
+    "9": [
+      "HTC", 
+      "Engine Shed", 
+      "industry"
+    ]
+  }
+}

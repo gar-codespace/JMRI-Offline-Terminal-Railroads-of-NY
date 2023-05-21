@@ -1,0 +1,404 @@
+{
+  "buildDate": "05/21/2023-07:42:25", 
+  "carAAR": [
+    "F", 
+    "G", 
+    "Bdr", 
+    "Rf", 
+    "Xm", 
+    "X", 
+    "TO", 
+    "XV"
+  ], 
+  "carKernel": [
+    ""
+  ], 
+  "carLoads": {
+    "Bdr": [
+      "live oysters"
+    ], 
+    "F": [
+      "lumber", 
+      "heavy eqpt"
+    ], 
+    "G": [
+      "cobbles", 
+      "barrels", 
+      "machinery"
+    ], 
+    "Rf": [
+      "produce", 
+      "live oysters"
+    ], 
+    "TO": [
+      "heating oil"
+    ], 
+    "X": [
+      "can oysters", 
+      "break bulk", 
+      "coffee sacks", 
+      "foodstuffs"
+    ], 
+    "XV": [
+      "can oysters", 
+      "break bulk", 
+      "coffee sacks", 
+      "foodstuffs", 
+      "produce"
+    ], 
+    "Xm": [
+      "produce"
+    ]
+  }, 
+  "divisions": [
+    "Seaside Division"
+  ], 
+  "industries": {
+    "11": {
+      "a-location": "West Harbor", 
+      "b-track": "Mother Schuckers", 
+      "c-schedule": {
+        "MS": [
+          [
+            "Bdr", 
+            "S", 
+            "live oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "Rf", 
+            "S", 
+            "live oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "X", 
+            "S", 
+            "can oysters", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "S", 
+            "can oysters", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "13": {
+      "a-location": "West Harbor", 
+      "b-track": "4th Street Pier", 
+      "c-schedule": {
+        "P4": [
+          [
+            "F", 
+            "S", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "G", 
+            "S", 
+            "barrels", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "TO", 
+            "R", 
+            "heating oil", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "X", 
+            "S", 
+            "break bulk", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "S", 
+            "break bulk", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "17": {
+      "a-location": "West Harbor", 
+      "b-track": "Foodstuffs", 
+      "c-schedule": {
+        "F": [
+          [
+            "X", 
+            "R", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "X", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "R", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "S", 
+            "foodstuffs", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "2": {
+      "a-location": "West Harbor", 
+      "b-track": "Coffee Roasters", 
+      "c-schedule": {
+        "CR": [
+          [
+            "X", 
+            "S", 
+            "coffee sacks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "S", 
+            "coffee sacks", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "West Harbor", 
+      "b-track": "Bulk Material Wharf", 
+      "c-schedule": {
+        "BMW": [
+          [
+            "G", 
+            "S", 
+            "cobbles", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "5": {
+      "a-location": "West Harbor", 
+      "b-track": "Gantry Crane", 
+      "c-schedule": {
+        "G": [
+          [
+            "F", 
+            "R", 
+            "heavy eqpt", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "G", 
+            "R", 
+            "machinery", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "8": {
+      "a-location": "West Harbor", 
+      "b-track": "Producee", 
+      "c-schedule": {
+        "P": [
+          [
+            "Rf", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XV", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "Xm", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }, 
+  "layoutName": "Metropolitan Union Transfer Terminal", 
+  "locales": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "20", 
+      "label": "P4", 
+      "location": "West Harbor", 
+      "track": "4th Street Pier", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "2", 
+      "label": "CR", 
+      "location": "West Harbor", 
+      "track": "Coffee Roasters", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "3", 
+      "label": "BMW", 
+      "location": "West Harbor", 
+      "track": "Bulk Material Wharf", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "2", 
+      "label": "G", 
+      "location": "West Harbor", 
+      "track": "Gantry Crane", 
+      "type": "industry"
+    }, 
+    "6": {
+      "capacity": "14", 
+      "label": "ST", 
+      "location": "Harbor Drive", 
+      "track": "Street Tracks", 
+      "type": "staging"
+    }, 
+    "7": {
+      "capacity": "4", 
+      "label": "F", 
+      "location": "West Harbor", 
+      "track": "Foodstuffs", 
+      "type": "industry"
+    }, 
+    "8": {
+      "capacity": "3", 
+      "label": "MS", 
+      "location": "West Harbor", 
+      "track": "Mother Schuckers", 
+      "type": "industry"
+    }, 
+    "9": {
+      "capacity": "6", 
+      "label": "P", 
+      "location": "West Harbor", 
+      "track": "Producee", 
+      "type": "industry"
+    }
+  }, 
+  "location": "J Dot Bay", 
+  "locationIds": [
+    "00", 
+    "6", 
+    "1", 
+    "3", 
+    "4", 
+    "8", 
+    "2", 
+    "7", 
+    "9"
+  ], 
+  "locations": [
+    "Harbor Drive", 
+    "West Harbor", 
+    "Unreported"
+  ], 
+  "locoConsists": [
+    ""
+  ], 
+  "locoModels": [
+    [
+      "diesel", 
+      "EQDK"
+    ], 
+    [
+      "A4", 
+      "ESS"
+    ]
+  ], 
+  "locoTypes": [
+    "ESS", 
+    "EQDK"
+  ], 
+  "operatingRoad": "Metropolitian Union Transfer Terminal", 
+  "roads": [
+    "NYNH&H", 
+    "WJ&S", 
+    "ACL", 
+    "LV", 
+    "B&O", 
+    "MUTT", 
+    "ER", 
+    ".", 
+    "PRR", 
+    "FGEX", 
+    "M&P", 
+    "AT&SF", 
+    "PL", 
+    "P&R", 
+    "B&A", 
+    "CNJ"
+  ], 
+  "scale": "HO", 
+  "territory": "West Pier District", 
+  "year": "1915"
+}

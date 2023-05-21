@@ -1,0 +1,311 @@
+{
+  "buildDate": "05/08/2023-10:07:38", 
+  "carAAR": [
+    "RS", 
+    "HK", 
+    "FM", 
+    "TG", 
+    "XM", 
+    "GA"
+  ], 
+  "carKernel": [
+    ""
+  ], 
+  "carLoads": {
+    "FM": [
+      "lumber stack", 
+      "Tarp", 
+      "machinery"
+    ], 
+    "GA": [
+      "lumber stack", 
+      "Tarp3", 
+      "Barrels", 
+      "machinery"
+    ], 
+    "HK": [
+      "coal"
+    ], 
+    "RS": [
+      "Produce"
+    ], 
+    "TG": [
+      "fuel oil"
+    ], 
+    "XM": [
+      "Break Bulk", 
+      "goods", 
+      "merchandise", 
+      "Empty", 
+      "lcl"
+    ]
+  }, 
+  "divisions": [
+    "Harlem Division"
+  ], 
+  "industries": {
+    "1": {
+      "a-location": "North 4th St", 
+      "b-track": "Crane", 
+      "c-schedule": {
+        "C": [
+          [
+            "FM", 
+            "R", 
+            "machinery", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "machinery", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "16": {
+      "a-location": "North 4th St", 
+      "b-track": "5th St Pier", 
+      "c-schedule": {
+        "5P": [
+          [
+            "GA", 
+            "S", 
+            "Barrels", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "North 4th St", 
+      "b-track": "Freight Station", 
+      "c-schedule": {
+        "4F": [
+          [
+            "XM", 
+            "R", 
+            "lcl", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "lcl", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "5": {
+      "a-location": "North 4th St", 
+      "b-track": "Team Tracks", 
+      "c-schedule": {
+        "TT": [
+          [
+            "FM", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FM", 
+            "R", 
+            "lumber stack", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "Tarp3", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "lumber stack", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "HK", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RS", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "TG", 
+            "R", 
+            "fuel oil", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Empty", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }, 
+  "layoutName": "PRR BEDS-1914", 
+  "locales": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "2", 
+      "label": "C", 
+      "location": "North 4th St", 
+      "track": "Crane", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "15", 
+      "label": "5P", 
+      "location": "North 4th St", 
+      "track": "5th St Pier", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "11", 
+      "label": "4F", 
+      "location": "North 4th St", 
+      "track": "Freight Station", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "50", 
+      "label": "TT", 
+      "location": "North 4th St", 
+      "track": "Team Tracks", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "13", 
+      "label": "PF", 
+      "location": "Pier Float", 
+      "track": "Float Tracks", 
+      "type": "staging"
+    }
+  }, 
+  "location": "Williamsburg, Brooklyn, New York", 
+  "locationIds": [
+    "00", 
+    "1", 
+    "3", 
+    "4", 
+    "5", 
+    "2"
+  ], 
+  "locations": [
+    "North 4th St", 
+    "Pier Float", 
+    "Unreported"
+  ], 
+  "locoConsists": [
+    ""
+  ], 
+  "locoModels": [
+    [
+      "0-4-0t", 
+      "ES"
+    ]
+  ], 
+  "locoTypes": [
+    "ES"
+  ], 
+  "operatingRoad": "Pennsylvania Railroad", 
+  "roads": [
+    "MDX", 
+    "NYNH&H", 
+    "WJ&S", 
+    "TCX", 
+    "ACL", 
+    "B&O", 
+    "ER", 
+    "PRR", 
+    "PGCC", 
+    "FGEX", 
+    "NYC", 
+    "DL&W", 
+    "PL", 
+    "AT&SF", 
+    "P&R", 
+    "SP", 
+    "B&A", 
+    "CNJ"
+  ], 
+  "scale": "HO", 
+  "territory": "Brooklyn Eastern District Station", 
+  "year": "1914"
+}

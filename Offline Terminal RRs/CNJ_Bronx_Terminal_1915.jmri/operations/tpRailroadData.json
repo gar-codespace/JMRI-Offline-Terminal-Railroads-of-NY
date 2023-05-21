@@ -1,0 +1,280 @@
+{
+  "buildDate": "03/22/2023-11:17:27", 
+  "carAAR": [
+    "RS", 
+    "HK", 
+    "FM", 
+    "M", 
+    "TG", 
+    "XM", 
+    "GA"
+  ], 
+  "carKernel": [
+    ""
+  ], 
+  "carLoads": {
+    "FM": [
+      "steel beams", 
+      "Tarp3", 
+      "Tarp"
+    ], 
+    "GA": [
+      "Tarp3", 
+      "tools"
+    ], 
+    "HK": [
+      "coal"
+    ], 
+    "M": [], 
+    "RS": [
+      "produce"
+    ], 
+    "TG": [
+      "fuel oil"
+    ], 
+    "XM": [
+      "goods", 
+      "merchandise", 
+      "lcl"
+    ]
+  }, 
+  "divisions": [
+    "Harlem Division"
+  ], 
+  "industries": {
+    "1": {
+      "a-location": "Bronx Terminal", 
+      "b-track": "Freight House", 
+      "c-schedule": {
+        "H": [
+          [
+            "XM", 
+            "R", 
+            "lcl", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "lcl", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "Bronx Terminal", 
+      "b-track": "Gantry", 
+      "c-schedule": {
+        "G": [
+          [
+            "FM", 
+            "R", 
+            "steel beams", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "tools", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "7": {
+      "a-location": "Bronx Terminal", 
+      "b-track": "Team Tracks", 
+      "c-schedule": {
+        "T": [
+          [
+            "FM", 
+            "R", 
+            "Tarp3", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FM", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "Tarp3", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "HK", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RS", 
+            "R", 
+            "produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "TG", 
+            "R", 
+            "fuel oil", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }, 
+  "layoutName": "CNJ Bronx Terminal 1915", 
+  "locales": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "4", 
+      "label": "G", 
+      "location": "Bronx Terminal", 
+      "track": "Gantry", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "60", 
+      "label": "T", 
+      "location": "Bronx Terminal", 
+      "track": "Team Tracks", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "18", 
+      "label": "F", 
+      "location": "Harlem River", 
+      "track": "Car Float", 
+      "type": "staging"
+    }, 
+    "4": {
+      "capacity": "12", 
+      "label": "H", 
+      "location": "Bronx Terminal", 
+      "track": "Freight House", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "22", 
+      "label": "Y", 
+      "location": "Bronx Terminal", 
+      "track": "Yard", 
+      "type": "class yard"
+    }, 
+    "6": {
+      "capacity": "1", 
+      "label": "S", 
+      "location": "Bronx Terminal", 
+      "track": "Loco Shed", 
+      "type": "industry"
+    }
+  }, 
+  "location": "Mott Haven, the Bronx, New York", 
+  "locationIds": [
+    "00", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5", 
+    "6"
+  ], 
+  "locations": [
+    "Bronx Terminal", 
+    "Harlem River", 
+    "Unreported"
+  ], 
+  "locoConsists": [
+    ""
+  ], 
+  "locoModels": [
+    [
+      "0-4-0t", 
+      "ES"
+    ]
+  ], 
+  "locoTypes": [
+    "ES"
+  ], 
+  "operatingRoad": "Central Railroad of New Jersey", 
+  "roads": [
+    "MDX", 
+    "NYNH&H", 
+    "WJ&S", 
+    "TCX", 
+    "ACL", 
+    "B&O", 
+    "UTLX", 
+    "ER", 
+    "PRR", 
+    "FGEX", 
+    "CNJMoW", 
+    "WCC", 
+    "M&P", 
+    "NYC", 
+    "TELX", 
+    "PL", 
+    "AT&SF", 
+    "B&A", 
+    "P&R", 
+    "SP", 
+    "CNJ"
+  ], 
+  "scale": "HO", 
+  "territory": "Bronx Terminal", 
+  "year": "1915"
+}

@@ -1,0 +1,387 @@
+{
+  "buildDate": "05/02/2023-11:31:28", 
+  "carAAR": [
+    "HK", 
+    "FM", 
+    "M", 
+    "TG", 
+    "XM", 
+    "GA"
+  ], 
+  "carKernel": [
+    ""
+  ], 
+  "carLoads": {
+    "FM": [
+      "bricks", 
+      "steel beams", 
+      "stone", 
+      "tarp"
+    ], 
+    "GA": [
+      "bricks", 
+      "steel beams", 
+      "stone", 
+      "tarp"
+    ], 
+    "HK": [
+      "coal"
+    ], 
+    "M": [], 
+    "TG": [
+      "heating oil"
+    ], 
+    "XM": [
+      "goods", 
+      "merchandise", 
+      "Empty", 
+      "cement", 
+      "lcl", 
+      "feed grains", 
+      "grain"
+    ]
+  }, 
+  "divisions": [
+    "Harlem Division"
+  ], 
+  "industries": {
+    "14": {
+      "a-location": "HTC", 
+      "b-track": "Team Tracks", 
+      "c-schedule": {
+        "T": [
+          [
+            "FM", 
+            "R", 
+            "tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "S", 
+            "tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "HK", 
+            "R", 
+            "coal", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "TG", 
+            "R", 
+            "heating oil", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "goods", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "R", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Empty", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "merchandise", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "16": {
+      "a-location": "HTC", 
+      "b-track": "Railroad Avenue", 
+      "c-schedule": {
+        "R": [
+          [
+            "FM", 
+            "R", 
+            "bricks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FM", 
+            "R", 
+            "stone", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "bricks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "stone", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "3": {
+      "a-location": "HTC", 
+      "b-track": "Cement House", 
+      "c-schedule": {
+        "C": [
+          [
+            "XM", 
+            "R", 
+            "cement", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "4": {
+      "a-location": "HTC", 
+      "b-track": "Grain", 
+      "c-schedule": {
+        "G": [
+          [
+            "XM", 
+            "R", 
+            "grain", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "5": {
+      "a-location": "HTC", 
+      "b-track": "Feed", 
+      "c-schedule": {
+        "F": [
+          [
+            "XM", 
+            "R", 
+            "feed grains", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "7": {
+      "a-location": "HTC", 
+      "b-track": "Freight House", 
+      "c-schedule": {
+        "H": [
+          [
+            "XM", 
+            "R", 
+            "lcl", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "lcl", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "8": {
+      "a-location": "HTC", 
+      "b-track": "Overhead Crane", 
+      "c-schedule": {
+        "O": [
+          [
+            "FM", 
+            "R", 
+            "steel beams", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "R", 
+            "steel beams", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }, 
+  "layoutName": "DL&W Harlem Transfer Co 1915", 
+  "locales": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "4", 
+      "label": "C", 
+      "location": "HTC", 
+      "track": "Cement House", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "1", 
+      "label": "F", 
+      "location": "HTC", 
+      "track": "Feed", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "1", 
+      "label": "G", 
+      "location": "HTC", 
+      "track": "Grain", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "7", 
+      "label": "H", 
+      "location": "HTC", 
+      "track": "Freight House", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "14", 
+      "label": "R", 
+      "location": "HTC", 
+      "track": "Railroad Avenue", 
+      "type": "industry"
+    }, 
+    "6": {
+      "capacity": "60", 
+      "label": "T", 
+      "location": "HTC", 
+      "track": "Team Tracks", 
+      "type": "industry"
+    }, 
+    "7": {
+      "capacity": "2", 
+      "label": "O", 
+      "location": "HTC", 
+      "track": "Overhead Crane", 
+      "type": "industry"
+    }, 
+    "8": {
+      "capacity": "18", 
+      "label": "B", 
+      "location": "Harlem River", 
+      "track": "Car Barge", 
+      "type": "staging"
+    }, 
+    "9": {
+      "capacity": "1", 
+      "label": "S", 
+      "location": "HTC", 
+      "track": "Engine Shed", 
+      "type": "industry"
+    }
+  }, 
+  "location": "Mott Haven, the Bronx, New York", 
+  "locationIds": [
+    "00", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5", 
+    "6", 
+    "7", 
+    "8", 
+    "9"
+  ], 
+  "locations": [
+    "HTC", 
+    "Harlem River", 
+    "Unreported"
+  ], 
+  "locoConsists": [
+    ""
+  ], 
+  "locoModels": [
+    [
+      "0-4-0t", 
+      "ES"
+    ]
+  ], 
+  "locoTypes": [
+    "ES"
+  ], 
+  "operatingRoad": "DL&W Railroad", 
+  "roads": [
+    "NYNH&H", 
+    "DL&WMoW", 
+    "WJ&S", 
+    "TCX", 
+    "LV", 
+    "ACL", 
+    "B&O", 
+    "UTLX", 
+    "ER", 
+    "PRR", 
+    "PGCC", 
+    "M&P", 
+    "NYC", 
+    "DL&W", 
+    "TELX", 
+    "PL", 
+    "AT&SF", 
+    "P&R", 
+    "SP", 
+    "B&A", 
+    "CNJ"
+  ], 
+  "scale": "HO", 
+  "territory": "Harlem Transfer Co.", 
+  "year": "1915"
+}
