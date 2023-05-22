@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/21/2023-12:00:23", 
+  "buildDate": "05/22/2023-14:15:27", 
   "carAAR": [
     "RS", 
     "HK", 
@@ -37,11 +37,11 @@
       "goods", 
       "merchandise", 
       "Empty", 
-      "lcl"
+      "LCL"
     ]
   }, 
   "divisions": [
-    "Harlem Division"
+    "Seaside Division"
   ], 
   "industries": {
     "1": {
@@ -100,7 +100,7 @@
           [
             "XM", 
             "R", 
-            "lcl", 
+            "LCL", 
             "", 
             "", 
             ""
@@ -108,7 +108,7 @@
           [
             "XM", 
             "S", 
-            "lcl", 
+            "LCL", 
             "", 
             "", 
             ""
@@ -258,7 +258,7 @@
       "type": "staging"
     }
   }, 
-  "location": "Williamsburg, Brooklyn, New York", 
+  "location": "J Dot Bay", 
   "locationIds": [
     "00", 
     "1", 
@@ -284,7 +284,7 @@
   "locoTypes": [
     "ES"
   ], 
-  "operatingRoad": "Pennsylvania Railroad", 
+  "operatingRoad": "Metropolitian Union Transfer Terminal", 
   "roads": [
     "MDX", 
     "NYNH&H", 
@@ -306,6 +306,6 @@
     "CNJ"
   ], 
   "scale": "HO", 
-  "territory": "Brooklyn Eastern District Station", 
-  "year": "1914"
+  "territory": "West Pier District", 
+  "year": "1915"
 }

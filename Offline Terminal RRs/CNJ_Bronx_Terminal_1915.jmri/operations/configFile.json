@@ -76,11 +76,11 @@
       }
     }, 
     "LD": {
-      "BD": "05/02/2023-11:39:47", 
-      "LO": "Mott Haven, the Bronx, New York", 
-      "OR": "Central Railroad of New Jersey", 
+      "BD": "05/22/2023-14:51:20", 
+      "LO": "J Dot Bay", 
+      "OR": "Metropolitian Union Transfer Terminal", 
       "SC": "HO", 
-      "TR": "Bronx Terminal", 
+      "TR": "West Pier District", 
       "YR": "1915"
     }, 
     "SR": {
@@ -107,7 +107,7 @@
   }, 
   "Patterns": {
     "AD": [
-      "Harlem Division", 
+      "Seaside Division", 
       "Unknown"
     ], 
     "AL": [
@@ -116,7 +116,7 @@
     ], 
     "AS": true, 
     "PA": false, 
-    "PD": "Harlem Division", 
+    "PD": "Seaside Division", 
     "PH": 16, 
     "PI": false, 
     "PL": "Bronx Terminal", 

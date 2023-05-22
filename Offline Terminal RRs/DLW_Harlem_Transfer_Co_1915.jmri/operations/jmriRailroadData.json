@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/02/2023-11:31:28", 
+  "buildDate": "05/22/2023-14:37:25", 
   "carAAR": [
     "HK", 
     "FM", 
@@ -36,13 +36,13 @@
       "merchandise", 
       "Empty", 
       "cement", 
-      "lcl", 
+      "LCL", 
       "feed grains", 
       "grain"
     ]
   }, 
   "divisions": [
-    "Harlem Division"
+    "Seaside Division"
   ], 
   "industries": {
     "14": {
@@ -213,7 +213,7 @@
           [
             "XM", 
             "R", 
-            "lcl", 
+            "LCL", 
             "", 
             "", 
             ""
@@ -221,7 +221,7 @@
           [
             "XM", 
             "S", 
-            "lcl", 
+            "LCL", 
             "", 
             "", 
             ""
@@ -327,7 +327,7 @@
       "type": "industry"
     }
   }, 
-  "location": "Mott Haven, the Bronx, New York", 
+  "location": "J Dot Bay", 
   "locationIds": [
     "00", 
     "1", 
@@ -357,7 +357,7 @@
   "locoTypes": [
     "ES"
   ], 
-  "operatingRoad": "DL&W Railroad", 
+  "operatingRoad": "Metropolitian Union Transfer Terminal", 
   "roads": [
     "NYNH&H", 
     "DL&WMoW", 
@@ -382,6 +382,6 @@
     "CNJ"
   ], 
   "scale": "HO", 
-  "territory": "Harlem Transfer Co.", 
+  "territory": "West Pier District", 
   "year": "1915"
 }

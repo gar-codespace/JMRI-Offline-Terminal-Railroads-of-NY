@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/02/2023-11:39:47", 
+  "buildDate": "05/22/2023-14:51:20", 
   "carAAR": [
     "RS", 
     "HK", 
@@ -35,11 +35,11 @@
     "XM": [
       "goods", 
       "merchandise", 
-      "lcl"
+      "LCL"
     ]
   }, 
   "divisions": [
-    "Harlem Division"
+    "Seaside Division"
   ], 
   "industries": {
     "1": {
@@ -50,7 +50,7 @@
           [
             "XM", 
             "R", 
-            "lcl", 
+            "LCL", 
             "", 
             "", 
             ""
@@ -58,7 +58,7 @@
           [
             "XM", 
             "S", 
-            "lcl", 
+            "LCL", 
             "", 
             "", 
             ""
@@ -214,24 +214,16 @@
       "location": "Bronx Terminal", 
       "track": "Yard", 
       "type": "class yard"
-    }, 
-    "6": {
-      "capacity": "1", 
-      "label": "S", 
-      "location": "Bronx Terminal", 
-      "track": "Loco Shed", 
-      "type": "industry"
     }
   }, 
-  "location": "Mott Haven, the Bronx, New York", 
+  "location": "J Dot Bay", 
   "locationIds": [
     "00", 
     "1", 
     "2", 
     "3", 
     "4", 
-    "5", 
-    "6"
+    "5"
   ], 
   "locations": [
     "Bronx Terminal", 
@@ -250,7 +242,7 @@
   "locoTypes": [
     "ES"
   ], 
-  "operatingRoad": "Central Railroad of New Jersey", 
+  "operatingRoad": "Metropolitian Union Transfer Terminal", 
   "roads": [
     "MDX", 
     "NYNH&H", 
@@ -275,6 +267,6 @@
     "CNJ"
   ], 
   "scale": "HO", 
-  "territory": "Bronx Terminal", 
+  "territory": "West Pier District", 
   "year": "1915"
 }

@@ -61,8 +61,8 @@
       "OC": true, 
       "PH": 747, 
       "PW": 1064, 
-      "PX": 3, 
-      "PY": 293, 
+      "PX": 16, 
+      "PY": 585, 
       "RV": 20230305, 
       "SE": "utf-8", 
       "Subroutines.Patterns": false, 
@@ -76,11 +76,11 @@
       }
     }, 
     "LD": {
-      "BD": "05/02/2023-11:31:28", 
-      "LO": "Mott Haven, the Bronx, New York", 
-      "OR": "DL&W Railroad", 
+      "BD": "05/22/2023-14:37:25", 
+      "LO": "J Dot Bay", 
+      "OR": "Metropolitian Union Transfer Terminal", 
       "SC": "HO", 
-      "TR": "Harlem Transfer Co.", 
+      "TR": "West Pier District", 
       "YR": "1915"
     }, 
     "SR": {
@@ -107,20 +107,19 @@
   }, 
   "Patterns": {
     "AD": [
-      "Harlem Division", 
+      "Seaside Division", 
       "Unknown"
     ], 
     "AL": [
       "Harlem River", 
-      "HTC", 
-      "Unreported"
+      "HTC"
     ], 
     "AS": true, 
     "PA": false, 
-    "PD": "Harlem Division", 
+    "PD": "Seaside Division", 
     "PH": 16, 
-    "PI": false, 
-    "PL": "HTC", 
+    "PI": true, 
+    "PL": "Harlem River", 
     "PT": {}, 
     "PW": 260, 
     "RD": "", 
@@ -183,12 +182,16 @@
       [
         "2023.05.03.18.06.35", 
         "initial"
+      ], 
+      [
+        "2023.05.22.14.34.08", 
+        "second"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": true
+    "SV": false
   }, 
   "o2o": {
     "CC": {

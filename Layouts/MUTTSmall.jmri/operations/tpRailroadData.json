@@ -1,53 +1,68 @@
 {
-  "buildDate": "05/21/2023-07:42:25", 
+  "buildDate": "05/22/2023-14:03:46", 
   "carAAR": [
-    "F", 
-    "G", 
+    "FP3", 
+    "FP4", 
+    "GPx", 
     "Bdr", 
-    "Rf", 
-    "Xm", 
-    "X", 
-    "TO", 
-    "XV"
+    "TPO", 
+    "RP3", 
+    "XPP", 
+    "XP3", 
+    "GPD", 
+    "XP4", 
+    "XPV"
   ], 
   "carKernel": [
     ""
   ], 
   "carLoads": {
     "Bdr": [
-      "live oysters"
+      "Strawberries", 
+      "Live Oysters"
     ], 
-    "F": [
+    "FP3": [
       "lumber", 
-      "heavy eqpt"
+      "boiler2"
     ], 
-    "G": [
-      "cobbles", 
+    "FP4": [
+      "lumber", 
+      "Break Bulk", 
+      "boiler2"
+    ], 
+    "GPD": [
+      "gravel"
+    ], 
+    "GPx": [
       "barrels", 
-      "machinery"
+      "gravel", 
+      "tank"
     ], 
-    "Rf": [
-      "produce", 
-      "live oysters"
+    "RP3": [
+      "Produce", 
+      "Live Oysters"
     ], 
-    "TO": [
-      "heating oil"
+    "TPO": [
+      "Heating Oil"
     ], 
-    "X": [
-      "can oysters", 
-      "break bulk", 
-      "coffee sacks", 
-      "foodstuffs"
+    "XP3": [
+      "Can Oysters", 
+      "Break Bulk", 
+      "Foodstuffs", 
+      "Coffee Sacks"
     ], 
-    "XV": [
-      "can oysters", 
-      "break bulk", 
-      "coffee sacks", 
-      "foodstuffs", 
-      "produce"
+    "XP4": [
+      "Foodstuffs", 
+      "Coffee Sacks"
     ], 
-    "Xm": [
-      "produce"
+    "XPP": [
+      "Produce"
+    ], 
+    "XPV": [
+      "Produce", 
+      "Can Oysters", 
+      "Foodstuffs", 
+      "Coffee Sacks"
     ]
   }, 
   "divisions": [
@@ -62,31 +77,31 @@
           [
             "Bdr", 
             "S", 
-            "live oysters", 
+            "Live Oysters", 
             "", 
             "", 
             ""
           ], 
           [
-            "Rf", 
+            "RP3", 
             "S", 
-            "live oysters", 
+            "Live Oysters", 
             "", 
             "", 
             ""
           ], 
           [
-            "X", 
+            "XP3", 
             "S", 
-            "can oysters", 
+            "Can Oysters", 
             "", 
             "", 
             ""
           ], 
           [
-            "XV", 
+            "XPV", 
             "S", 
-            "can oysters", 
+            "Can Oysters", 
             "", 
             "", 
             ""
@@ -100,7 +115,7 @@
       "c-schedule": {
         "P4": [
           [
-            "F", 
+            "FP3", 
             "S", 
             "lumber", 
             "", 
@@ -108,7 +123,23 @@
             ""
           ], 
           [
-            "G", 
+            "FP4", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "S", 
+            "lumber", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
             "S", 
             "barrels", 
             "", 
@@ -116,17 +147,17 @@
             ""
           ], 
           [
-            "TO", 
+            "TPO", 
             "R", 
-            "heating oil", 
+            "Heating Oil", 
             "", 
             "", 
             ""
           ], 
           [
-            "X", 
+            "XP3", 
             "S", 
-            "break bulk", 
+            "Break Bulk", 
             "", 
             "", 
             ""
@@ -134,7 +165,7 @@
           [
             "XV", 
             "S", 
-            "break bulk", 
+            "Break Bulk", 
             "", 
             "", 
             ""
@@ -148,33 +179,49 @@
       "c-schedule": {
         "F": [
           [
-            "X", 
+            "XP3", 
             "R", 
-            "foodstuffs", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
           ], 
           [
-            "X", 
+            "XP3", 
             "S", 
-            "foodstuffs", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
           ], 
           [
-            "XV", 
+            "XP4", 
             "R", 
-            "foodstuffs", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
           ], 
           [
-            "XV", 
+            "XP4", 
             "S", 
-            "foodstuffs", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -188,17 +235,97 @@
       "c-schedule": {
         "CR": [
           [
-            "X", 
+            "XP3", 
             "S", 
-            "coffee sacks", 
+            "Coffee Sacks", 
             "", 
             "", 
             ""
           ], 
           [
-            "XV", 
+            "XP4", 
             "S", 
-            "coffee sacks", 
+            "Coffee Sacks", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "S", 
+            "Coffee Sacks", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "22": {
+      "a-location": "West Harbor", 
+      "b-track": "Produce", 
+      "c-schedule": {
+        "P": [
+          [
+            "Bdr", 
+            "R", 
+            "Strawberries", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "RP3", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPP", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XPV", 
+            "R", 
+            "Produce", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "26": {
+      "a-location": "West Harbor", 
+      "b-track": "Gantry Crane", 
+      "c-schedule": {
+        "G": [
+          [
+            "FP3", 
+            "R", 
+            "boiler2", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "FP4", 
+            "R", 
+            "boiler2", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GPx", 
+            "R", 
+            "tank", 
             "", 
             "", 
             ""
@@ -212,65 +339,17 @@
       "c-schedule": {
         "BMW": [
           [
-            "G", 
+            "GPD", 
             "S", 
-            "cobbles", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "5": {
-      "a-location": "West Harbor", 
-      "b-track": "Gantry Crane", 
-      "c-schedule": {
-        "G": [
-          [
-            "F", 
-            "R", 
-            "heavy eqpt", 
+            "gravel", 
             "", 
             "", 
             ""
           ], 
           [
-            "G", 
-            "R", 
-            "machinery", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "8": {
-      "a-location": "West Harbor", 
-      "b-track": "Producee", 
-      "c-schedule": {
-        "P": [
-          [
-            "Rf", 
-            "R", 
-            "produce", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "XV", 
-            "R", 
-            "produce", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "Xm", 
-            "R", 
-            "produce", 
+            "GPx", 
+            "S", 
+            "gravel", 
             "", 
             "", 
             ""
@@ -341,7 +420,7 @@
       "capacity": "6", 
       "label": "P", 
       "location": "West Harbor", 
-      "track": "Producee", 
+      "track": "Produce", 
       "type": "industry"
     }
   }, 
@@ -367,17 +446,12 @@
   ], 
   "locoModels": [
     [
-      "diesel", 
-      "EQDK"
-    ], 
-    [
       "A4", 
       "ESS"
     ]
   ], 
   "locoTypes": [
-    "ESS", 
-    "EQDK"
+    "ESS"
   ], 
   "operatingRoad": "Metropolitian Union Transfer Terminal", 
   "roads": [
@@ -388,7 +462,6 @@
     "B&O", 
     "MUTT", 
     "ER", 
-    ".", 
     "PRR", 
     "FGEX", 
     "M&P", 
