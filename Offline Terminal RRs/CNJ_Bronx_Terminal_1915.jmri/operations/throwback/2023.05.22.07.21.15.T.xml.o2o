@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon May 22 07:28:18 PDT 2023-->
+  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon May 22 07:20:06 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -19,7 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Float Switch" description="" departHour="00" departMinute="00" departureTrack="3s1" terminationTrack="3s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/22/2023 07:21" TerminationDate="5/22/2023 07:21" RequestedCars="34" statusCode="128" oldStatusCode="20" comment="" showTimes="true">
+    <train id="1" name="Float Switch" description="" departHour="00" departMinute="00" current="1r5" departureTrack="3s1" terminationTrack="3s1" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="true" build="true" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Built 34 cars" TerminationDate="3/22/2023 11:18" RequestedCars="34" statusCode="16" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Float Switch" id="1" />
       <types>
@@ -32,7 +32,7 @@
         <carType name="XM" />
       </types>
     </train>
-    <train id="2" name="Business Switch" description="" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="3/22/2023 11:13" RequestedCars="40" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
+    <train id="2" name="Business Switch" description="" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="3/22/2023 11:13" RequestedCars="30" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Business Switch" id="2" />
       <types>

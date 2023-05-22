@@ -1,5 +1,5 @@
 {
-  "buildDate": "03/22/2023-11:17:27", 
+  "buildDate": "05/22/2023-07:14:10", 
   "carAAR": [
     "RS", 
     "HK", 
@@ -39,7 +39,7 @@
     ]
   }, 
   "divisions": [
-    "Harlem Division"
+    ""
   ], 
   "industries": {
     "1": {
@@ -223,7 +223,7 @@
       "type": "industry"
     }
   }, 
-  "location": "Mott Haven, the Bronx, New York", 
+  "location": "Brooklyn, New York", 
   "locationIds": [
     "00", 
     "1", 
@@ -250,7 +250,7 @@
   "locoTypes": [
     "ES"
   ], 
-  "operatingRoad": "Central Railroad of New Jersey", 
+  "operatingRoad": "New York Dock Company", 
   "roads": [
     "MDX", 
     "NYNH&H", 
@@ -275,6 +275,6 @@
     "CNJ"
   ], 
   "scale": "HO", 
-  "territory": "Bronx Terminal", 
+  "territory": "Fulton Terminal", 
   "year": "1915"
 }
