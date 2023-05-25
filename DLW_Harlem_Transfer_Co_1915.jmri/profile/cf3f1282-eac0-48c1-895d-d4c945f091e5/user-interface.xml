@@ -24,11 +24,55 @@
             </columns>
             <sortOrder/>
         </table>
+        <table xmlns="" name="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route:table">
+            <columns>
+                <column hidden="false" name="Delete" order="16" width="80"/>
+                <column hidden="false" name="Comment" order="13" width="70"/>
+                <column hidden="false" name="Down" order="15" width="70"/>
+                <column hidden="true" name="Time" order="8" width="65"/>
+                <column hidden="false" name="Grade" order="10" width="50"/>
+                <column hidden="false" name="Train Direction" order="2" width="95"/>
+                <column hidden="false" name="Max Length" order="9" width="75"/>
+                <column hidden="false" name="Pick ups?" order="5" width="65"/>
+                <column hidden="false" name="Moves" order="3" width="50"/>
+                <column hidden="false" name="Random" order="4" width="65"/>
+                <column hidden="false" name="X" order="11" width="35"/>
+                <column hidden="false" name="Y" order="12" width="35"/>
+                <column hidden="false" name="ID" order="0" width="40"/>
+                <column hidden="false" name="Set outs?" order="6" width="65"/>
+                <column hidden="false" name="Up" order="14" width="60"/>
+                <column hidden="false" name="Wait" order="7" width="65"/>
+                <column hidden="false" name="Location" order="1" width="150"/>
+            </columns>
+        </table>
+        <table xmlns="" name="jmri.jmrit.operations.locations.LocationsTableFrame:Locations:table">
+            <columns>
+                <column hidden="false" name="Cars" order="7" width="60"/>
+                <column hidden="false" name="Action" order="13" width="95"/>
+                <column hidden="false" name="Set outs" order="10" width="60"/>
+                <column hidden="false" name="Locos" order="8" width="60"/>
+                <column hidden="false" name="Num" order="3" width="40"/>
+                <column hidden="false" name="Pick ups" order="9" width="60"/>
+                <column hidden="false" name="Edit" order="14" width="80"/>
+                <column hidden="false" name="Name" order="1" width="200"/>
+                <column hidden="true" name="Reporters" order="12" width="75"/>
+                <column hidden="false" name="Length" order="4" width="60"/>
+                <column hidden="false" name="Used" order="5" width="60"/>
+                <column hidden="false" name="Rolling Stock" order="6" width="80"/>
+                <column hidden="false" name="Division" order="11" width="160"/>
+                <column hidden="false" name="ID" order="0" width="40"/>
+                <column hidden="false" name="Track" order="2" width="89"/>
+            </columns>
+            <sortOrder/>
+        </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="JMRI System Console" height="738.0" locX="1041.0" locY="284.0" width="868.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="538.0" locX="0.0" locY="0.0" width="1228.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="629.0" locX="62.0" locY="62.0" width="1175.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="31.0" locY="31.0" width="729.0"/>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="300.0" locX="0.0" locY="0.0" width="1397.0"/>
         <window xmlns="" class="PanelPro" height="298.0" locX="1261.0" locY="4.0" width="502.0"/>
+        <window xmlns="" class="JMRI System Console" height="738.0" locX="1041.0" locY="284.0" width="868.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
     </windowDetails>
 </auxiliary-configuration>

@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/22/2023-14:37:25", 
+  "buildDate": "05/25/2023-09:03:40", 
   "carAAR": [
     "HK", 
     "FM", 
@@ -42,7 +42,7 @@
     ]
   }, 
   "divisions": [
-    "Seaside Division"
+    ""
   ], 
   "industries": {
     "14": {
@@ -314,9 +314,9 @@
     }, 
     "8": {
       "capacity": "18", 
-      "label": "B", 
-      "location": "Harlem River", 
-      "track": "Car Barge", 
+      "label": "PF", 
+      "location": "Pier Float", 
+      "track": "Pier Float", 
       "type": "staging"
     }, 
     "9": {
@@ -327,7 +327,7 @@
       "type": "industry"
     }
   }, 
-  "location": "J Dot Bay", 
+  "location": "Mott Haven, the Bronx, New York", 
   "locationIds": [
     "00", 
     "1", 
@@ -341,8 +341,8 @@
     "9"
   ], 
   "locations": [
+    "Pier Float", 
     "HTC", 
-    "Harlem River", 
     "Unreported"
   ], 
   "locoConsists": [
@@ -357,7 +357,7 @@
   "locoTypes": [
     "ES"
   ], 
-  "operatingRoad": "Metropolitian Union Transfer Terminal", 
+  "operatingRoad": "Delaware, Lackawanna and Western RR", 
   "roads": [
     "NYNH&H", 
     "DL&WMoW", 
@@ -382,6 +382,6 @@
     "CNJ"
   ], 
   "scale": "HO", 
-  "territory": "West Pier District", 
+  "territory": "Harlem Transfer Co.", 
   "year": "1915"
 }

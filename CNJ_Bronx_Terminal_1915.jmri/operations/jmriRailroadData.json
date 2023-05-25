@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/22/2023-14:51:20", 
+  "buildDate": "05/25/2023-09:06:56", 
   "carAAR": [
     "RS", 
     "HK", 
@@ -39,7 +39,7 @@
     ]
   }, 
   "divisions": [
-    "Seaside Division"
+    ""
   ], 
   "industries": {
     "1": {
@@ -196,9 +196,9 @@
     }, 
     "3": {
       "capacity": "18", 
-      "label": "F", 
-      "location": "Harlem River", 
-      "track": "Car Float", 
+      "label": "PF", 
+      "location": "Pier Float", 
+      "track": "Pier Float", 
       "type": "staging"
     }, 
     "4": {
@@ -216,7 +216,7 @@
       "type": "class yard"
     }
   }, 
-  "location": "J Dot Bay", 
+  "location": "Mott Haven, the Bronx, New York", 
   "locationIds": [
     "00", 
     "1", 
@@ -226,8 +226,8 @@
     "5"
   ], 
   "locations": [
+    "Pier Float", 
     "Bronx Terminal", 
-    "Harlem River", 
     "Unreported"
   ], 
   "locoConsists": [
@@ -242,7 +242,7 @@
   "locoTypes": [
     "ES"
   ], 
-  "operatingRoad": "Metropolitian Union Transfer Terminal", 
+  "operatingRoad": "Central Railroad of New Jersey", 
   "roads": [
     "MDX", 
     "NYNH&H", 
@@ -267,6 +267,6 @@
     "CNJ"
   ], 
   "scale": "HO", 
-  "territory": "West Pier District", 
+  "territory": "Bronx Terminal", 
   "year": "1915"
 }

@@ -59,16 +59,16 @@
       "DR": true, 
       "EH": false, 
       "OC": true, 
-      "PH": 709, 
+      "PH": 499, 
       "PW": 1000, 
-      "PX": 63, 
-      "PY": 600, 
+      "PX": 40, 
+      "PY": 538, 
       "RV": 20230305, 
       "SE": "utf-8", 
-      "Subroutines.Patterns": true, 
-      "Subroutines.Throwback": true, 
-      "Subroutines.jPlus": true, 
-      "Subroutines.o2o": true, 
+      "Subroutines.Patterns": false, 
+      "Subroutines.Throwback": false, 
+      "Subroutines.jPlus": false, 
+      "Subroutines.o2o": false, 
       "TC": "UD", 
       "TS": {
         "UD": "UseDeepL", 
@@ -76,11 +76,11 @@
       }
     }, 
     "LD": {
-      "BD": "05/22/2023-14:51:20", 
-      "LO": "J Dot Bay", 
-      "OR": "Metropolitian Union Transfer Terminal", 
+      "BD": "05/25/2023-09:06:56", 
+      "LO": "Mott Haven, the Bronx, New York", 
+      "OR": "Central Railroad of New Jersey", 
       "SC": "HO", 
-      "TR": "West Pier District", 
+      "TR": "Bronx Terminal", 
       "YR": "1915"
     }, 
     "SR": {
@@ -107,18 +107,19 @@
   }, 
   "Patterns": {
     "AD": [
-      "Seaside Division", 
+      "", 
       "Unknown"
     ], 
     "AL": [
       "Bronx Terminal", 
-      "Harlem River"
+      "Pier Float", 
+      "Unreported"
     ], 
     "AS": true, 
     "PA": false, 
-    "PD": "Seaside Division", 
+    "PD": "", 
     "PH": 16, 
-    "PI": false, 
+    "PI": true, 
     "PL": "Bronx Terminal", 
     "PT": {}, 
     "PW": 260, 
@@ -186,12 +187,16 @@
       [
         "2023.05.22.07.21.15", 
         "second"
+      ], 
+      [
+        "2023.05.25.09.08.11", 
+        "third"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": true
+    "SV": false
   }, 
   "o2o": {
     "CC": {
