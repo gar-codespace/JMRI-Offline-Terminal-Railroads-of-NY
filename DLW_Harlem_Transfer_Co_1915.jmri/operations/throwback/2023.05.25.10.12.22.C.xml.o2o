@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Mon May 22 14:39:28 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Thu May 25 09:07:05 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -96,13 +96,9 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="heating oil" loadType="load" />
     </load>
-    <load type="GA">
+    <load type="M">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
-      <carLoad name="bricks" loadType="load" />
-      <carLoad name="steel beams" loadType="load" />
-      <carLoad name="stone" loadType="load" />
-      <carLoad name="tarp" loadType="load" />
     </load>
     <load type="XM">
       <carLoad name="Empty" loadType="load" />
@@ -114,9 +110,13 @@
       <carLoad name="grain" loadType="load" />
       <carLoad name="merchandise" loadType="load" />
     </load>
-    <load type="M">
+    <load type="GA">
       <carLoad name="Empty" loadType="empty" />
       <carLoad name="Load" loadType="load" />
+      <carLoad name="bricks" loadType="load" />
+      <carLoad name="steel beams" loadType="load" />
+      <carLoad name="stone" loadType="load" />
+      <carLoad name="tarp" loadType="load" />
     </load>
   </loads>
   <newKernels />
