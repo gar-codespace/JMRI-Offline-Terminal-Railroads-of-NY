@@ -27,9 +27,9 @@
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="PanelPro" height="315.0" locX="1306.0" locY="4.0" width="528.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="JMRI System Console" height="708.0" locX="1043.0" locY="330.0" width="877.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.setup.OperationsSettingsFrame:OperationsPro Settings" height="652.0" locX="31.0" locY="31.0" width="919.0"/>
+        <window xmlns="" class="JMRI System Console" height="702.0" locX="1043.0" locY="324.0" width="877.0"/>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="315.0" locX="-5.0" locY="6.0" width="1250.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.setup.OperationsSettingsFrame:OperationsPro Settings" height="652.0" locX="31.0" locY="31.0" width="919.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
     </windowDetails>
 </auxiliary-configuration>
