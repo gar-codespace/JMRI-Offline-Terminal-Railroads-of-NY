@@ -1,0 +1,436 @@
+{
+  "buildDate": "05/25/2023-22:29:34", 
+  "carAAR": [
+    "M", 
+    "XM"
+  ], 
+  "carKernel": [
+    ""
+  ], 
+  "carLoads": {
+    "M": [], 
+    "XM": [
+      "Express", 
+      "Break Bulk", 
+      "Cloth Etc.", 
+      "Imports", 
+      "Coffee", 
+      "Foodstuffs", 
+      "L.C.L.", 
+      "Wool", 
+      "Merchandise"
+    ]
+  }, 
+  "divisions": [
+    ""
+  ], 
+  "industries": {
+    "10": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Mediterranean Stores", 
+      "c-schedule": {
+        "M43": [
+          [
+            "XM", 
+            "S", 
+            "Imports", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "11": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Pierponts Stores", 
+      "c-schedule": {
+        "P48": [
+          [
+            "XM", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "12": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Prentices Stores", 
+      "c-schedule": {
+        "P56": [
+          [
+            "XM", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "13": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Pier 18", 
+      "c-schedule": {
+        "P18": [
+          [
+            "XM", 
+            "S", 
+            "Merchandise", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "14": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Pier 19", 
+      "c-schedule": {
+        "P19": [
+          [
+            "XM", 
+            "S", 
+            "Merchandise", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "15": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Harbecks Stores", 
+      "c-schedule": {
+        "H26": [
+          [
+            "XM", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "2": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "New York Express", 
+      "c-schedule": {
+        "NYX": [
+          [
+            "XM", 
+            "R", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Express", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "4": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Freight House", 
+      "c-schedule": {
+        "FH": [
+          [
+            "XM", 
+            "R", 
+            "L.C.L.", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "L.C.L.", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "5": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Martins Stores Wool", 
+      "c-schedule": {
+        "M18": [
+          [
+            "XM", 
+            "S", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "6": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Martins Stores Coffee", 
+      "c-schedule": {
+        "M21": [
+          [
+            "XM", 
+            "S", 
+            "Coffee", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "7": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Martins Stores Foodstuffs", 
+      "c-schedule": {
+        "M23": [
+          [
+            "XM", 
+            "S", 
+            "Wool", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "8": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Roberts Stores", 
+      "c-schedule": {
+        "R37": [
+          [
+            "XM", 
+            "S", 
+            "Break Bulk", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "9": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Woodruffs Stores", 
+      "c-schedule": {
+        "W67": [
+          [
+            "XM", 
+            "S", 
+            "Cloth Etc.", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }
+  }, 
+  "layoutName": "NY Dock Fulton Terminal 1915", 
+  "locales": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Unreported", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "12", 
+      "label": "FH", 
+      "location": "Fulton Terminal", 
+      "track": "Freight House", 
+      "type": "industry"
+    }, 
+    "10": {
+      "capacity": "31", 
+      "label": "Y", 
+      "location": "Fulton Terminal", 
+      "track": "Yard", 
+      "type": "class yard"
+    }, 
+    "11": {
+      "capacity": "8", 
+      "label": "P18", 
+      "location": "Fulton Terminal", 
+      "track": "Pier 18", 
+      "type": "industry"
+    }, 
+    "12": {
+      "capacity": "2", 
+      "label": "M18", 
+      "location": "Fulton Terminal", 
+      "track": "Martins Stores Wool", 
+      "type": "industry"
+    }, 
+    "13": {
+      "capacity": "1", 
+      "label": "M21", 
+      "location": "Fulton Terminal", 
+      "track": "Martins Stores Coffee", 
+      "type": "industry"
+    }, 
+    "14": {
+      "capacity": "4", 
+      "label": "M23", 
+      "location": "Fulton Terminal", 
+      "track": "Martins Stores Foodstuffs", 
+      "type": "industry"
+    }, 
+    "15": {
+      "capacity": "5", 
+      "label": "M43", 
+      "location": "Fulton Terminal", 
+      "track": "Mediterranean Stores", 
+      "type": "industry"
+    }, 
+    "16": {
+      "capacity": "5", 
+      "label": "P48", 
+      "location": "Fulton Terminal", 
+      "track": "Pierponts Stores", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "8", 
+      "label": "H26", 
+      "location": "Fulton Terminal", 
+      "track": "Harbecks Stores", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "4", 
+      "label": "NYX", 
+      "location": "Fulton Terminal", 
+      "track": "New York Express", 
+      "type": "industry"
+    }, 
+    "4": {
+      "capacity": "7", 
+      "label": "P19", 
+      "location": "Fulton Terminal", 
+      "track": "Pier 19", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "10", 
+      "label": "P56", 
+      "location": "Fulton Terminal", 
+      "track": "Prentices Stores", 
+      "type": "industry"
+    }, 
+    "6": {
+      "capacity": "18", 
+      "label": "PFA", 
+      "location": "Fulton Terminal", 
+      "track": "Pier Float A", 
+      "type": "staging"
+    }, 
+    "7": {
+      "capacity": "18", 
+      "label": "PFB", 
+      "location": "Fulton Terminal", 
+      "track": "Pier Float B", 
+      "type": "staging"
+    }, 
+    "8": {
+      "capacity": "4", 
+      "label": "R37", 
+      "location": "Fulton Terminal", 
+      "track": "Roberts Stores", 
+      "type": "industry"
+    }, 
+    "9": {
+      "capacity": "24", 
+      "label": "W67", 
+      "location": "Fulton Terminal", 
+      "track": "Woodruffs Stores", 
+      "type": "industry"
+    }
+  }, 
+  "location": "Brooklyn Heights, Brooklyn, New York", 
+  "locationIds": [
+    "00", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5", 
+    "6", 
+    "7", 
+    "8", 
+    "9", 
+    "10", 
+    "11", 
+    "12", 
+    "13", 
+    "14", 
+    "15", 
+    "16"
+  ], 
+  "locations": [
+    "Unreported", 
+    "Fulton Terminal"
+  ], 
+  "locoConsists": [
+    ""
+  ], 
+  "locoModels": [
+    [
+      "0-6-0 tank ", 
+      "ES"
+    ]
+  ], 
+  "locoTypes": [
+    "ES"
+  ], 
+  "operatingRoad": "New York Dock Company", 
+  "roads": [
+    "NYNH&H", 
+    "WJ&S", 
+    "LVRR", 
+    "ACL", 
+    "LV", 
+    "B&O", 
+    "ER", 
+    "PRR", 
+    "M&P", 
+    "NYD", 
+    "DL&W", 
+    "NYC", 
+    "PL", 
+    "AT&SF", 
+    "NYDMoW", 
+    "SP", 
+    "P&R", 
+    "B&A", 
+    "CNJ"
+  ], 
+  "scale": "HO", 
+  "territory": "Fulton Terminal", 
+  "year": "1915"
+}
