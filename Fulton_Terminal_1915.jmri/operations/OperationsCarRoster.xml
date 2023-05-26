@@ -2,18 +2,21 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Thu May 25 22:35:46 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Fri May 26 08:05:45 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
     <road name="B&amp;A" />
     <road name="B&amp;O" />
     <road name="CNJ" />
+    <road name="CNJMoW" />
     <road name="DL&amp;W" />
     <road name="ER" />
+    <road name="FGEX" />
     <road name="LV" />
     <road name="LVRR" />
     <road name="M&amp;P" />
+    <road name="MDX" />
     <road name="NYC" />
     <road name="NYD" />
     <road name="NYDMoW" />
@@ -22,10 +25,19 @@
     <road name="PL" />
     <road name="PRR" />
     <road name="SP" />
+    <road name="TCX" />
+    <road name="TELX" />
+    <road name="UTLX" />
+    <road name="WCC" />
     <road name="WJ&amp;S" />
   </roads>
   <types>
+    <type name="FM" />
+    <type name="GA" />
+    <type name="HK" />
     <type name="M" />
+    <type name="RS" />
+    <type name="TG" />
     <type name="XM" />
   </types>
   <colors>
@@ -33,7 +45,6 @@
     <color name="Blue" />
     <color name="Brown" />
     <color name="Gray" />
-    <color name="Yellow" />
     <color name="Green" />
     <color name="Orange" />
     <color name="Purple" />
@@ -41,6 +52,7 @@
     <color name="Silver" />
     <color name="Tuscan" />
     <color name="White" />
+    <color name="Yellow" />
   </colors>
   <lengths>
     <length value="32" />
@@ -61,6 +73,38 @@
   </owners>
   <loads>
     <defaults empty="E" load="L" />
+    <load type="HK">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="coal" loadType="load" />
+    </load>
+    <load type="RS">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="produce" loadType="load" />
+    </load>
+    <load type="FM">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="Tarp" loadType="load" />
+      <carLoad name="Tarp3" loadType="load" />
+      <carLoad name="steel beams" loadType="load" />
+    </load>
+    <load type="TG">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="fuel oil" loadType="load" />
+    </load>
+    <load type="GA">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="Tarp3" loadType="load" />
+      <carLoad name="tools" loadType="load" />
+    </load>
+    <load type="M">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+    </load>
     <load type="XM">
       <carLoad name="Break Bulk" loadType="load" />
       <carLoad name="Cloth Etc." loadType="load" />
@@ -73,10 +117,6 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="Merchandise" loadType="load" />
       <carLoad name="Wool" loadType="load" />
-    </load>
-    <load type="M">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
     </load>
   </loads>
   <newKernels />

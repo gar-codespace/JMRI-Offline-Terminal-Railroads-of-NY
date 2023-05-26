@@ -52,6 +52,7 @@
                 <column hidden="false" name="Location" order="10" width="190"/>
             </columns>
             <sortOrder>
+                <sortKey column="3" sortOrder="ASCENDING"/>
                 <sortKey column="10" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
@@ -80,13 +81,13 @@
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1032.0" locX="0.0" locY="0.0" width="916.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame" height="624.0" locX="0.0" locY="0.0" width="700.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.tools.CarLoadEditFrame" height="500.0" locX="62.0" locY="62.0" width="324.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="732.0" locX="0.0" locY="0.0" width="1265.0"/>
         <window xmlns="" class="Script Output" height="294.0" locX="0.0" locY="0.0" width="510.0"/>
         <window xmlns="" class="JMRI System Console" height="724.0" locX="1041.0" locY="305.0" width="870.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarEditFrame:Add Car" height="523.0" locX="31.0" locY="31.0" width="500.0"/>
-        <window xmlns="" class="PanelPro" height="288.0" locX="1447.0" locY="18.0" width="448.0"/>
+        <window xmlns="" class="PanelPro" height="288.0" locX="1355.0" locY="18.0" width="540.0"/>
         <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="732.0" locX="0.0" locY="0.0" width="1265.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.schedules.ScheduleEditFrame" height="624.0" locX="0.0" locY="0.0" width="700.0"/>
     </windowDetails>
 </auxiliary-configuration>
