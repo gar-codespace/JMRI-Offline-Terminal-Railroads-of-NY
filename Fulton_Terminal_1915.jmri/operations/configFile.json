@@ -60,9 +60,9 @@
       "EH": false, 
       "OC": true, 
       "PH": 632, 
-      "PW": 1071, 
-      "PX": 0, 
-      "PY": 0, 
+      "PW": 1798, 
+      "PX": 6, 
+      "PY": 398, 
       "RV": 20230305, 
       "SE": "utf-8", 
       "Subroutines.Patterns": false, 
@@ -76,7 +76,7 @@
       }
     }, 
     "LD": {
-      "BD": "05/26/2023-14:57:25", 
+      "BD": "05/27/2023-18:09:57", 
       "LO": "Brooklyn Heights, Brooklyn, New York", 
       "OR": "New York Dock Company", 
       "SC": "HO", 
@@ -108,11 +108,13 @@
   "Patterns": {
     "AD": [
       "", 
+      "Unknown", 
       "Unknown"
     ], 
     "AL": [
       "Fulton Terminal", 
-      "Pier Float"
+      "Pier Float North", 
+      "Pier Float South"
     ], 
     "AS": true, 
     "PA": false, 
@@ -178,12 +180,20 @@
       [
         "", 
         ""
+      ], 
+      [
+        "2023.05.27.22.34.54", 
+        "Initial"
+      ], 
+      [
+        "2023.05.27.23.13.55", 
+        "Second"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": true
+    "SV": false
   }, 
   "o2o": {
     "CC": {
