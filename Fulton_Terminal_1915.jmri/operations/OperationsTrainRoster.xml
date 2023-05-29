@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sun May 28 10:56:14 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Mon May 29 13:17:50 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -19,9 +19,9 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="North Switch" description="Switch north of Montague St" departHour="02" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/28/2023 10:55" TerminationDate="5/28/2023 10:55" RequestedCars="100" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="North Switch" description="Switch north of Montague St" departHour="02" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/28/2023 10:55" TerminationDate="5/28/2023 10:55" RequestedCars="100" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
-      <route name="North Switch" id="1" />
+      <route name="North Switch" id="6" />
       <types>
         <carType name="XM" />
       </types>
@@ -40,9 +40,9 @@
         <carType name="XM" />
       </types>
     </train>
-    <train id="4" name="North Float Switch" description="Float B" departHour="01" departMinute="05" departureTrack="3s2" terminationTrack="3s2" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/28/2023 10:37" TerminationDate="5/28/2023 10:37" RequestedCars="50" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="4" name="North Float Switch" description="Float B" departHour="01" departMinute="05" departureTrack="3s2" terminationTrack="3s2" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="true" buildFailedMessage="BUILD FAILED could not find destinations for 6 car(s) departing from staging track (Pier Float North, North Float)&#xA; SP 0652&#xA; NYC 0145&#xA; P&amp;R 9839&#xA; NYC 1343&#xA; NYC 2404&#xA; PRR 0820" printed="false" modified="false" switchListStatus="" status="Build Failed" TerminationDate="5/28/2023 10:37" RequestedCars="50" statusCode="2" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
-      <route name="North Float Switch" id="4" />
+      <route name="North Float Switch" id="5" />
       <types>
         <carType name="XM" />
       </types>
@@ -50,13 +50,13 @@
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="," />
-    <schedule id="2" name="Monday" trainIds="," />
-    <schedule id="3" name="Tuesday" trainIds="," />
-    <schedule id="4" name="Wednesday" trainIds="," />
-    <schedule id="5" name="Thursday" trainIds="," />
-    <schedule id="6" name="Friday" trainIds="," />
-    <schedule id="7" name="Saturday" trainIds="," />
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="6" name="Friday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
   </schedules>
   <automationOptions automationStartupId="" />
   <automations />
