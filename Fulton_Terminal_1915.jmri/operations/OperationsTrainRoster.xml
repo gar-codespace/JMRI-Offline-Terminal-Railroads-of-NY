@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Mon May 29 13:17:50 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Tue May 30 23:11:42 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Reset" />
     <conductorOptions showHyphenName="false" />
@@ -19,28 +19,28 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="North Switch" description="Switch north of Montague St" departHour="02" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/28/2023 10:55" TerminationDate="5/28/2023 10:55" RequestedCars="100" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="1" name="North Switch" description="Switch north of Montague St" departHour="02" departMinute="05" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/30/2023 22:45" TerminationDate="5/30/2023 22:45" RequestedCars="30" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="North Switch" id="6" />
       <types>
         <carType name="XM" />
       </types>
     </train>
-    <train id="2" name="South Switch" description="Switch south of Montague St" departHour="02" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/28/2023 09:53" TerminationDate="5/28/2023 09:53" RequestedCars="50" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="2" name="South Switch" description="Switch south of Montague St" departHour="02" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="false" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="5/30/2023 22:30" RequestedCars="30" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="South Switch" id="2" />
       <types>
         <carType name="XM" />
       </types>
     </train>
-    <train id="3" name="South Float Switch" description="Float A" departHour="01" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Train reset" TerminationDate="5/28/2023 09:37" RequestedCars="50" statusCode="0" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="3" name="South Float Switch" description="Float A" departHour="01" departMinute="00" departureTrack="4s2" terminationTrack="4s2" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/30/2023 12:44" TerminationDate="5/30/2023 12:44" RequestedCars="50" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="South Float Switch" id="3" />
       <types>
         <carType name="XM" />
       </types>
     </train>
-    <train id="4" name="North Float Switch" description="Float B" departHour="01" departMinute="05" departureTrack="3s2" terminationTrack="3s2" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="true" buildFailed="true" buildFailedMessage="BUILD FAILED could not find destinations for 6 car(s) departing from staging track (Pier Float North, North Float)&#xA; SP 0652&#xA; NYC 0145&#xA; P&amp;R 9839&#xA; NYC 1343&#xA; NYC 2404&#xA; PRR 0820" printed="false" modified="false" switchListStatus="" status="Build Failed" TerminationDate="5/28/2023 10:37" RequestedCars="50" statusCode="2" oldStatusCode="65535" comment="" showTimes="true">
+    <train id="4" name="North Float Switch" description="Float B" departHour="01" departMinute="05" departureTrack="3s2" terminationTrack="3s2" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="true" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="true" modified="false" switchListStatus="" status="Terminated 5/30/2023 12:42" TerminationDate="5/30/2023 12:42" RequestedCars="50" statusCode="128" oldStatusCode="65535" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="North Float Switch" id="5" />
       <types>

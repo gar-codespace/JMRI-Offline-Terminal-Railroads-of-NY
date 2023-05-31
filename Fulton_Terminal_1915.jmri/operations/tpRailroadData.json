@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/27/2023-22:44:09", 
+  "buildDate": "05/30/2023-12:18:46", 
   "carAAR": [
     "M", 
     "XM"
@@ -278,7 +278,7 @@
       "type": "industry"
     }, 
     "10": {
-      "capacity": "16", 
+      "capacity": "20", 
       "label": "YS", 
       "location": "Fulton Terminal", 
       "track": "South Yard", 
@@ -327,17 +327,24 @@
       "type": "industry"
     }, 
     "17": {
-      "capacity": "17", 
+      "capacity": "21", 
       "label": "YN", 
       "location": "Fulton Terminal", 
       "track": "North Yard", 
       "type": "interchange"
     }, 
     "18": {
-      "capacity": "9", 
-      "label": "Y", 
+      "capacity": "5", 
+      "label": "FYN", 
       "location": "Fulton Terminal", 
-      "track": "Yard", 
+      "track": "Fiddle Yard North", 
+      "type": "class yard"
+    }, 
+    "19": {
+      "capacity": "2", 
+      "label": "FYS", 
+      "location": "Fulton Terminal", 
+      "track": "Fiddle Yard South", 
       "type": "class yard"
     }, 
     "2": {
@@ -346,6 +353,13 @@
       "location": "Fulton Terminal", 
       "track": "Harbecks Stores", 
       "type": "industry"
+    }, 
+    "20": {
+      "capacity": "6", 
+      "label": "S", 
+      "location": "Fulton Terminal", 
+      "track": "Stub Track", 
+      "type": "interchange"
     }, 
     "3": {
       "capacity": "4", 
@@ -362,14 +376,14 @@
       "type": "industry"
     }, 
     "5": {
-      "capacity": "10", 
+      "capacity": "9", 
       "label": "P56", 
       "location": "Fulton Terminal", 
       "track": "Prentices Stores", 
       "type": "industry"
     }, 
     "6": {
-      "capacity": "18", 
+      "capacity": "17", 
       "label": "PFS", 
       "location": "Pier Float South", 
       "track": "South Float", 
@@ -417,7 +431,9 @@
     "15", 
     "16", 
     "17", 
-    "18"
+    "18", 
+    "19", 
+    "20"
   ], 
   "locations": [
     "Pier Float North", 
@@ -442,18 +458,18 @@
     "NYNH&H", 
     "WJ&S", 
     "LVRR", 
-    "LV", 
     "ACL", 
+    "LV", 
     "B&O", 
     "ER", 
     "PRR", 
     "M&P", 
     "NYD", 
-    "DL&W", 
     "NYC", 
+    "DL&W", 
     "AT&SF", 
-    "NYDMoW", 
     "PL", 
+    "NYDMoW", 
     "SP", 
     "B&A", 
     "P&R", 
