@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/30/2023-12:18:46", 
+  "buildDate": "06/03/2023-10:21:32", 
   "carAAR": [
     "M", 
     "XM"
@@ -12,16 +12,16 @@
     "XM": [
       "Express out", 
       "Break Bulk", 
+      "Chickpeas", 
       "Imports", 
       "Coffee", 
-      "Textiles", 
       "L.C.L. out", 
+      "Beans", 
+      "Tobacco", 
       "Foodstuffs", 
       "Express in", 
-      "Garments", 
       "Wool", 
-      "L.C.L. in", 
-      "Merchandise"
+      "L.C.L. in"
     ]
   }, 
   "divisions": [
@@ -33,6 +33,22 @@
       "b-track": "Mediterranean Stores", 
       "c-schedule": {
         "M43": [
+          [
+            "XM", 
+            "S", 
+            "Beans", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Chickpeas", 
+            "", 
+            "", 
+            ""
+          ], 
           [
             "XM", 
             "S", 
@@ -52,7 +68,7 @@
           [
             "XM", 
             "S", 
-            "Break Bulk", 
+            "Coffee", 
             "", 
             "", 
             ""
@@ -68,7 +84,7 @@
           [
             "XM", 
             "S", 
-            "Break Bulk", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -84,7 +100,7 @@
           [
             "XM", 
             "S", 
-            "Merchandise", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -100,7 +116,7 @@
           [
             "XM", 
             "S", 
-            "Merchandise", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -124,15 +140,15 @@
         ]
       }
     }, 
-    "16": {
+    "18": {
       "a-location": "Fulton Terminal", 
-      "b-track": "Woodruffs Stores", 
+      "b-track": "Martins Stores-Wool", 
       "c-schedule": {
-        "W67": [
+        "M23": [
           [
             "XM", 
-            "R", 
-            "Textiles", 
+            "S", 
+            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -140,7 +156,47 @@
           [
             "XM", 
             "S", 
-            "Garments", 
+            "Tobacco", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "19": {
+      "a-location": "Fulton Terminal", 
+      "b-track": "Woodruffs Stores", 
+      "c-schedule": {
+        "W67": [
+          [
+            "XM", 
+            "S", 
+            "Beans", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Foodstuffs", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Tobacco", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "XM", 
+            "S", 
+            "Wool", 
             "", 
             "", 
             ""
@@ -214,29 +270,13 @@
     }, 
     "6": {
       "a-location": "Fulton Terminal", 
-      "b-track": "Martins Stores-Coffee", 
+      "b-track": "Martins Stores-Coffeee", 
       "c-schedule": {
         "M21": [
           [
             "XM", 
             "S", 
             "Coffee", 
-            "", 
-            "", 
-            ""
-          ]
-        ]
-      }
-    }, 
-    "7": {
-      "a-location": "Fulton Terminal", 
-      "b-track": "Martins Stores-Wool", 
-      "c-schedule": {
-        "M23": [
-          [
-            "XM", 
-            "S", 
-            "Foodstuffs", 
             "", 
             "", 
             ""
@@ -252,7 +292,7 @@
           [
             "XM", 
             "S", 
-            "Break Bulk", 
+            "Wool", 
             "", 
             "", 
             ""
@@ -278,7 +318,7 @@
       "type": "industry"
     }, 
     "10": {
-      "capacity": "20", 
+      "capacity": "19", 
       "label": "YS", 
       "location": "Fulton Terminal", 
       "track": "South Yard", 
@@ -302,7 +342,7 @@
       "capacity": "1", 
       "label": "M21", 
       "location": "Fulton Terminal", 
-      "track": "Martins Stores-Coffee", 
+      "track": "Martins Stores-Coffeee", 
       "type": "industry"
     }, 
     "14": {
@@ -334,14 +374,14 @@
       "type": "interchange"
     }, 
     "18": {
-      "capacity": "5", 
+      "capacity": "7", 
       "label": "FYN", 
       "location": "Fulton Terminal", 
       "track": "Fiddle Yard North", 
       "type": "class yard"
     }, 
     "19": {
-      "capacity": "2", 
+      "capacity": "0", 
       "label": "FYS", 
       "location": "Fulton Terminal", 
       "track": "Fiddle Yard South", 
@@ -355,7 +395,7 @@
       "type": "industry"
     }, 
     "20": {
-      "capacity": "6", 
+      "capacity": "7", 
       "label": "S", 
       "location": "Fulton Terminal", 
       "track": "Stub Track", 
@@ -470,9 +510,9 @@
     "AT&SF", 
     "PL", 
     "NYDMoW", 
-    "SP", 
     "B&A", 
     "P&R", 
+    "SP", 
     "CNJ"
   ], 
   "scale": "HO", 
