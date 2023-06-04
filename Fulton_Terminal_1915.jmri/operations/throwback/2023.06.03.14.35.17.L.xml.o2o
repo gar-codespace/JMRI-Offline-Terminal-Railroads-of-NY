@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 03 11:11:48 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 03 13:17:50 PDT 2023-->
   <divisions>
     <division id="1" name="" comment="" />
     <division id="8" name="Unknown" comment="" />
@@ -22,7 +22,7 @@
       <types>
         <carType name="XM" />
       </types>
-      <track id="2s1" name="Freight House" trackType="Spur" dir="7" length="528" moves="8" dropOption="trains" pickupOption="trains" schedule="FH" scheduleId="472" itemId="472c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s17">
+      <track id="2s1" name="Freight House" trackType="Spur" dir="7" length="528" moves="23" dropOption="trains" pickupOption="trains" schedule="FH" scheduleId="472" itemId="472c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s17">
         <types>
           <carType name="XM" />
         </types>
@@ -33,15 +33,15 @@
           <pickupId id="1" />
         </pickupIds>
       </track>
-      <track id="2s10" name="Martins Stores-Wool" trackType="Spur" dir="7" length="88" moves="14" dropOption="trains" pickupOption="trains" schedule="M23" scheduleId="469" itemId="469c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s10" name="Martins Stores-Wool" trackType="Spur" dir="7" length="88" moves="15" dropOption="trains" pickupOption="trains" schedule="M23" scheduleId="469" itemId="469c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
         <dropIds>
-          <dropId id="1" />
+          <dropId id="5" />
         </dropIds>
         <pickupIds>
-          <pickupId id="1" />
+          <pickupId id="5" />
         </pickupIds>
       </track>
       <track id="2s11" name="Martins Stores-Coffeee" trackType="Spur" dir="7" length="44" moves="15" dropOption="trains" pickupOption="trains" schedule="M21" scheduleId="474" itemId="474c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
@@ -49,13 +49,13 @@
           <carType name="XM" />
         </types>
         <dropIds>
-          <dropId id="1" />
+          <dropId id="5" />
         </dropIds>
         <pickupIds>
-          <pickupId id="1" />
+          <pickupId id="5" />
         </pickupIds>
       </track>
-      <track id="2s12" name="Martins Stores-Foodstuffs" trackType="Spur" dir="7" length="176" moves="8" dropOption="trains" pickupOption="trains" schedule="M18" scheduleId="473" itemId="473c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s17">
+      <track id="2s12" name="Martins Stores-Foodstuffs" trackType="Spur" dir="7" length="176" moves="16" dropOption="trains" pickupOption="trains" schedule="M18" scheduleId="473" itemId="473c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s17">
         <types>
           <carType name="XM" />
         </types>
@@ -66,42 +66,44 @@
           <pickupId id="1" />
         </pickupIds>
       </track>
-      <track id="2s13" name="Mediterranean Stores" trackType="Spur" dir="11" length="176" moves="15" dropOption="trains" pickupOption="trains" schedule="M43" scheduleId="476" itemId="476c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s13" name="Mediterranean Stores" trackType="Spur" dir="7" length="176" moves="21" dropOption="trains" pickupOption="trains" schedule="M43" scheduleId="476" itemId="476c3" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
         <dropIds>
-          <dropId id="2" />
+          <dropId id="5" />
         </dropIds>
         <pickupIds>
-          <pickupId id="2" />
+          <pickupId id="5" />
         </pickupIds>
       </track>
-      <track id="2s14" name="Pierponts Stores" trackType="Spur" dir="11" length="176" moves="15" dropOption="trains" pickupOption="trains" schedule="P48" scheduleId="464" itemId="464c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s14" name="Pierponts Stores" trackType="Spur" dir="7" length="176" moves="20" dropOption="trains" pickupOption="trains" schedule="P48" scheduleId="464" itemId="464c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
         <dropIds>
-          <dropId id="2" />
+          <dropId id="5" />
         </dropIds>
         <pickupIds>
-          <pickupId id="2" />
+          <pickupId id="5" />
         </pickupIds>
       </track>
-      <track id="2s15" name="North Yard" trackType="Interchange" dir="4" length="900" moves="54" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="2s15" name="North Yard" trackType="Interchange" dir="12" length="900" moves="83" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="XM" />
         </types>
         <dropIds>
           <dropId id="4" />
           <dropId id="1" />
+          <dropId id="3" />
         </dropIds>
         <pickupIds>
           <pickupId id="4" />
           <pickupId id="1" />
+          <pickupId id="3" />
         </pickupIds>
       </track>
-      <track id="2s17" name="Fiddle Yard North" trackType="Yard" dir="7" length="360" moves="32">
+      <track id="2s17" name="Fiddle Yard North" trackType="Yard" dir="7" length="360" moves="38">
         <types>
           <carType name="XM" />
         </types>
@@ -111,7 +113,7 @@
           <carType name="XM" />
         </types>
       </track>
-      <track id="2s2" name="Harbecks Stores" trackType="Spur" dir="7" length="352" moves="8" dropOption="trains" pickupOption="trains" schedule="H26" scheduleId="468" itemId="468c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s17">
+      <track id="2s2" name="Harbecks Stores" trackType="Spur" dir="7" length="352" moves="25" dropOption="trains" pickupOption="trains" schedule="H26" scheduleId="468" itemId="468c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s17">
         <types>
           <carType name="XM" />
         </types>
@@ -122,28 +124,56 @@
           <pickupId id="1" />
         </pickupIds>
       </track>
-      <track id="2s20" name="Stub Track" trackType="Interchange" dir="15" length="360" moves="45" dropOption="trains" onlyCarWithFD="false">
+      <track id="2s20" name="Stub Track" trackType="Interchange" dir="15" length="360" moves="54" onlyCarWithFD="false">
+        <types>
+          <carType name="XM" />
+        </types>
+      </track>
+      <track id="2s3" name="New York Express" trackType="Spur" dir="7" length="176" moves="17" dropOption="trains" pickupOption="trains" schedule="NYX" scheduleId="471" itemId="471c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s17">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="1" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="1" />
+        </pickupIds>
+      </track>
+      <track id="2s4" name="Pier 19" trackType="Spur" dir="11" length="308" moves="21" dropOption="trains" pickupOption="trains" schedule="P19" scheduleId="467" itemId="467c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s19">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="2" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="2" />
+        </pickupIds>
+      </track>
+      <track id="2s5" name="Prentices Stores" trackType="Spur" dir="11" length="396" moves="23" dropOption="trains" pickupOption="trains" schedule="P56" scheduleId="465" itemId="465c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s19">
+        <types>
+          <carType name="XM" />
+        </types>
+        <dropIds>
+          <dropId id="2" />
+        </dropIds>
+        <pickupIds>
+          <pickupId id="2" />
+        </pickupIds>
+      </track>
+      <track id="2s6" name="Roberts Stores" trackType="Spur" dir="7" length="176" moves="14" dropOption="trains" pickupOption="trains" schedule="R37" scheduleId="475" itemId="475c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
         <dropIds>
           <dropId id="5" />
-          <dropId id="1" />
-          <dropId id="2" />
-        </dropIds>
-      </track>
-      <track id="2s3" name="New York Express" trackType="Spur" dir="7" length="176" moves="8" dropOption="trains" pickupOption="trains" schedule="NYX" scheduleId="471" itemId="471c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s17">
-        <types>
-          <carType name="XM" />
-        </types>
-        <dropIds>
-          <dropId id="1" />
         </dropIds>
         <pickupIds>
-          <pickupId id="1" />
+          <pickupId id="5" />
         </pickupIds>
       </track>
-      <track id="2s4" name="Pier 19" trackType="Spur" dir="11" length="308" moves="20" dropOption="trains" pickupOption="trains" schedule="P19" scheduleId="467" itemId="467c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s19">
+      <track id="2s7" name="Woodruffs Stores" trackType="Spur" dir="11" length="1056" moves="22" dropOption="trains" pickupOption="trains" schedule="W67" scheduleId="470" itemId="470c4" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s19">
         <types>
           <carType name="XM" />
         </types>
@@ -154,53 +184,24 @@
           <pickupId id="2" />
         </pickupIds>
       </track>
-      <track id="2s5" name="Prentices Stores" trackType="Spur" dir="11" length="396" moves="16" dropOption="trains" pickupOption="trains" schedule="P56" scheduleId="465" itemId="465c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s19">
-        <types>
-          <carType name="XM" />
-        </types>
-        <dropIds>
-          <dropId id="2" />
-        </dropIds>
-        <pickupIds>
-          <pickupId id="2" />
-        </pickupIds>
-      </track>
-      <track id="2s6" name="Roberts Stores" trackType="Spur" dir="7" length="176" moves="8" dropOption="trains" pickupOption="trains" schedule="R37" scheduleId="475" itemId="475c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
-        <types>
-          <carType name="XM" />
-        </types>
-        <dropIds>
-          <dropId id="1" />
-        </dropIds>
-        <pickupIds>
-          <pickupId id="1" />
-        </pickupIds>
-      </track>
-      <track id="2s7" name="Woodruffs Stores" trackType="Spur" dir="11" length="1056" moves="15" dropOption="trains" pickupOption="trains" schedule="W67" scheduleId="470" itemId="470c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s19">
-        <types>
-          <carType name="XM" />
-        </types>
-        <dropIds>
-          <dropId id="2" />
-        </dropIds>
-        <pickupIds>
-          <pickupId id="2" />
-        </pickupIds>
-      </track>
-      <track id="2s8" name="South Yard" trackType="Interchange" dir="8" length="850" moves="54" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="2s8" name="South Yard" trackType="Interchange" dir="12" length="850" moves="85" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="XM" />
         </types>
         <dropIds>
           <dropId id="3" />
           <dropId id="2" />
+          <dropId id="4" />
+          <dropId id="5" />
         </dropIds>
         <pickupIds>
           <pickupId id="3" />
           <pickupId id="2" />
+          <pickupId id="4" />
+          <pickupId id="5" />
         </pickupIds>
       </track>
-      <track id="2s9" name="Pier 18" trackType="Spur" dir="11" length="352" moves="16" dropOption="trains" pickupOption="trains" schedule="P18" scheduleId="466" itemId="466c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s19">
+      <track id="2s9" name="Pier 18" trackType="Spur" dir="11" length="352" moves="23" dropOption="trains" pickupOption="trains" schedule="P18" scheduleId="466" itemId="466c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="2s19">
         <types>
           <carType name="XM" />
         </types>
@@ -216,7 +217,7 @@
       <types>
         <carType name="XM" />
       </types>
-      <track id="3s2" name="North Float" trackType="Staging" dir="15" length="1000" moves="999" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="26">
+      <track id="3s2" name="North Float" trackType="Staging" dir="15" length="750" moves="1033" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="26">
         <types>
           <carType name="XM" />
         </types>
@@ -235,7 +236,7 @@
       <types>
         <carType name="XM" />
       </types>
-      <track id="4s2" name="South Float" trackType="Staging" dir="15" length="1000" moves="510" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="26">
+      <track id="4s2" name="South Float" trackType="Staging" dir="15" length="750" moves="527" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="26">
         <types>
           <carType name="XM" />
         </types>
@@ -256,41 +257,41 @@
       <item id="464c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Coffee" comment="" hits="0" />
     </schedule>
     <schedule id="465" name="P56" comment="">
-      <item id="465c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="0" />
+      <item id="465c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="3" />
     </schedule>
     <schedule id="466" name="P18" comment="">
-      <item id="466c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="0" />
+      <item id="466c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="3" />
     </schedule>
     <schedule id="467" name="P19" comment="">
-      <item id="467c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="0" />
+      <item id="467c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="1" />
     </schedule>
     <schedule id="468" name="H26" comment="">
-      <item id="468c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Break Bulk" comment="" hits="0" />
+      <item id="468c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Break Bulk" comment="" hits="11" />
     </schedule>
     <schedule id="469" name="M23" comment="">
-      <item id="469c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="0" />
+      <item id="469c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="1" />
       <item id="469c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Tobacco" comment="" hits="0" />
     </schedule>
     <schedule id="470" name="W67" comment="">
       <item id="470c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Tobacco" comment="" hits="0" />
       <item id="470c2" sequenceId="2" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="0" />
       <item id="470c3" sequenceId="3" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Beans" comment="" hits="0" />
-      <item id="470c4" sequenceId="4" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="0" />
+      <item id="470c4" sequenceId="4" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Foodstuffs" comment="" hits="2" />
     </schedule>
     <schedule id="471" name="NYX" comment="">
-      <item id="471c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Express in" ship="Express out" comment="" hits="0" />
+      <item id="471c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Express in" ship="Express out" comment="" hits="4" />
     </schedule>
     <schedule id="472" name="FH" comment="">
-      <item id="472c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="L.C.L. in" ship="L.C.L. out" comment="" hits="0" />
+      <item id="472c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="L.C.L. in" ship="L.C.L. out" comment="" hits="9" />
     </schedule>
     <schedule id="473" name="M18" comment="">
-      <item id="473c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="0" />
+      <item id="473c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="2" />
     </schedule>
     <schedule id="474" name="M21" comment="">
       <item id="474c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Coffee" comment="" hits="0" />
     </schedule>
     <schedule id="475" name="R37" comment="">
-      <item id="475c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="0" />
+      <item id="475c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="1" />
     </schedule>
     <schedule id="476" name="M43" comment="">
       <item id="476c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Chickpeas" comment="" hits="0" />

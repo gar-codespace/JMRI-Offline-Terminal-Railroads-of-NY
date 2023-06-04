@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/03/2023-10:21:32", 
+  "buildDate": "06/03/2023-14:20:30", 
   "carAAR": [
     "M", 
     "XM"
@@ -318,7 +318,7 @@
       "type": "industry"
     }, 
     "10": {
-      "capacity": "19", 
+      "capacity": "20", 
       "label": "YS", 
       "location": "Fulton Terminal", 
       "track": "South Yard", 
@@ -367,22 +367,22 @@
       "type": "industry"
     }, 
     "17": {
-      "capacity": "21", 
+      "capacity": "20", 
       "label": "YN", 
       "location": "Fulton Terminal", 
       "track": "North Yard", 
       "type": "interchange"
     }, 
     "18": {
-      "capacity": "7", 
-      "label": "FYN", 
+      "capacity": "10", 
+      "label": "FN", 
       "location": "Fulton Terminal", 
       "track": "Fiddle Yard North", 
       "type": "class yard"
     }, 
     "19": {
-      "capacity": "0", 
-      "label": "FYS", 
+      "capacity": "7", 
+      "label": "FS", 
       "location": "Fulton Terminal", 
       "track": "Fiddle Yard South", 
       "type": "class yard"
@@ -395,7 +395,7 @@
       "type": "industry"
     }, 
     "20": {
-      "capacity": "7", 
+      "capacity": "8", 
       "label": "S", 
       "location": "Fulton Terminal", 
       "track": "Stub Track", 
@@ -424,14 +424,14 @@
     }, 
     "6": {
       "capacity": "17", 
-      "label": "PFS", 
+      "label": "PS", 
       "location": "Pier Float South", 
       "track": "South Float", 
       "type": "staging"
     }, 
     "7": {
-      "capacity": "18", 
-      "label": "PFN", 
+      "capacity": "17", 
+      "label": "PN", 
       "location": "Pier Float North", 
       "track": "North Float", 
       "type": "staging"
