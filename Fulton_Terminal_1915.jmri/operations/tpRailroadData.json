@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/03/2023-14:20:30", 
+  "buildDate": "06/08/2023-16:32:52", 
   "carAAR": [
     "M", 
     "XM"
@@ -270,7 +270,7 @@
     }, 
     "6": {
       "a-location": "Fulton Terminal", 
-      "b-track": "Martins Stores-Coffeee", 
+      "b-track": "Martins Stores-Coffee", 
       "c-schedule": {
         "M21": [
           [
@@ -319,9 +319,9 @@
     }, 
     "10": {
       "capacity": "20", 
-      "label": "YS", 
+      "label": "YW", 
       "location": "Fulton Terminal", 
-      "track": "South Yard", 
+      "track": "West Yard", 
       "type": "interchange"
     }, 
     "11": {
@@ -342,7 +342,7 @@
       "capacity": "1", 
       "label": "M21", 
       "location": "Fulton Terminal", 
-      "track": "Martins Stores-Coffeee", 
+      "track": "Martins Stores-Coffee", 
       "type": "industry"
     }, 
     "14": {
@@ -368,9 +368,9 @@
     }, 
     "17": {
       "capacity": "20", 
-      "label": "YN", 
+      "label": "YE", 
       "location": "Fulton Terminal", 
-      "track": "North Yard", 
+      "track": "East Yard", 
       "type": "interchange"
     }, 
     "18": {
@@ -498,15 +498,15 @@
     "NYNH&H", 
     "WJ&S", 
     "LVRR", 
-    "ACL", 
     "LV", 
+    "ACL", 
     "B&O", 
     "ER", 
     "PRR", 
     "M&P", 
     "NYD", 
-    "NYC", 
     "DL&W", 
+    "NYC", 
     "AT&SF", 
     "PL", 
     "NYDMoW", 

@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/03/2023-10:21:32", 
+  "buildDate": "06/08/2023-09:04:38", 
   "carAAR": [
     "M", 
     "XM"
@@ -270,7 +270,7 @@
     }, 
     "6": {
       "a-location": "Fulton Terminal", 
-      "b-track": "Martins Stores-Coffeee", 
+      "b-track": "Martins Stores-Coffee", 
       "c-schedule": {
         "M21": [
           [
@@ -318,10 +318,10 @@
       "type": "industry"
     }, 
     "10": {
-      "capacity": "19", 
-      "label": "YS", 
+      "capacity": "20", 
+      "label": "YW", 
       "location": "Fulton Terminal", 
-      "track": "South Yard", 
+      "track": "West Yard", 
       "type": "interchange"
     }, 
     "11": {
@@ -342,7 +342,7 @@
       "capacity": "1", 
       "label": "M21", 
       "location": "Fulton Terminal", 
-      "track": "Martins Stores-Coffeee", 
+      "track": "Martins Stores-Coffee", 
       "type": "industry"
     }, 
     "14": {
@@ -367,22 +367,22 @@
       "type": "industry"
     }, 
     "17": {
-      "capacity": "21", 
-      "label": "YN", 
+      "capacity": "20", 
+      "label": "YE", 
       "location": "Fulton Terminal", 
-      "track": "North Yard", 
+      "track": "East Yard", 
       "type": "interchange"
     }, 
     "18": {
-      "capacity": "7", 
-      "label": "FYN", 
+      "capacity": "10", 
+      "label": "FN", 
       "location": "Fulton Terminal", 
       "track": "Fiddle Yard North", 
       "type": "class yard"
     }, 
     "19": {
-      "capacity": "0", 
-      "label": "FYS", 
+      "capacity": "7", 
+      "label": "FS", 
       "location": "Fulton Terminal", 
       "track": "Fiddle Yard South", 
       "type": "class yard"
@@ -395,7 +395,7 @@
       "type": "industry"
     }, 
     "20": {
-      "capacity": "7", 
+      "capacity": "8", 
       "label": "S", 
       "location": "Fulton Terminal", 
       "track": "Stub Track", 
@@ -424,14 +424,14 @@
     }, 
     "6": {
       "capacity": "17", 
-      "label": "PFS", 
+      "label": "PS", 
       "location": "Pier Float South", 
       "track": "South Float", 
       "type": "staging"
     }, 
     "7": {
-      "capacity": "18", 
-      "label": "PFN", 
+      "capacity": "17", 
+      "label": "PN", 
       "location": "Pier Float North", 
       "track": "North Float", 
       "type": "staging"
@@ -498,15 +498,15 @@
     "NYNH&H", 
     "WJ&S", 
     "LVRR", 
-    "ACL", 
     "LV", 
+    "ACL", 
     "B&O", 
     "ER", 
     "PRR", 
     "M&P", 
     "NYD", 
-    "NYC", 
     "DL&W", 
+    "NYC", 
     "AT&SF", 
     "PL", 
     "NYDMoW", 

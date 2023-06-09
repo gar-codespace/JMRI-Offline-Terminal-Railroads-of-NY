@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Thu May 25 06:54:16 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Jun 07 13:25:51 PDT 2023-->
   <divisions>
     <division id="1" name="Harlem Division" comment="" />
     <division id="2" name="Unknown" comment="" />
@@ -40,18 +40,18 @@
         <carType name="XM" />
         <locoType name="ES" />
       </types>
-      <track id="2s1" name="Crane" trackType="Spur" dir="15" length="88" moves="11" schedule="C" scheduleId="83" itemId="83c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s1" name="Crane" trackType="Spur" dir="15" length="88" moves="12" schedule="C" scheduleId="83" itemId="83c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GA" />
         </types>
       </track>
-      <track id="2s2" name="Freight Station" trackType="Spur" dir="15" length="484" moves="55" schedule="4F" scheduleId="84" itemId="84c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s2" name="Freight Station" trackType="Spur" dir="15" length="484" moves="60" schedule="4F" scheduleId="84" itemId="84c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
       </track>
-      <track id="2s3" name="Team Tracks" trackType="Spur" dir="15" length="2200" moves="55" schedule="TT" scheduleId="85" itemId="85c5" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s3" name="Team Tracks" trackType="Spur" dir="15" length="2200" moves="60" schedule="TT" scheduleId="85" itemId="85c5" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="FM" />
           <carType name="GA" />
@@ -61,7 +61,7 @@
           <carType name="XM" />
         </types>
       </track>
-      <track id="2s4" name="5th St Pier" trackType="Spur" dir="15" length="660" moves="51" schedule="5P" scheduleId="82" itemId="82c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s4" name="5th St Pier" trackType="Spur" dir="15" length="660" moves="60" schedule="5P" scheduleId="82" itemId="82c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="GA" />
           <carType name="XM" />
@@ -78,7 +78,7 @@
         <carType name="XM" />
         <locoType name="ES" />
       </types>
-      <track id="3s1" name="Float Tracks" trackType="Staging" dir="15" length="1000" moves="85" onlyCarWithFD="false" loadOptions="26">
+      <track id="3s1" name="Float Tracks" trackType="Staging" dir="15" length="1000" moves="102" onlyCarWithFD="false" loadOptions="26">
         <types>
           <carType name="FM" />
           <carType name="GA" />
