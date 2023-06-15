@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
+<!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
+<operations-config>
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Jun 14 21:38:18 PDT 2023-->
+  <roads>
+    <road name="ACL" />
+    <road name="AT&amp;SF" />
+    <road name="B&amp;A" />
+    <road name="B&amp;O" />
+    <road name="CNJ" />
+    <road name="DL&amp;W" />
+    <road name="ER" />
+    <road name="LV" />
+    <road name="LVRR" />
+    <road name="M&amp;P" />
+    <road name="NYC" />
+    <road name="NYD" />
+    <road name="NYDMoW" />
+    <road name="NYNH&amp;H" />
+    <road name="P&amp;R" />
+    <road name="PL" />
+    <road name="PRR" />
+    <road name="SP" />
+    <road name="WJ&amp;S" />
+  </roads>
+  <types>
+    <type name="M" />
+    <type name="XM" />
+  </types>
+  <colors>
+    <color name="Black" />
+    <color name="Blue" />
+    <color name="Brown" />
+    <color name="Gray" />
+    <color name="Green" />
+    <color name="Orange" />
+    <color name="Purple" />
+    <color name="Red" />
+    <color name="Silver" />
+    <color name="Tuscan" />
+    <color name="White" />
+    <color name="Yellow" />
+  </colors>
+  <lengths>
+    <length value="32" />
+    <length value="34" />
+    <length value="36" />
+    <length value="38" />
+    <length value="40" />
+    <length value="42" />
+    <length value="50" />
+    <length value="51" />
+    <length value="52" />
+    <length value="54" />
+    <length value="60" />
+    <length value="70" />
+  </lengths>
+  <owners>
+    <owner name="" />
+  </owners>
+  <loads>
+    <defaults empty="E" load="L" />
+    <load type="M">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+    </load>
+    <load type="XM">
+      <carLoad name="Beans" loadType="load" />
+      <carLoad name="Break Bulk" loadType="load" />
+      <carLoad name="Chickpeas" loadType="load" />
+      <carLoad name="Coffee" loadType="load" />
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Express in" loadType="load" />
+      <carLoad name="Express out" loadType="load" />
+      <carLoad name="Foodstuffs" loadType="load" />
+      <carLoad name="Imports" loadType="load" />
+      <carLoad name="L.C.L. in" loadType="load" />
+      <carLoad name="L.C.L. out" loadType="load" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="Tobacco" loadType="load" />
+      <carLoad name="Wool" loadType="load" />
+    </load>
+  </loads>
+  <newKernels />
+  <options />
+  <cars>
+    <car id="ACL0420" roadName="ACL" roadNumber="0420" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c2" previousScheduleId="1016c2" />
+    <car id="ACL0564" roadName="ACL" roadNumber="0564" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="ACL3682" roadName="ACL" roadNumber="3682" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="ACL3960" roadName="ACL" roadNumber="3960" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="6" moves="2" date="06/14/2023 21:30:19" selected="false" load="Empty" />
+    <car id="ACL6703" roadName="ACL" roadNumber="6703" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s6" lastRouteId="6" moves="1" date="06/14/2023 21:30:04" selected="false" load="Coffee" nextDestId="2" previousNextDestId="2" />
+    <car id="ACL6811" roadName="ACL" roadNumber="6811" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s6" moves="0" date="" selected="false" load="Coffee" />
+    <car id="ACL7583" roadName="ACL" roadNumber="7583" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c3" previousScheduleId="1016c3" />
+    <car id="ACL8525" roadName="ACL" roadNumber="8525" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="6" moves="3" date="06/14/2023 21:30:19" selected="false" load="Empty" />
+    <car id="ACL9038" roadName="ACL" roadNumber="9038" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="AT&amp;SF0683" roadName="AT&amp;SF" roadNumber="0683" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" scheduleId="1042c3" previousScheduleId="1042c3" />
+    <car id="AT&amp;SF1730" roadName="AT&amp;SF" roadNumber="1730" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s17" lastRouteId="6" moves="1" date="06/14/2023 19:07:41" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="AT&amp;SF2679" roadName="AT&amp;SF" roadNumber="2679" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s6" moves="0" date="" selected="false" load="Coffee" />
+    <car id="AT&amp;SF3838" roadName="AT&amp;SF" roadNumber="3838" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s10" lastRouteId="2" moves="1" date="06/14/2023 21:30:25" selected="false" load="L.C.L. out" nextDestId="2" previousNextDestId="2" />
+    <car id="AT&amp;SF4527" roadName="AT&amp;SF" roadNumber="4527" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="AT&amp;SF4863" roadName="AT&amp;SF" roadNumber="4863" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s3" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Coffee" nextDestId="2" previousNextDestId="2" />
+    <car id="AT&amp;SF8338" roadName="AT&amp;SF" roadNumber="8338" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c1" previousScheduleId="1016c1" />
+    <car id="AT&amp;SF8938" roadName="AT&amp;SF" roadNumber="8938" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s17" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" scheduleId="1045c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1045c1" />
+    <car id="B&amp;A3185" roadName="B&amp;A" roadNumber="3185" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="B&amp;A3235" roadName="B&amp;A" roadNumber="3235" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c2" previousScheduleId="1016c2" />
+    <car id="B&amp;A6701" roadName="B&amp;A" roadNumber="6701" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="6" moves="2" date="06/14/2023 21:30:19" selected="false" load="Empty" />
+    <car id="B&amp;A7388" roadName="B&amp;A" roadNumber="7388" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c1" previousScheduleId="1016c1" />
+    <car id="B&amp;A8025" roadName="B&amp;A" roadNumber="8025" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="B&amp;A8522" roadName="B&amp;A" roadNumber="8522" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="B&amp;A8572" roadName="B&amp;A" roadNumber="8572" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="B&amp;A9048" roadName="B&amp;A" roadNumber="9048" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c4" previousScheduleId="1016c4" />
+    <car id="B&amp;A9841" roadName="B&amp;A" roadNumber="9841" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s2" moves="0" date="" selected="false" load="Wool" />
+    <car id="B&amp;O0373" roadName="B&amp;O" roadNumber="0373" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="6" moves="2" date="06/14/2023 21:30:19" selected="false" load="Empty" />
+    <car id="B&amp;O0560" roadName="B&amp;O" roadNumber="0560" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s15" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Wool" nextDestId="2" previousNextDestId="2" />
+    <car id="B&amp;O0626" roadName="B&amp;O" roadNumber="0626" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="B&amp;O0751" roadName="B&amp;O" roadNumber="0751" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c4" previousScheduleId="1016c4" />
+    <car id="B&amp;O0838" roadName="B&amp;O" roadNumber="0838" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" scheduleId="1042c3" previousScheduleId="1042c3" />
+    <car id="B&amp;O3240" roadName="B&amp;O" roadNumber="3240" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="B&amp;O4685" roadName="B&amp;O" roadNumber="4685" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" />
+    <car id="B&amp;O5385" roadName="B&amp;O" roadNumber="5385" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c2" previousScheduleId="1016c2" />
+    <car id="B&amp;O6499" roadName="B&amp;O" roadNumber="6499" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s12" moves="0" date="" selected="false" load="Express out" />
+    <car id="B&amp;O7782" roadName="B&amp;O" roadNumber="7782" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" scheduleId="1020c1" nextDestId="4" nextDestTrackId="4s3" previousNextDestId="4" previousNextDestTrackId="4s3" previousScheduleId="1020c1" />
+    <car id="CNJ0819" roadName="CNJ" roadNumber="0819" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" scheduleId="1042c4" previousScheduleId="1042c4" />
+    <car id="CNJ2042" roadName="CNJ" roadNumber="2042" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="CNJ4360" roadName="CNJ" roadNumber="4360" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s17" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" scheduleId="1011c1" nextDestId="4" nextDestTrackId="4s14" previousNextDestId="4" previousNextDestTrackId="4s14" previousScheduleId="1011c1" />
+    <car id="CNJ4776" roadName="CNJ" roadNumber="4776" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="6" moves="3" date="06/14/2023 21:30:19" selected="false" load="Empty" />
+    <car id="CNJ5208" roadName="CNJ" roadNumber="5208" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="CNJ5472" roadName="CNJ" roadNumber="5472" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" />
+    <car id="CNJ6326" roadName="CNJ" roadNumber="6326" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="CNJ6416" roadName="CNJ" roadNumber="6416" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s10" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="L.C.L. out" nextDestId="2" previousNextDestId="2" />
+    <car id="CNJ6536" roadName="CNJ" roadNumber="6536" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="CNJ7895" roadName="CNJ" roadNumber="7895" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:29:59" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="DL&amp;W1611" roadName="DL&amp;W" roadNumber="1611" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="DL&amp;W5410" roadName="DL&amp;W" roadNumber="5410" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="DL&amp;W6312" roadName="DL&amp;W" roadNumber="6312" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c1" previousScheduleId="1016c1" />
+    <car id="DL&amp;W8042" roadName="DL&amp;W" roadNumber="8042" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s5" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Beans" nextDestId="2" previousNextDestId="2" />
+    <car id="ER0067" roadName="ER" roadNumber="0067" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s5" lastRouteId="6" moves="1" date="06/14/2023 21:30:04" selected="false" load="Beans" nextDestId="2" previousNextDestId="2" />
+    <car id="ER1669" roadName="ER" roadNumber="1669" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="ER2731" roadName="ER" roadNumber="2731" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s15" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="Wool" nextDestId="2" previousNextDestId="2" />
+    <car id="ER5683" roadName="ER" roadNumber="5683" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c3" previousScheduleId="1016c3" />
+    <car id="ER6966" roadName="ER" roadNumber="6966" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s15" moves="0" date="" selected="false" load="Wool" />
+    <car id="ER9126" roadName="ER" roadNumber="9126" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s1" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="ER9131" roadName="ER" roadNumber="9131" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s12" moves="0" date="" selected="false" load="Express out" />
+    <car id="LV0968" roadName="LV" roadNumber="0968" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s12" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="Express out" nextDestId="2" previousNextDestId="2" />
+    <car id="LV0975" roadName="LV" roadNumber="0975" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" lastRouteId="6" moves="1" date="06/14/2023 21:30:04" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="LV1604" roadName="LV" roadNumber="1604" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="LV2669" roadName="LV" roadNumber="2669" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" scheduleId="1046c1" nextDestId="4" nextDestTrackId="4s3" previousNextDestId="4" previousNextDestTrackId="4s3" previousScheduleId="1046c1" />
+    <car id="LV5761" roadName="LV" roadNumber="5761" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c4" previousScheduleId="1016c4" />
+    <car id="LV6176" roadName="LV" roadNumber="6176" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s2" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Wool" nextDestId="2" previousNextDestId="2" />
+    <car id="LV9700" roadName="LV" roadNumber="9700" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s13" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="LVRR0460" roadName="LVRR" roadNumber="0460" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="LVRR0708" roadName="LVRR" roadNumber="0708" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s10" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="L.C.L. out" nextDestId="2" previousNextDestId="2" />
+    <car id="LVRR2968" roadName="LVRR" roadNumber="2968" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="LVRR4293" roadName="LVRR" roadNumber="4293" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s6" moves="0" date="" selected="false" load="Coffee" />
+    <car id="LVRR5505" roadName="LVRR" roadNumber="5505" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="LVRR6449" roadName="LVRR" roadNumber="6449" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="LVRR8191" roadName="LVRR" roadNumber="8191" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="LVRR9521" roadName="LVRR" roadNumber="9521" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s5" lastRouteId="6" moves="1" date="06/14/2023 21:30:04" selected="false" load="Beans" nextDestId="2" previousNextDestId="2" />
+    <car id="M&amp;P0068" roadName="M&amp;P" roadNumber="0068" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="M&amp;P0407" roadName="M&amp;P" roadNumber="0407" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="6" moves="3" date="06/14/2023 21:30:04" selected="false" load="Empty" />
+    <car id="M&amp;P0908" roadName="M&amp;P" roadNumber="0908" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="2" moves="3" date="06/14/2023 21:30:25" selected="false" load="Empty" />
+    <car id="M&amp;P0996" roadName="M&amp;P" roadNumber="0996" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s8" lastRouteId="2" moves="3" date="06/14/2023 21:30:25" selected="false" load="Empty" nextDestId="2" previousNextDestId="2" />
+    <car id="M&amp;P2087" roadName="M&amp;P" roadNumber="2087" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="M&amp;P2967" roadName="M&amp;P" roadNumber="2967" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" scheduleId="1042c4" previousScheduleId="1042c4" />
+    <car id="M&amp;P9303" roadName="M&amp;P" roadNumber="9303" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="M&amp;P9913" roadName="M&amp;P" roadNumber="9913" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s11" moves="0" date="" selected="false" load="Break Bulk" />
+    <car id="NYC0145" roadName="NYC" roadNumber="0145" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="NYC0885" roadName="NYC" roadNumber="0885" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="2" moves="2" date="06/14/2023 21:30:25" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="NYC1343" roadName="NYC" roadNumber="1343" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s15" moves="0" date="" selected="false" load="Wool" />
+    <car id="NYC2377" roadName="NYC" roadNumber="2377" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s17" lastRouteId="6" moves="1" date="06/14/2023 19:07:41" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="NYC2404" roadName="NYC" roadNumber="2404" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s10" moves="0" date="" selected="false" load="L.C.L. out" />
+    <car id="NYC2624" roadName="NYC" roadNumber="2624" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s8" lastRouteId="6" moves="3" date="06/14/2023 21:30:19" selected="false" load="Empty" />
+    <car id="NYC3181" roadName="NYC" roadNumber="3181" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s11" moves="0" date="" selected="false" load="Break Bulk" />
+    <car id="NYC5109" roadName="NYC" roadNumber="5109" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s17" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="NYC6450" roadName="NYC" roadNumber="6450" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" scheduleId="1046c1" nextDestId="4" nextDestTrackId="4s3" previousNextDestId="4" previousNextDestTrackId="4s3" previousScheduleId="1046c1" />
+    <car id="NYC6980" roadName="NYC" roadNumber="6980" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="NYC8021" roadName="NYC" roadNumber="8021" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s2" moves="0" date="" selected="false" load="Wool" />
+    <car id="NYC9979" roadName="NYC" roadNumber="9979" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s11" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Break Bulk" nextDestId="2" previousNextDestId="2" />
+    <car id="NYDMoW300" roadName="NYDMoW" roadNumber="300" type="M" length="40" weightTons="0" locationId="3" secLocationId="3s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="NYNH&amp;H2549" roadName="NYNH&amp;H" roadNumber="2549" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" scheduleId="1042c1" previousScheduleId="1042c1" />
+    <car id="NYNH&amp;H2670" roadName="NYNH&amp;H" roadNumber="2670" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="6" moves="2" date="06/14/2023 21:30:19" selected="false" load="Empty" nextDestId="2" previousNextDestId="2" />
+    <car id="NYNH&amp;H6794" roadName="NYNH&amp;H" roadNumber="6794" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s4" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Tobacco" nextDestId="2" previousNextDestId="2" />
+    <car id="NYNH&amp;H6808" roadName="NYNH&amp;H" roadNumber="6808" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="NYNH&amp;H7605" roadName="NYNH&amp;H" roadNumber="7605" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" />
+    <car id="NYNH&amp;H8907" roadName="NYNH&amp;H" roadNumber="8907" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" />
+    <car id="NYNH&amp;H9076" roadName="NYNH&amp;H" roadNumber="9076" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" scheduleId="1042c2" previousScheduleId="1042c2" />
+    <car id="NYNH&amp;H9437" roadName="NYNH&amp;H" roadNumber="9437" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="P&amp;R0026" roadName="P&amp;R" roadNumber="0026" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="2" moves="2" date="06/14/2023 21:30:25" selected="false" load="Empty" scheduleId="1010c1" nextDestId="4" nextDestTrackId="4s6" previousNextDestId="4" previousNextDestTrackId="4s6" previousScheduleId="1010c1" />
+    <car id="P&amp;R0792" roadName="P&amp;R" roadNumber="0792" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s17" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" scheduleId="1011c1" nextDestId="4" nextDestTrackId="4s14" previousNextDestId="4" previousNextDestTrackId="4s14" previousScheduleId="1011c1" />
+    <car id="P&amp;R1933" roadName="P&amp;R" roadNumber="1933" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s13" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="P&amp;R3763" roadName="P&amp;R" roadNumber="3763" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="P&amp;R5321" roadName="P&amp;R" roadNumber="5321" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c3" previousScheduleId="1016c3" />
+    <car id="P&amp;R6010" roadName="P&amp;R" roadNumber="6010" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s2" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Wool" nextDestId="2" previousNextDestId="2" />
+    <car id="P&amp;R6746" roadName="P&amp;R" roadNumber="6746" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="P&amp;R7201" roadName="P&amp;R" roadNumber="7201" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="P&amp;R9187" roadName="P&amp;R" roadNumber="9187" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" scheduleId="1042c2" previousScheduleId="1042c2" />
+    <car id="P&amp;R9839" roadName="P&amp;R" roadNumber="9839" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="PL0372" roadName="PL" roadNumber="0372" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s17" lastRouteId="2" moves="3" date="06/14/2023 21:30:25" selected="false" load="Empty" nextDestId="2" previousNextDestId="2" />
+    <car id="PL1000" roadName="PL" roadNumber="1000" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" />
+    <car id="PL2992" roadName="PL" roadNumber="2992" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="PL4877" roadName="PL" roadNumber="4877" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="PL6557" roadName="PL" roadNumber="6557" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c3" previousScheduleId="1016c3" />
+    <car id="PL7897" roadName="PL" roadNumber="7897" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c4" previousScheduleId="1016c4" />
+    <car id="PRR0060" roadName="PRR" roadNumber="0060" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s10" moves="0" date="" selected="false" load="L.C.L. out" />
+    <car id="PRR0820" roadName="PRR" roadNumber="0820" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s11" moves="0" date="" selected="false" load="Break Bulk" />
+    <car id="PRR1050" roadName="PRR" roadNumber="1050" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="PRR1918" roadName="PRR" roadNumber="1918" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="PRR2322" roadName="PRR" roadNumber="2322" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s16" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="PRR3339" roadName="PRR" roadNumber="3339" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Empty" scheduleId="1045c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1045c1" />
+    <car id="PRR4003" roadName="PRR" roadNumber="4003" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s17" lastRouteId="2" moves="2" date="06/14/2023 21:30:25" selected="false" load="Empty" nextDestId="2" previousNextDestId="2" />
+    <car id="PRR4683" roadName="PRR" roadNumber="4683" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="PRR5353" roadName="PRR" roadNumber="5353" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="PRR5607" roadName="PRR" roadNumber="5607" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s5" lastRouteId="6" moves="1" date="06/14/2023 21:30:04" selected="false" load="Beans" nextDestId="2" previousNextDestId="2" />
+    <car id="PRR6802" roadName="PRR" roadNumber="6802" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="PRR7186" roadName="PRR" roadNumber="7186" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:25" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="PRR7300" roadName="PRR" roadNumber="7300" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" lastRouteId="6" moves="1" date="06/14/2023 21:30:04" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="PRR7642" roadName="PRR" roadNumber="7642" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="PRR7955" roadName="PRR" roadNumber="7955" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c2" previousScheduleId="1016c2" />
+    <car id="PRR8979" roadName="PRR" roadNumber="8979" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:25" selected="false" load="Empty" />
+    <car id="PRR9316" roadName="PRR" roadNumber="9316" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s4" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Tobacco" nextDestId="2" previousNextDestId="2" />
+    <car id="SP0652" roadName="SP" roadNumber="0652" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s13" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="SP1882" roadName="SP" roadNumber="1882" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:30:15" selected="false" load="Empty" />
+    <car id="SP2388" roadName="SP" roadNumber="2388" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="Empty" scheduleId="1046c1" nextDestId="4" nextDestTrackId="4s3" previousNextDestId="4" previousNextDestTrackId="4s3" previousScheduleId="1046c1" />
+    <car id="SP2836" roadName="SP" roadNumber="2836" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c1" previousScheduleId="1016c1" />
+    <car id="SP3257" roadName="SP" roadNumber="3257" type="XM" length="40" weightTons="0" locationId="2" secLocationId="2s1" moves="0" date="" selected="false" load="Empty" scheduleId="1016c3" previousScheduleId="1016c3" />
+    <car id="SP4022" roadName="SP" roadNumber="4022" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" />
+    <car id="SP6745" roadName="SP" roadNumber="6745" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s8" lastRouteId="6" moves="2" date="06/14/2023 21:30:04" selected="false" load="Empty" />
+    <car id="SP7000" roadName="SP" roadNumber="7000" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s8" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" />
+    <car id="WJ&amp;S3262" roadName="WJ&amp;S" roadNumber="3262" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s10" lastRouteId="2" moves="1" date="06/14/2023 21:29:59" selected="false" load="L.C.L. out" nextDestId="2" previousNextDestId="2" />
+    <car id="WJ&amp;S4719" roadName="WJ&amp;S" roadNumber="4719" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" lastRouteId="6" moves="1" date="06/14/2023 21:30:04" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+    <car id="WJ&amp;S5132" roadName="WJ&amp;S" roadNumber="5132" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s12" lastRouteId="7" moves="1" date="06/14/2023 21:30:09" selected="false" load="Express out" nextDestId="2" previousNextDestId="2" />
+    <car id="WJ&amp;S5204" roadName="WJ&amp;S" roadNumber="5204" type="XM" length="40" weightTons="0" locationId="1" secLocationId="1s1" moves="0" date="" selected="false" load="Empty" scheduleId="1042c1" previousScheduleId="1042c1" />
+    <car id="WJ&amp;S5317" roadName="WJ&amp;S" roadNumber="5317" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s18" lastRouteId="2" moves="2" date="06/14/2023 21:29:59" selected="false" load="Empty" scheduleId="1019c1" nextDestId="4" nextDestTrackId="4s2" previousNextDestId="4" previousNextDestTrackId="4s2" previousScheduleId="1019c1" />
+    <car id="WJ&amp;S6305" roadName="WJ&amp;S" roadNumber="6305" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s14" moves="0" date="" selected="false" load="Foodstuffs" />
+    <car id="WJ&amp;S7922" roadName="WJ&amp;S" roadNumber="7922" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s7" lastRouteId="7" moves="2" date="06/14/2023 21:30:09" selected="false" load="Empty" />
+    <car id="WJ&amp;S8819" roadName="WJ&amp;S" roadNumber="8819" type="XM" length="40" weightTons="0" locationId="4" secLocationId="4s1" lastRouteId="2" moves="1" date="06/14/2023 21:30:15" selected="false" load="Foodstuffs" nextDestId="1" previousNextDestId="1" />
+  </cars>
+</operations-config>
