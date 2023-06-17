@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-config.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-config.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sun May 21 12:00:57 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Fri Jun 16 16:33:32 PDT 2023-->
   <operations>
     <setup comment="" />
     <settings mainMenu="true" closeOnSave="true" autoSave="true" autoBackup="false" trainDirection="15" trainLength="1000" maxEngines="6" hpt="1" scale="6" carTypes="ARR Codes" switchTime="3" travelTime="4" showValue="false" valueLabel="Value" showRfid="false" rfidLabel="ID Tag" lengthUnit="Feet" yearModeled="1914" />
@@ -27,7 +27,7 @@
     <manifestFileOptions manifestSave="false" />
     <buildOptions aggressive="true" numberPasses="2" allowLocalInterchange="false" allowLocalSpur="false" allowLocalYard="false" stagingRestrictionEnabled="true" stagingTrackAvail="true" allowReturnStaging="false" promptStagingEnabled="false" promptToStagingEnabled="false" stagingTryNormal="false" generateCsvManifest="false" generateCsvSwitchList="false" />
     <buildReport level="3" routerLevel="3" useEditor="false" indent="true" alwaysPreview="false" fontSize="10" />
-    <router carRoutingEnabled="true" carRoutingViaYards="true" carRoutingViaStaging="false" forwardToYard="true" onlyActiveTrains="false" checkCarDestination="false" />
+    <router carRoutingEnabled="true" carRoutingViaYards="false" carRoutingViaStaging="false" forwardToYard="true" onlyActiveTrains="true" checkCarDestination="false" />
     <logger carLogger="true" engineLogger="false" trainLogger="true" />
     <owner name="" />
     <iconColor north="White" south="White" east="White" west="White" local="White" terminate="White" />

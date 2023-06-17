@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/22/2023-14:15:27", 
+  "buildDate": "06/16/2023-16:33:05", 
   "carAAR": [
     "RS", 
     "HK", 
@@ -41,12 +41,12 @@
     ]
   }, 
   "divisions": [
-    "Seaside Division"
+    ""
   ], 
   "industries": {
     "1": {
       "a-location": "North 4th St", 
-      "b-track": "Crane", 
+      "b-track": " Crane", 
       "c-schedule": {
         "C": [
           [
@@ -226,7 +226,7 @@
       "capacity": "2", 
       "label": "C", 
       "location": "North 4th St", 
-      "track": "Crane", 
+      "track": " Crane", 
       "type": "industry"
     }, 
     "2": {
@@ -251,14 +251,14 @@
       "type": "industry"
     }, 
     "5": {
-      "capacity": "13", 
+      "capacity": "12", 
       "label": "PF", 
       "location": "Pier Float", 
-      "track": "Float Tracks", 
+      "track": "Pier Float", 
       "type": "staging"
     }
   }, 
-  "location": "J Dot Bay", 
+  "location": "Williamsburg, Brooklyn, New York", 
   "locationIds": [
     "00", 
     "1", 
@@ -284,7 +284,7 @@
   "locoTypes": [
     "ES"
   ], 
-  "operatingRoad": "Metropolitian Union Transfer Terminal", 
+  "operatingRoad": "Pennsylvania Railroad", 
   "roads": [
     "MDX", 
     "NYNH&H", 
@@ -306,6 +306,6 @@
     "CNJ"
   ], 
   "scale": "HO", 
-  "territory": "West Pier District", 
-  "year": "1915"
+  "territory": "Brooklyn Eastern District Station", 
+  "year": "1914"
 }

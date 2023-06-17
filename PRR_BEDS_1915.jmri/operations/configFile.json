@@ -76,7 +76,7 @@
       }
     }, 
     "LD": {
-      "BD": "05/21/2023-12:00:23", 
+      "BD": "06/16/2023-16:33:05", 
       "LO": "Williamsburg, Brooklyn, New York", 
       "OR": "Pennsylvania Railroad", 
       "SC": "HO", 
@@ -107,7 +107,7 @@
   }, 
   "Patterns": {
     "AD": [
-      "Harlem Division", 
+      "", 
       "Unknown"
     ], 
     "AL": [
@@ -116,7 +116,7 @@
     ], 
     "AS": true, 
     "PA": false, 
-    "PD": "Harlem Division", 
+    "PD": "", 
     "PH": 16, 
     "PI": true, 
     "PL": "North 4th St", 
@@ -182,12 +182,20 @@
       [
         "2023.05.25.10.12.52", 
         "Initial"
+      ], 
+      [
+        "2023.06.15.15.53.05", 
+        "second"
+      ], 
+      [
+        "2023.06.16.16.33.25", 
+        "third"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": false
+    "SV": true
   }, 
   "o2o": {
     "CC": {

@@ -65,10 +65,10 @@
       "PY": 456, 
       "RV": 20230305, 
       "SE": "utf-8", 
-      "Subroutines.Patterns": false, 
-      "Subroutines.Throwback": false, 
-      "Subroutines.jPlus": false, 
-      "Subroutines.o2o": false, 
+      "Subroutines.Patterns": true, 
+      "Subroutines.Throwback": true, 
+      "Subroutines.jPlus": true, 
+      "Subroutines.o2o": true, 
       "TC": "UD", 
       "TS": {
         "UD": "UseDeepL", 
@@ -76,7 +76,7 @@
       }
     }, 
     "LD": {
-      "BD": "06/15/2023-07:04:39", 
+      "BD": "06/16/2023-16:50:51", 
       "LO": "Mott Haven, the Bronx, New York", 
       "OR": "Central Railroad of New Jersey", 
       "SC": "HO", 
@@ -180,12 +180,8 @@
         ""
       ], 
       [
-        "2023.05.25.10.11.50", 
-        "Initial"
-      ], 
-      [
-        "2023.06.15.06.21.21", 
-        "second"
+        "2023.06.16.17.09.04", 
+        "initial"
       ]
     ], 
     "SV": true

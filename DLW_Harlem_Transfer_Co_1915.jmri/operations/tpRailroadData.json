@@ -1,5 +1,5 @@
 {
-  "buildDate": "05/25/2023-09:03:40", 
+  "buildDate": "06/16/2023-15:54:52", 
   "carAAR": [
     "HK", 
     "FM", 
@@ -270,6 +270,13 @@
       "track": "Cement House", 
       "type": "industry"
     }, 
+    "10": {
+      "capacity": "2", 
+      "label": "S", 
+      "location": "HTC", 
+      "track": "Engine Shed", 
+      "type": "industry"
+    }, 
     "2": {
       "capacity": "1", 
       "label": "F", 
@@ -313,18 +320,11 @@
       "type": "industry"
     }, 
     "8": {
-      "capacity": "18", 
+      "capacity": "17", 
       "label": "PF", 
       "location": "Pier Float", 
       "track": "Pier Float", 
       "type": "staging"
-    }, 
-    "9": {
-      "capacity": "1", 
-      "label": "S", 
-      "location": "HTC", 
-      "track": "Engine Shed", 
-      "type": "industry"
     }
   }, 
   "location": "Mott Haven, the Bronx, New York", 
@@ -338,7 +338,7 @@
     "6", 
     "7", 
     "8", 
-    "9"
+    "10"
   ], 
   "locations": [
     "Pier Float", 

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 17 09:36:52 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Fri Jun 16 17:09:04 PDT 2023-->
   <divisions>
     <division id="1" name="" comment="" />
     <division id="5" name="Unknown" comment="" />
@@ -19,7 +19,7 @@
         <carType name="XM" />
         <locoType name="ES" />
       </types>
-      <track id="1s1" name="Pier Float" trackType="Staging" dir="15" length="880" moves="289" onlyCarWithFD="false" loadOptions="11">
+      <track id="1s1" name="Pier Float" trackType="Staging" dir="15" length="880" moves="272" onlyCarWithFD="false" loadOptions="11">
         <types>
           <carType name="FM" />
           <carType name="GA" />
@@ -51,10 +51,10 @@
         <carType name="XM" />
         <locoType name="ES" />
       </types>
-      <track id="2s1" name="Gantry" trackType="Spur" dir="15" length="176" moves="20" dropOption="trains" pickupOption="trains" schedule="G" scheduleId="95" itemId="95c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s1" name="Gantry" trackType="Spur" dir="15" length="176" moves="16" dropOption="trains" pickupOption="trains" schedule="G" scheduleId="95" itemId="95c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
-          <carType name="FM" />
           <carType name="GA" />
+          <carType name="FM" />
         </types>
         <dropIds>
           <dropId id="2" />
@@ -71,14 +71,14 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s2" name="Team Tracks" trackType="Spur" dir="15" length="2640" moves="62" dropOption="trains" pickupOption="trains" schedule="T" scheduleId="96" itemId="96c8" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s2" name="Team Tracks" trackType="Spur" dir="15" length="2640" moves="59" dropOption="trains" pickupOption="trains" schedule="T" scheduleId="96" itemId="96c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
-          <carType name="FM" />
-          <carType name="GA" />
-          <carType name="HK" />
-          <carType name="RS" />
-          <carType name="TG" />
           <carType name="XM" />
+          <carType name="TG" />
+          <carType name="RS" />
+          <carType name="HK" />
+          <carType name="GA" />
+          <carType name="FM" />
         </types>
         <dropIds>
           <dropId id="2" />
@@ -95,7 +95,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s3" name="Freight House" trackType="Spur" dir="15" length="528" moves="39" dropOption="trains" pickupOption="trains" schedule="H" scheduleId="94" itemId="94c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
+      <track id="2s3" name="Freight House" trackType="Spur" dir="15" length="528" moves="29" dropOption="trains" pickupOption="trains" schedule="H" scheduleId="94" itemId="94c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false">
         <types>
           <carType name="XM" />
         </types>
@@ -114,7 +114,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="2s4" name="Yard" trackType="Interchange" dir="15" length="1232" moves="257" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
+      <track id="2s4" name="Yard" trackType="Interchange" dir="15" length="1232" moves="235" dropOption="trains" pickupOption="trains" onlyCarWithFD="false">
         <types>
           <carType name="FM" />
           <carType name="GA" />

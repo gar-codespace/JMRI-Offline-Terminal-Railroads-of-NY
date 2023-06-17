@@ -67,12 +67,13 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditBuildOptionsFrame:Train Build Options" height="600.0" locX="62.0" locY="62.0" width="600.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="PanelPro" height="298.0" locX="1261.0" locY="4.0" width="502.0"/>
         <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="629.0" locX="62.0" locY="62.0" width="1175.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="31.0" locY="31.0" width="729.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="538.0" locX="0.0" locY="0.0" width="1228.0"/>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="300.0" locX="0.0" locY="0.0" width="1397.0"/>
         <window xmlns="" class="JMRI System Console" height="729.0" locX="1042.0" locY="294.0" width="868.0"/>
-        <window xmlns="" class="PanelPro" height="298.0" locX="1261.0" locY="4.0" width="502.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="538.0" locX="0.0" locY="0.0" width="1228.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="31.0" locY="31.0" width="729.0"/>
     </windowDetails>
 </auxiliary-configuration>
