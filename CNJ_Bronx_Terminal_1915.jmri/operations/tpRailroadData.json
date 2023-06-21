@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/16/2023-16:50:51", 
+  "buildDate": "06/20/2023-21:51:30", 
   "carAAR": [
     "RS", 
     "HK", 
@@ -195,7 +195,7 @@
       "type": "industry"
     }, 
     "3": {
-      "capacity": "20", 
+      "capacity": "16", 
       "label": "PF", 
       "location": "Pier Float", 
       "track": "Pier Float", 
@@ -246,8 +246,8 @@
   "roads": [
     "MDX", 
     "NYNH&H", 
-    "TCX", 
     "WJ&S", 
+    "TCX", 
     "ACL", 
     "B&O", 
     "UTLX", 
@@ -255,15 +255,15 @@
     "PRR", 
     "FGEX", 
     "CNJMoW", 
-    "WCC", 
     "M&P", 
+    "WCC", 
     "NYC", 
     "TELX", 
     "PL", 
     "AT&SF", 
-    "P&R", 
-    "B&A", 
     "SP", 
+    "B&A", 
+    "P&R", 
     "CNJ"
   ], 
   "scale": "HO", 

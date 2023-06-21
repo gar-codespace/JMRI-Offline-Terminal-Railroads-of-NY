@@ -59,16 +59,16 @@
       "DR": true, 
       "EH": false, 
       "OC": true, 
-      "PH": 499, 
+      "PH": 603, 
       "PW": 1000, 
-      "PX": 47, 
-      "PY": 456, 
+      "PX": -10, 
+      "PY": 436, 
       "RV": 20230305, 
       "SE": "utf-8", 
-      "Subroutines.Patterns": true, 
-      "Subroutines.Throwback": true, 
-      "Subroutines.jPlus": true, 
-      "Subroutines.o2o": true, 
+      "Subroutines.Patterns": false, 
+      "Subroutines.Throwback": false, 
+      "Subroutines.jPlus": false, 
+      "Subroutines.o2o": false, 
       "TC": "UD", 
       "TS": {
         "UD": "UseDeepL", 
@@ -76,7 +76,7 @@
       }
     }, 
     "LD": {
-      "BD": "06/16/2023-16:50:51", 
+      "BD": "06/20/2023-21:51:30", 
       "LO": "Mott Haven, the Bronx, New York", 
       "OR": "Central Railroad of New Jersey", 
       "SC": "HO", 
@@ -106,13 +106,11 @@
     }
   }, 
   "Patterns": {
-    "AD": [
-      "", 
-      "Unknown"
-    ], 
+    "AD": [], 
     "AL": [
       "Bronx Terminal", 
-      "Pier Float"
+      "Pier Float", 
+      "Unreported"
     ], 
     "AS": true, 
     "PA": false, 
@@ -180,14 +178,14 @@
         ""
       ], 
       [
-        "2023.06.16.17.09.04", 
+        "2023.06.20.21.57.08", 
         "initial"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": false
+    "SV": true
   }, 
   "o2o": {
     "CC": {
