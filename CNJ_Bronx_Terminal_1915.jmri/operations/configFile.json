@@ -65,10 +65,10 @@
       "PY": 436, 
       "RV": 20230305, 
       "SE": "utf-8", 
-      "Subroutines.Patterns": false, 
-      "Subroutines.Throwback": false, 
-      "Subroutines.jPlus": false, 
-      "Subroutines.o2o": false, 
+      "Subroutines.Patterns": true, 
+      "Subroutines.Throwback": true, 
+      "Subroutines.jPlus": true, 
+      "Subroutines.o2o": true, 
       "TC": "UD", 
       "TS": {
         "UD": "UseDeepL", 
@@ -77,8 +77,10 @@
     }, 
     "LD": {
       "BD": "06/20/2023-21:51:30", 
+      "JN": "Central Railroad of New Jersey\nBronx Terminal\nMott Haven, the Bronx, New York", 
       "LO": "Mott Haven, the Bronx, New York", 
       "OR": "Central Railroad of New Jersey", 
+      "RN": "CNJ Bronx Terminal 1915", 
       "SC": "HO", 
       "TR": "Bronx Terminal", 
       "YR": "1915"
