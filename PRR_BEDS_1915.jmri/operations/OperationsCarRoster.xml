@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Jun 21 08:45:21 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Jul 01 00:06:39 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -93,14 +93,6 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="fuel oil" loadType="load" />
     </load>
-    <load type="GA">
-      <carLoad name="Barrels" loadType="load" />
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
-      <carLoad name="Tarp3" loadType="load" />
-      <carLoad name="lumber stack" loadType="load" />
-      <carLoad name="machinery" loadType="load" />
-    </load>
     <load type="XM">
       <carLoad name="Break Bulk" loadType="load" />
       <carLoad name="Empty" loadType="load" />
@@ -108,6 +100,14 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="goods" loadType="load" />
       <carLoad name="merchandise" loadType="load" />
+    </load>
+    <load type="GA">
+      <carLoad name="Barrels" loadType="load" />
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+      <carLoad name="Tarp3" loadType="load" />
+      <carLoad name="lumber stack" loadType="load" />
+      <carLoad name="machinery" loadType="load" />
     </load>
   </loads>
   <newKernels />
@@ -132,7 +132,7 @@
     <car id="FGEX3698" roadName="FGEX" roadNumber="3698" type="RS" length="40" weightTons="0" locationId="1" secLocationId="1s4" moves="0" date="" selected="false" load="Empty" />
     <car id="FGEX5281" roadName="FGEX" roadNumber="5281" type="RS" length="40" weightTons="0" locationId="1" secLocationId="1s4" moves="0" date="" selected="false" load="Empty" />
     <car id="FGEX7499" roadName="FGEX" roadNumber="7499" type="RS" length="40" weightTons="0" locationId="1" secLocationId="1s4" moves="0" date="" selected="false" load="Empty" />
-    <car id="FGEX7502" roadName="FGEX" roadNumber="7502" type="RS" length="40" weightTons="0" locationId="3" secLocationId="3s1" moves="0" date="" selected="false" load="Empty" />
+    <car id="FGEX7502" roadName="FGEX" roadNumber="7502" type="RS" length="40" weightTons="0" locationId="1" secLocationId="1s4" moves="0" date="" selected="false" load="Empty" />
     <car id="FGEX8711" roadName="FGEX" roadNumber="8711" type="RS" length="40" weightTons="0" locationId="1" secLocationId="1s4" moves="0" date="" selected="false" load="Empty" />
     <car id="FGEX9442" roadName="FGEX" roadNumber="9442" type="RS" length="40" weightTons="0" locationId="2" secLocationId="2s1" lastRouteId="1" moves="1" date="06/16/2023 16:48:29" selected="false" lastLocationId="1" load="E" />
     <car id="MDX0730" roadName="MDX" roadNumber="0730" type="RS" length="40" weightTons="0" locationId="1" secLocationId="1s4" lastRouteId="1" moves="1" date="06/16/2023 16:48:29" selected="false" lastLocationId="2" load="Empty" />
