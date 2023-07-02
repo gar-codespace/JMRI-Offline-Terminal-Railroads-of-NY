@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-cars.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-cars.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 17 09:49:12 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Jul 01 07:10:57 PDT 2023-->
   <roads>
     <road name="ACL" />
     <road name="AT&amp;SF" />
@@ -61,6 +61,10 @@
   </owners>
   <loads>
     <defaults empty="E" load="L" />
+    <load type="M">
+      <carLoad name="Empty" loadType="empty" />
+      <carLoad name="Load" loadType="load" />
+    </load>
     <load type="XM">
       <carLoad name="Beans" loadType="load" />
       <carLoad name="Break Bulk" loadType="load" />
@@ -76,10 +80,6 @@
       <carLoad name="Load" loadType="load" />
       <carLoad name="Tobacco" loadType="load" />
       <carLoad name="Wool" loadType="load" />
-    </load>
-    <load type="M">
-      <carLoad name="Empty" loadType="empty" />
-      <carLoad name="Load" loadType="load" />
     </load>
   </loads>
   <newKernels />

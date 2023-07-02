@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-locations.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-locations.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Sat Jun 17 09:49:12 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Sat Jul 01 07:10:57 PDT 2023-->
   <divisions>
     <division id="1" name="East River Operations" comment="" />
     <division id="4" name="Unknown" comment="" />
@@ -14,7 +14,7 @@
         <carType name="XM" />
         <locoType name="ES" />
       </types>
-      <track id="1s1" name="North Float" trackType="Staging" dir="15" length="748" moves="177" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="11">
+      <track id="1s1" name="North Float" trackType="Staging" dir="15" length="748" moves="194" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="11">
         <types>
           <carType name="XM" />
         </types>
@@ -43,7 +43,7 @@
         <carType name="XM" />
         <locoType name="ES" />
       </types>
-      <track id="2s1" name="South Float" trackType="Staging" dir="15" length="748" moves="187" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="11">
+      <track id="2s1" name="South Float" trackType="Staging" dir="15" length="748" moves="204" carLoadOption="Exclude" dropOption="trains" pickupOption="trains" onlyCarWithFD="false" loadOptions="11">
         <types>
           <carType name="XM" />
         </types>
@@ -94,7 +94,7 @@
         <carType name="XM" />
         <locoType name="ES" />
       </types>
-      <track id="4s1" name="Pier 18" trackType="Spur" dir="11" length="352" moves="61" dropOption="trains" pickupOption="trains" schedule="P18" scheduleId="1038" itemId="1038c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
+      <track id="4s1" name="Pier 18" trackType="Spur" dir="11" length="352" moves="65" dropOption="trains" pickupOption="trains" schedule="P18" scheduleId="1038" itemId="1038c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
         <types>
           <carType name="XM" />
         </types>
@@ -132,7 +132,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s11" name="Harbecks Stores" trackType="Spur" dir="7" length="352" moves="61" dropOption="trains" pickupOption="trains" schedule="H26" scheduleId="1040" itemId="1040c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s8">
+      <track id="4s11" name="Harbecks Stores" trackType="Spur" dir="7" length="352" moves="66" dropOption="trains" pickupOption="trains" schedule="H26" scheduleId="1040" itemId="1040c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s8">
         <types>
           <carType name="XM" />
         </types>
@@ -170,7 +170,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s13" name="Pier 19" trackType="Spur" dir="11" length="308" moves="61" dropOption="trains" pickupOption="trains" schedule="P19" scheduleId="1039" itemId="1039c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
+      <track id="4s13" name="Pier 19" trackType="Spur" dir="11" length="308" moves="65" dropOption="trains" pickupOption="trains" schedule="P19" scheduleId="1039" itemId="1039c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
         <types>
           <carType name="XM" />
         </types>
@@ -189,7 +189,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s14" name="Prentices Stores" trackType="Spur" dir="11" length="396" moves="61" dropOption="trains" pickupOption="trains" schedule="P56" scheduleId="1037" itemId="1037c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
+      <track id="4s14" name="Prentices Stores" trackType="Spur" dir="11" length="396" moves="65" dropOption="trains" pickupOption="trains" schedule="P56" scheduleId="1037" itemId="1037c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
         <types>
           <carType name="XM" />
         </types>
@@ -208,7 +208,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s15" name="Roberts Stores" trackType="Spur" dir="11" length="176" moves="61" dropOption="trains" pickupOption="trains" schedule="R37" scheduleId="1047" itemId="1047c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
+      <track id="4s15" name="Roberts Stores" trackType="Spur" dir="11" length="176" moves="65" dropOption="trains" pickupOption="trains" schedule="R37" scheduleId="1047" itemId="1047c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
         <types>
           <carType name="XM" />
         </types>
@@ -227,7 +227,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s16" name="Woodruffs Stores" trackType="Spur" dir="11" length="1056" moves="61" dropOption="trains" pickupOption="trains" schedule="W67" scheduleId="1042" itemId="1042c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
+      <track id="4s16" name="Woodruffs Stores" trackType="Spur" dir="11" length="1056" moves="65" dropOption="trains" pickupOption="trains" schedule="W67" scheduleId="1042" itemId="1042c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s9">
         <types>
           <carType name="XM" />
         </types>
@@ -261,7 +261,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s18" name="West Yard" trackType="Interchange" dir="15" length="880" moves="132" pickupOption="excludeTrains" onlyCarWithFD="false">
+      <track id="4s18" name="West Yard" trackType="Interchange" dir="15" length="880" moves="149" pickupOption="excludeTrains" onlyCarWithFD="false">
         <types>
           <carType name="XM" />
         </types>
@@ -277,7 +277,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s2" name="Martins Stores-Foodstuffs" trackType="Spur" dir="7" length="176" moves="39" dropOption="trains" pickupOption="trains" schedule="M18" scheduleId="1045" itemId="1045c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s8">
+      <track id="4s2" name="Martins Stores-Foodstuffs" trackType="Spur" dir="7" length="176" moves="40" dropOption="trains" pickupOption="trains" schedule="M18" scheduleId="1045" itemId="1045c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s8">
         <types>
           <carType name="XM" />
         </types>
@@ -334,7 +334,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s5" name="Mediterranean Stores" trackType="Spur" dir="11" length="176" moves="60" dropOption="trains" pickupOption="trains" schedule="M43" scheduleId="1048" itemId="1048c2" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
+      <track id="4s5" name="Mediterranean Stores" trackType="Spur" dir="11" length="176" moves="65" dropOption="trains" pickupOption="trains" schedule="M43" scheduleId="1048" itemId="1048c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
         <types>
           <carType name="XM" />
         </types>
@@ -353,7 +353,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s6" name="Pierponts Stores" trackType="Spur" dir="11" length="176" moves="61" dropOption="trains" pickupOption="trains" schedule="P48" scheduleId="1036" itemId="1036c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
+      <track id="4s6" name="Pierponts Stores" trackType="Spur" dir="11" length="176" moves="65" dropOption="trains" pickupOption="trains" schedule="P48" scheduleId="1036" itemId="1036c1" itemCount="0" factor="100" scheduleMode="1" holdCustomLoads="false" alternative="4s17">
         <types>
           <carType name="XM" />
         </types>
@@ -372,7 +372,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s7" name="East Yard" trackType="Interchange" dir="15" length="880" moves="144" pickupOption="excludeTrains" onlyCarWithFD="false">
+      <track id="4s7" name="East Yard" trackType="Interchange" dir="15" length="880" moves="162" pickupOption="excludeTrains" onlyCarWithFD="false">
         <types>
           <carType name="XM" />
         </types>
@@ -388,7 +388,7 @@
           <printSwitchLists comment="false" />
         </comments>
       </track>
-      <track id="4s8" name="Fiddle Yard North" trackType="Yard" dir="7" length="440" moves="67">
+      <track id="4s8" name="Fiddle Yard North" trackType="Yard" dir="7" length="440" moves="68">
         <types>
           <carType name="XM" />
         </types>
@@ -449,7 +449,7 @@
       <item id="1044c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="L.C.L. in" ship="L.C.L. out" comment="" hits="15" />
     </schedule>
     <schedule id="1045" name="M18" comment="">
-      <item id="1045c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="15" />
+      <item id="1045c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Wool" comment="" hits="16" />
     </schedule>
     <schedule id="1046" name="M21" comment="">
       <item id="1046c1" sequenceId="1" random="" trainScheduleId="" pickupTrainScheduleId="" count="1" wait="0" type="XM" road="" load="Empty" ship="Coffee" comment="" hits="3" />
