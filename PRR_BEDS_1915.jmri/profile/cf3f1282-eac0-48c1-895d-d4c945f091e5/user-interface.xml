@@ -102,18 +102,19 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="315.0" locX="-5.0" locY="6.0" width="1250.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.setup.OptionFrame:Options" height="876.0" locX="0.0" locY="0.0" width="500.0"/>
-        <window xmlns="" class="JMRI System Console" height="702.0" locX="1043.0" locY="324.0" width="877.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1032.0" locX="0.0" locY="0.0" width="1003.0"/>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="0.0" locY="0.0" width="933.0"/>
-        <window xmlns="" class="PanelPro" height="315.0" locX="1306.0" locY="4.0" width="528.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="625.0" locX="31.0" locY="31.0" width="1211.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditBuildOptionsFrame:Train Build Options" height="600.0" locX="31.0" locY="31.0" width="600.0"/>
-        <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.setup.OperationsSettingsFrame:OperationsPro Settings" height="652.0" locX="31.0" locY="31.0" width="919.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1032.0" locX="0.0" locY="0.0" width="1003.0"/>
+        <window xmlns="" class="PanelPro" height="353.0" locX="1306.0" locY="4.0" width="528.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="315.0" locX="-5.0" locY="6.0" width="1250.0"/>
         <window xmlns="" class="Consola del sistema JMRI" height="719.0" locX="994.0" locY="304.0" width="914.0"/>
+        <window xmlns="" class="JMRI System Console" height="702.0" locX="1043.0" locY="324.0" width="877.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditBuildOptionsFrame:Train Build Options" height="600.0" locX="31.0" locY="31.0" width="600.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.operations.setup.OptionFrame:Options" height="876.0" locX="0.0" locY="0.0" width="500.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferencias" height="1032.0" locX="0.0" locY="0.0" width="1021.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.setup.OperationsSettingsFrame:OperationsPro Settings" height="652.0" locX="31.0" locY="31.0" width="919.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="625.0" locX="31.0" locY="31.0" width="1211.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Cars" height="610.0" locX="0.0" locY="0.0" width="1368.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
     </windowDetails>
 </auxiliary-configuration>
