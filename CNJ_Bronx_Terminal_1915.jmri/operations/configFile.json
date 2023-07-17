@@ -76,7 +76,7 @@
       }
     }, 
     "LD": {
-      "BD": "06/20/2023-21:51:30", 
+      "BD": "07/17/2023-10:37:22", 
       "JN": "Central Railroad of New Jersey\nBronx Terminal\nMott Haven, the Bronx, New York", 
       "LO": "Mott Haven, the Bronx, New York", 
       "OR": "Central Railroad of New Jersey", 
@@ -111,8 +111,8 @@
     "AD": [], 
     "AL": [
       "Bronx Terminal", 
-      "Pier Float", 
-      "Unreported"
+      "Non d\u00e9clar\u00e9e", 
+      "Pier Float"
     ], 
     "AS": true, 
     "PA": false, 
@@ -180,7 +180,7 @@
         ""
       ], 
       [
-        "2023.06.20.21.57.08", 
+        "2023.07.17.10.39.32", 
         "initial"
       ]
     ], 

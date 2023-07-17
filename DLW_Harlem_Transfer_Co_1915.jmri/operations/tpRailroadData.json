@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/16/2023-15:54:52", 
+  "buildDate": "07/17/2023-11:04:55", 
   "carAAR": [
     "HK", 
     "FM", 
@@ -13,63 +13,47 @@
   ], 
   "carLoads": {
     "FM": [
-      "bricks", 
-      "steel beams", 
-      "stone", 
-      "tarp"
+      "Bricks", 
+      "Tarp", 
+      "Stone", 
+      "Steel Beams"
     ], 
     "GA": [
-      "bricks", 
-      "steel beams", 
-      "stone", 
-      "tarp"
+      "Bricks", 
+      "Tarp", 
+      "Stone", 
+      "Steel Beams"
     ], 
     "HK": [
-      "coal"
+      "Coal"
     ], 
     "M": [], 
     "TG": [
-      "heating oil"
+      "Heating Oil"
     ], 
     "XM": [
-      "goods", 
-      "merchandise", 
+      "Feed Grains", 
+      "Grain", 
+      "Goods", 
       "Empty", 
-      "cement", 
       "LCL", 
-      "feed grains", 
-      "grain"
+      "Cement", 
+      "Merchandise"
     ]
   }, 
   "divisions": [
     ""
   ], 
   "industries": {
-    "14": {
+    "12": {
       "a-location": "HTC", 
-      "b-track": "Team Tracks", 
+      "b-track": "Fuel Depot", 
       "c-schedule": {
-        "T": [
-          [
-            "FM", 
-            "R", 
-            "tarp", 
-            "", 
-            "", 
-            ""
-          ], 
-          [
-            "GA", 
-            "S", 
-            "tarp", 
-            "", 
-            "", 
-            ""
-          ], 
+        "FD": [
           [
             "HK", 
             "R", 
-            "coal", 
+            "Coal", 
             "", 
             "", 
             ""
@@ -77,7 +61,31 @@
           [
             "TG", 
             "R", 
-            "heating oil", 
+            "Heating Oil", 
+            "", 
+            "", 
+            ""
+          ]
+        ]
+      }
+    }, 
+    "14": {
+      "a-location": "HTC", 
+      "b-track": "General Delivery", 
+      "c-schedule": {
+        "GD": [
+          [
+            "FM", 
+            "R", 
+            "Tarp", 
+            "", 
+            "", 
+            ""
+          ], 
+          [
+            "GA", 
+            "S", 
+            "Tarp", 
             "", 
             "", 
             ""
@@ -85,7 +93,7 @@
           [
             "XM", 
             "R", 
-            "goods", 
+            "Goods", 
             "", 
             "", 
             ""
@@ -93,7 +101,7 @@
           [
             "XM", 
             "R", 
-            "merchandise", 
+            "Merchandise", 
             "", 
             "", 
             ""
@@ -109,7 +117,7 @@
           [
             "XM", 
             "S", 
-            "merchandise", 
+            "Merchandise", 
             "", 
             "", 
             ""
@@ -125,7 +133,7 @@
           [
             "FM", 
             "R", 
-            "bricks", 
+            "Bricks", 
             "", 
             "", 
             ""
@@ -133,7 +141,7 @@
           [
             "FM", 
             "R", 
-            "stone", 
+            "Stone", 
             "", 
             "", 
             ""
@@ -141,7 +149,7 @@
           [
             "GA", 
             "R", 
-            "bricks", 
+            "Bricks", 
             "", 
             "", 
             ""
@@ -149,7 +157,7 @@
           [
             "GA", 
             "R", 
-            "stone", 
+            "Stone", 
             "", 
             "", 
             ""
@@ -165,7 +173,7 @@
           [
             "XM", 
             "R", 
-            "cement", 
+            "Cement", 
             "", 
             "", 
             ""
@@ -175,13 +183,13 @@
     }, 
     "4": {
       "a-location": "HTC", 
-      "b-track": "Grain", 
+      "b-track": "LDM&ECo Grain", 
       "c-schedule": {
         "G": [
           [
             "XM", 
             "R", 
-            "grain", 
+            "Grain", 
             "", 
             "", 
             ""
@@ -191,13 +199,13 @@
     }, 
     "5": {
       "a-location": "HTC", 
-      "b-track": "Feed", 
+      "b-track": "LDM&ECo Feed", 
       "c-schedule": {
         "F": [
           [
             "XM", 
             "R", 
-            "feed grains", 
+            "Feed Grains", 
             "", 
             "", 
             ""
@@ -209,7 +217,7 @@
       "a-location": "HTC", 
       "b-track": "Freight House", 
       "c-schedule": {
-        "H": [
+        "FH": [
           [
             "XM", 
             "R", 
@@ -231,13 +239,13 @@
     }, 
     "8": {
       "a-location": "HTC", 
-      "b-track": "Overhead Crane", 
+      "b-track": "Gantry Crane", 
       "c-schedule": {
-        "O": [
+        "GC": [
           [
             "FM", 
             "R", 
-            "steel beams", 
+            "Steel Beams", 
             "", 
             "", 
             ""
@@ -245,7 +253,7 @@
           [
             "GA", 
             "R", 
-            "steel beams", 
+            "Steel Beams", 
             "", 
             "", 
             ""
@@ -259,7 +267,7 @@
     "00": {
       "capacity": "100", 
       "label": "~", 
-      "location": "Unreported", 
+      "location": "Nicht gemeldete", 
       "track": "~", 
       "type": "class yard"
     }, 
@@ -270,30 +278,23 @@
       "track": "Cement House", 
       "type": "industry"
     }, 
-    "10": {
-      "capacity": "2", 
-      "label": "S", 
-      "location": "HTC", 
-      "track": "Engine Shed", 
-      "type": "industry"
-    }, 
     "2": {
-      "capacity": "1", 
+      "capacity": "2", 
       "label": "F", 
       "location": "HTC", 
-      "track": "Feed", 
+      "track": "LDM&ECo Feed", 
       "type": "industry"
     }, 
     "3": {
-      "capacity": "1", 
+      "capacity": "2", 
       "label": "G", 
       "location": "HTC", 
-      "track": "Grain", 
+      "track": "LDM&ECo Grain", 
       "type": "industry"
     }, 
     "4": {
       "capacity": "7", 
-      "label": "H", 
+      "label": "FH", 
       "location": "HTC", 
       "track": "Freight House", 
       "type": "industry"
@@ -306,25 +307,32 @@
       "type": "industry"
     }, 
     "6": {
-      "capacity": "60", 
-      "label": "T", 
+      "capacity": "38", 
+      "label": "GD", 
       "location": "HTC", 
-      "track": "Team Tracks", 
+      "track": "General Delivery", 
       "type": "industry"
     }, 
     "7": {
       "capacity": "2", 
-      "label": "O", 
+      "label": "GC", 
       "location": "HTC", 
-      "track": "Overhead Crane", 
+      "track": "Gantry Crane", 
       "type": "industry"
     }, 
     "8": {
       "capacity": "17", 
       "label": "PF", 
-      "location": "Pier Float", 
+      "location": "Harlem River", 
       "track": "Pier Float", 
       "type": "staging"
+    }, 
+    "9": {
+      "capacity": "26", 
+      "label": "FD", 
+      "location": "HTC", 
+      "track": "Fuel Depot", 
+      "type": "industry"
     }
   }, 
   "location": "Mott Haven, the Bronx, New York", 
@@ -338,12 +346,12 @@
     "6", 
     "7", 
     "8", 
-    "10"
+    "9"
   ], 
   "locations": [
-    "Pier Float", 
+    "Nicht gemeldete", 
     "HTC", 
-    "Unreported"
+    "Harlem River"
   ], 
   "locoConsists": [
     ""
@@ -363,8 +371,8 @@
     "DL&WMoW", 
     "WJ&S", 
     "TCX", 
-    "LV", 
     "ACL", 
+    "LV", 
     "B&O", 
     "UTLX", 
     "ER", 
@@ -377,8 +385,8 @@
     "PL", 
     "AT&SF", 
     "P&R", 
-    "SP", 
     "B&A", 
+    "SP", 
     "CNJ"
   ], 
   "scale": "HO", 

@@ -76,7 +76,7 @@
       }
     }, 
     "LD": {
-      "BD": "06/16/2023-15:54:52", 
+      "BD": "07/17/2023-11:04:55", 
       "JN": "Delaware, Lackawanna and Western RR\nHarlem Transfer Co.\nMott Haven, the Bronx, New York", 
       "LO": "Mott Haven, the Bronx, New York", 
       "OR": "Delaware, Lackawanna and Western RR", 
@@ -108,13 +108,11 @@
     }
   }, 
   "Patterns": {
-    "AD": [
-      "", 
-      "Unknown"
-    ], 
+    "AD": [], 
     "AL": [
+      "Harlem River", 
       "HTC", 
-      "Pier Float"
+      "Nicht gemeldete"
     ], 
     "AS": true, 
     "PA": false, 
@@ -182,7 +180,7 @@
         ""
       ], 
       [
-        "2023.06.16.16.32.23", 
+        "2023.07.17.11.07.48", 
         "initial"
       ]
     ], 

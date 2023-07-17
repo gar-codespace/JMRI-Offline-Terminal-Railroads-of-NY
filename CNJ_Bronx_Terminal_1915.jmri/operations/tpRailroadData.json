@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/20/2023-21:51:30", 
+  "buildDate": "07/17/2023-10:37:22", 
   "carAAR": [
     "RS", 
     "HK", 
@@ -176,7 +176,7 @@
     "00": {
       "capacity": "100", 
       "label": "~", 
-      "location": "Unreported", 
+      "location": "Non d\u00e9clar\u00e9e", 
       "track": "~", 
       "type": "class yard"
     }, 
@@ -195,7 +195,7 @@
       "type": "industry"
     }, 
     "3": {
-      "capacity": "16", 
+      "capacity": "17", 
       "label": "PF", 
       "location": "Pier Float", 
       "track": "Pier Float", 
@@ -209,7 +209,7 @@
       "type": "industry"
     }, 
     "5": {
-      "capacity": "28", 
+      "capacity": "29", 
       "label": "Y", 
       "location": "Bronx Terminal", 
       "track": "Yard", 
@@ -228,7 +228,7 @@
   "locations": [
     "Pier Float", 
     "Bronx Terminal", 
-    "Unreported"
+    "Non d\u00e9clar\u00e9e"
   ], 
   "locoConsists": [
     ""
@@ -246,8 +246,8 @@
   "roads": [
     "MDX", 
     "NYNH&H", 
-    "WJ&S", 
     "TCX", 
+    "WJ&S", 
     "ACL", 
     "B&O", 
     "UTLX", 
@@ -259,11 +259,11 @@
     "WCC", 
     "NYC", 
     "TELX", 
-    "PL", 
     "AT&SF", 
-    "SP", 
-    "B&A", 
+    "PL", 
     "P&R", 
+    "B&A", 
+    "SP", 
     "CNJ"
   ], 
   "scale": "HO", 
