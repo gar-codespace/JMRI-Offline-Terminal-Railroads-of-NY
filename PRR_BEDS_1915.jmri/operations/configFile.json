@@ -59,10 +59,10 @@
       "DR": true, 
       "EH": false, 
       "OC": true, 
-      "PH": 916, 
-      "PW": 1346, 
+      "PH": 603, 
+      "PW": 1027, 
       "PX": -7, 
-      "PY": 118, 
+      "PY": 431, 
       "RV": 20230305, 
       "SE": "utf-8", 
       "Subroutines.Patterns": false, 
@@ -76,7 +76,7 @@
       }
     }, 
     "LD": {
-      "BD": "07/01/2023-00:06:01", 
+      "BD": "07/17/2023-14:05:31", 
       "JN": "Pennsylvania Railroad\nBrooklyn Eastern District Station\nWilliamsburg, Brooklyn, New York", 
       "LO": "Williamsburg, Brooklyn, New York", 
       "OR": "Pennsylvania Railroad", 
@@ -112,14 +112,14 @@
     "AL": [
       "North 4th St", 
       "Pier Float", 
-      "Unreported"
+      "Sin notificar"
     ], 
     "AS": true, 
     "PA": false, 
     "PD": "", 
     "PH": 16, 
     "PI": true, 
-    "PL": "North 4th St", 
+    "PL": "Pier Float", 
     "PT": {}, 
     "PW": 260, 
     "RD": "", 
@@ -180,16 +180,8 @@
         ""
       ], 
       [
-        "2023.05.25.10.12.52", 
-        "Initial"
-      ], 
-      [
-        "2023.06.15.15.53.05", 
-        "second"
-      ], 
-      [
-        "2023.06.16.16.33.25", 
-        "third"
+        "2023.07.17.14.11.13", 
+        "initial"
       ]
     ], 
     "SV": true

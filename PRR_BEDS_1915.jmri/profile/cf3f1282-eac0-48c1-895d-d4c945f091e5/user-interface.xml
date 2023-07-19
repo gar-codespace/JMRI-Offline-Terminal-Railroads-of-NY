@@ -58,22 +58,23 @@
         </table>
         <table xmlns="" name="jmri.jmrit.operations.trains.TrainsTableFrame:table">
             <columns>
-                <column hidden="false" name="Status" order="15" width="120"/>
+                <column hidden="false" name="Status" order="15" width="79"/>
                 <column hidden="true" name="Load" order="9" width="50"/>
                 <column hidden="true" name="Owner" order="10" width="50"/>
-                <column hidden="false" name="Action" order="16" width="90"/>
+                <column hidden="false" name="Action" order="16" width="78"/>
                 <column hidden="false" name="Description" order="5" width="140"/>
                 <column hidden="true" name="Built" order="6" width="50"/>
                 <column hidden="true" name="Road" order="8" width="50"/>
                 <column hidden="false" name="Departs" order="12" width="120"/>
                 <column hidden="false" name="Time" order="1" width="50"/>
                 <column hidden="false" name="Edit" order="17" width="70"/>
-                <column hidden="false" name="Name" order="4" width="100"/>
-                <column hidden="false" name="Function" order="3" width="72"/>
+                <column hidden="false" name="Editar" order="17" width="79"/>
+                <column hidden="false" name="Name" order="4" width="81"/>
+                <column hidden="false" name="Function" order="3" width="78"/>
                 <column hidden="false" name="Build" order="2" width="50"/>
                 <column hidden="true" name="ID" order="0" width="50"/>
-                <column hidden="false" name="Terminates" order="13" width="120"/>
-                <column hidden="false" name="Current" order="14" width="120"/>
+                <column hidden="false" name="Terminates" order="13" width="69"/>
+                <column hidden="false" name="Current" order="14" width="82"/>
                 <column hidden="true" name="Road Car" order="7" width="50"/>
                 <column hidden="false" name="Route" order="11" width="120"/>
             </columns>
@@ -105,8 +106,8 @@
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="0.0" locY="0.0" width="933.0"/>
         <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1032.0" locX="0.0" locY="0.0" width="1003.0"/>
         <window xmlns="" class="PanelPro" height="353.0" locX="1306.0" locY="4.0" width="528.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="315.0" locX="-5.0" locY="6.0" width="1250.0"/>
-        <window xmlns="" class="Consola del sistema JMRI" height="719.0" locX="994.0" locY="304.0" width="914.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="315.0" locX="-5.0" locY="6.0" width="1104.0"/>
+        <window xmlns="" class="Consola del sistema JMRI" height="661.0" locX="1006.0" locY="370.0" width="910.0"/>
         <window xmlns="" class="JMRI System Console" height="702.0" locX="1043.0" locY="324.0" width="877.0"/>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditBuildOptionsFrame:Train Build Options" height="600.0" locX="31.0" locY="31.0" width="600.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster"/>

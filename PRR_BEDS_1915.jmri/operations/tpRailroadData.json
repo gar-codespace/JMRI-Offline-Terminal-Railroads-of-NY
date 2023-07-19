@@ -1,5 +1,5 @@
 {
-  "buildDate": "07/01/2023-00:06:01", 
+  "buildDate": "07/17/2023-14:05:31", 
   "carAAR": [
     "RS", 
     "HK", 
@@ -218,7 +218,7 @@
     "00": {
       "capacity": "100", 
       "label": "~", 
-      "location": "Unreported", 
+      "location": "Sin notificar", 
       "track": "~", 
       "type": "class yard"
     }, 
@@ -230,21 +230,21 @@
       "type": "industry"
     }, 
     "2": {
-      "capacity": "15", 
+      "capacity": "16", 
       "label": "5P", 
       "location": "North 4th St", 
       "track": "5th St Pier", 
       "type": "industry"
     }, 
     "3": {
-      "capacity": "11", 
+      "capacity": "13", 
       "label": "4F", 
       "location": "North 4th St", 
       "track": "Freight Station", 
       "type": "industry"
     }, 
     "4": {
-      "capacity": "50", 
+      "capacity": "46", 
       "label": "TT", 
       "location": "North 4th St", 
       "track": "Team Tracks", 
@@ -270,7 +270,7 @@
   "locations": [
     "North 4th St", 
     "Pier Float", 
-    "Unreported"
+    "Sin notificar"
   ], 
   "locoConsists": [
     ""

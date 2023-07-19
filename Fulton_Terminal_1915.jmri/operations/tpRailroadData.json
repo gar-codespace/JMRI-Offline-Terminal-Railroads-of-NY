@@ -1,5 +1,5 @@
 {
-  "buildDate": "06/14/2023-18:29:31", 
+  "buildDate": "07/17/2023-14:27:27", 
   "carAAR": [
     "M", 
     "XM"
@@ -318,7 +318,7 @@
       "type": "industry"
     }, 
     "10": {
-      "capacity": "20", 
+      "capacity": "21", 
       "label": "YW", 
       "location": "Fulton Terminal", 
       "track": "West Yard", 
@@ -346,14 +346,14 @@
       "type": "industry"
     }, 
     "14": {
-      "capacity": "2", 
+      "capacity": "3", 
       "label": "M23", 
       "location": "Fulton Terminal", 
       "track": "Martins Stores-Wool", 
       "type": "industry"
     }, 
     "15": {
-      "capacity": "4", 
+      "capacity": "5", 
       "label": "M43", 
       "location": "Fulton Terminal", 
       "track": "Mediterranean Stores", 
@@ -388,7 +388,7 @@
       "type": "class yard"
     }, 
     "2": {
-      "capacity": "8", 
+      "capacity": "9", 
       "label": "H26", 
       "location": "Fulton Terminal", 
       "track": "Harbecks Stores", 
@@ -498,21 +498,21 @@
     "NYNH&H", 
     "WJ&S", 
     "LVRR", 
-    "LV", 
     "ACL", 
+    "LV", 
     "B&O", 
     "ER", 
     "PRR", 
     "M&P", 
     "NYD", 
-    "DL&W", 
     "NYC", 
+    "DL&W", 
     "AT&SF", 
     "PL", 
     "NYDMoW", 
-    "B&A", 
     "P&R", 
     "SP", 
+    "B&A", 
     "CNJ"
   ], 
   "scale": "HO", 
