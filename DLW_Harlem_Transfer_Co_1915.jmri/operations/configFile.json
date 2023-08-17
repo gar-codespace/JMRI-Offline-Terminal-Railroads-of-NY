@@ -58,17 +58,14 @@
       "AP": true, 
       "DR": true, 
       "EH": false, 
+      "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
       "OC": true, 
-      "PH": 607, 
-      "PW": 1064, 
-      "PX": 4, 
-      "PY": 405, 
-      "RV": 20230305, 
+      "PH": 708, 
+      "PW": 1000, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20230805, 
       "SE": "utf-8", 
-      "Subroutines.Patterns": false, 
-      "Subroutines.Throwback": false, 
-      "Subroutines.jPlus": false, 
-      "Subroutines.o2o": false, 
       "TC": "UD", 
       "TS": {
         "UD": "UseDeepL", 
@@ -76,14 +73,14 @@
       }
     }, 
     "LD": {
-      "BD": "07/17/2023-11:04:55", 
-      "JN": "Delaware, Lackawanna and Western RR\nHarlem Transfer Co.\nMott Haven, the Bronx, New York", 
-      "LO": "Mott Haven, the Bronx, New York", 
-      "OR": "Delaware, Lackawanna and Western RR", 
-      "RN": "DL&W Harlem Transfer Co 1915", 
-      "SC": "HO", 
-      "TR": "Harlem Transfer Co.", 
-      "YR": "1915"
+      "BD": "", 
+      "JN": "", 
+      "LN": "", 
+      "LO": "", 
+      "OR": "", 
+      "SC": "", 
+      "TR": "", 
+      "YR": ""
     }, 
     "SR": {
       "G": 11, 
@@ -99,6 +96,7 @@
       "Z": 1
     }, 
     "TO": {
+      "ASE": true, 
       "CWS": true, 
       "SBA": true, 
       "SCT": "ARR Codes", 
@@ -109,17 +107,13 @@
   }, 
   "Patterns": {
     "AD": [], 
-    "AL": [
-      "Harlem River", 
-      "HTC", 
-      "Nicht gemeldete"
-    ], 
+    "AL": [], 
     "AS": true, 
     "PA": false, 
     "PD": "", 
     "PH": 16, 
     "PI": true, 
-    "PL": "HTC", 
+    "PL": "Harlem River", 
     "PT": {}, 
     "PW": 260, 
     "RD": "", 
@@ -127,45 +121,47 @@
     "RM": {
       "AW": {
         " ": 1, 
-        "Color": 6, 
-        "Comment": 15, 
-        "Consist": 8, 
-        "Dest&Track": 27, 
-        "Destination": 15, 
-        "FD&Track": 23, 
-        "Final Dest": 11, 
-        "Hazardous": 10, 
-        "Kernel": 7, 
-        "Kernel Size": 3, 
-        "Length": 7, 
-        "Load": 6, 
-        "Load Type": 1, 
-        "Location": 9, 
-        "Model": 5, 
-        "Number": 7, 
-        "On Train": 0, 
-        "Owner": 6, 
-        "PUSO": 6, 
-        "PickUp Msg": 12, 
-        "RWE": 10, 
-        "RWL": 10, 
-        "Road": 5, 
-        "Set to": 6, 
-        "SetOut Msg": 12, 
-        "Track": 6, 
-        "Type": 6, 
-        "Weight": 7
+        "carType": 6, 
+        "color": 6, 
+        "comment": 15, 
+        "consist": 8, 
+        "dccAddress": 10, 
+        "dest&Track": 27, 
+        "destination": 15, 
+        "division": 15, 
+        "fd&Track": 23, 
+        "finalDest": 11, 
+        "hazardous": 10, 
+        "kernel": 7, 
+        "kernelSize": 3, 
+        "length": 7, 
+        "load": 6, 
+        "loadType": 1, 
+        "location": 9, 
+        "model": 5, 
+        "number": 7, 
+        "onTrain": 0, 
+        "owner": 20, 
+        "pickupMsg": 12, 
+        "puso": 6, 
+        "road": 5, 
+        "rwe": 10, 
+        "rwl": 10, 
+        "setOutMsg": 12, 
+        "setTo": 6, 
+        "track": 6, 
+        "weight": 7
       }, 
       "DS": "No Waybill", 
       "DT": "*Not Consigned", 
       "FD": "Any Line", 
       "FT": "*Any Line", 
       "SC": [
-        "Load Type", 
-        "FD&Track"
+        "loadType", 
+        "fd&Track"
       ], 
       "SL": [
-        "Model"
+        "model"
       ]
     }, 
     "SV": true, 
@@ -178,16 +174,13 @@
       [
         "", 
         ""
-      ], 
-      [
-        "2023.07.17.11.07.48", 
-        "initial"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": true
+    "SV": true, 
+    "XH": false
   }, 
   "o2o": {
     "CC": {
@@ -200,52 +193,7 @@
       "EMX", 
       "LMX"
     ], 
-    "CX": [
-      "N", 
-      "NM", 
-      "NE"
-    ], 
     "DL": 40, 
-    "PX": [
-      "B", 
-      "BE", 
-      "BH", 
-      "BM", 
-      "BMR", 
-      "BMT", 
-      "BP", 
-      "BR", 
-      "BX", 
-      "Bd", 
-      "Bn", 
-      "Bdr", 
-      "B60", 
-      "CA", 
-      "CS", 
-      "D", 
-      "DA", 
-      "DB", 
-      "DC", 
-      "DL", 
-      "DO", 
-      "DP", 
-      "DPA", 
-      "MA", 
-      "MB", 
-      "MR", 
-      "Ok", 
-      "P", 
-      "PA", 
-      "PAS", 
-      "PB", 
-      "PBC", 
-      "PBO", 
-      "PC", 
-      "PL", 
-      "PO", 
-      "PS", 
-      "PSA"
-    ], 
     "RA": [
       "PUSO", 
       "Road", 
@@ -257,7 +205,12 @@
       "Dest&Track", 
       "FD&Track"
     ], 
+    "RC": [
+      "Generic"
+    ], 
     "RF": {
+      "RRD": "tpRailroadData", 
+      "RSD": "tpRollingStockData", 
       "TRI": "TrainPlayer Report - Industries.txt", 
       "TRL": "TrainPlayer Report - Locations.txt", 
       "TRR": "TrainPlayer Report - Rolling Stock.txt"
@@ -315,6 +268,67 @@
       "industry": "Spur", 
       "interchange": "Interchange", 
       "staging": "Staging"
-    }
+    }, 
+    "XC": [
+      "N", 
+      "NM", 
+      "NE"
+    ], 
+    "XE": [
+      "E", 
+      "ES", 
+      "ED", 
+      "EE", 
+      "ET"
+    ], 
+    "XM": [
+      "M", 
+      "MWB", 
+      "MWC", 
+      "MWD", 
+      "MWG", 
+      "MWF", 
+      "MWK", 
+      "MWR", 
+      "MWX"
+    ], 
+    "XP": [
+      "EP", 
+      "CA", 
+      "CS", 
+      "D", 
+      "DA", 
+      "DB", 
+      "DC", 
+      "DL", 
+      "DO", 
+      "DP", 
+      "DPA", 
+      "P", 
+      "PA", 
+      "PAS", 
+      "PB", 
+      "PBC", 
+      "PBO", 
+      "PC", 
+      "PL", 
+      "PO", 
+      "PS", 
+      "PSA"
+    ], 
+    "XX": [
+      "B", 
+      "BE", 
+      "BH", 
+      "BM", 
+      "BMR", 
+      "BMT", 
+      "BP", 
+      "BR", 
+      "BX", 
+      "MA", 
+      "MB", 
+      "MR"
+    ]
   }
 }

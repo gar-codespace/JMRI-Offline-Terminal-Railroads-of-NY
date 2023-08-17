@@ -169,23 +169,23 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="PanelPro" height="298.0" locX="1261.0" locY="4.0" width="502.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Bearbeite Strecke" height="629.0" locX="654.0" locY="72.0" width="1158.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Zug bearbeiten" height="600.0" locX="31.0" locY="31.0" width="743.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditBuildOptionsFrame:Zugbauoptionen" height="600.0" locX="62.0" locY="62.0" width="614.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Orte" height="328.0" locX="31.0" locY="31.0" width="1175.0"/>
-        <window xmlns="" class="JMRI Systemkonsole" height="686.0" locX="1041.0" locY="338.0" width="861.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="31.0" locY="31.0" width="729.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1032.0" locX="0.0" locY="0.0" width="916.0"/>
         <window xmlns="" class="jmri.jmrit.operations.rollingstock.cars.CarsTableFrame:Wagen" height="985.0" locX="31.0" locY="31.0" width="1555.0"/>
-        <window xmlns="" class="JMRI System Console" height="729.0" locX="1042.0" locY="294.0" width="868.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="300.0" locX="0.0" locY="0.0" width="1397.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="538.0" locX="0.0" locY="0.0" width="1228.0"/>
-        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="629.0" locX="62.0" locY="62.0" width="1175.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditBuildOptionsFrame:Zugbauoptionen" height="600.0" locX="62.0" locY="62.0" width="614.0"/>
         <window xmlns="" class="Local JMRI throttles" height="239.0" locX="31.0" locY="31.0" width="336.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Zug bearbeiten" height="600.0" locX="31.0" locY="31.0" width="743.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditFrame:Edit Train" height="600.0" locX="31.0" locY="31.0" width="729.0"/>
         <window xmlns="" class="jmri.jmrit.operations.routes.RoutesTableFrame:Fahrstrecken" height="538.0" locX="31.0" locY="31.0" width="700.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Locations" height="538.0" locX="0.0" locY="0.0" width="1228.0"/>
         <window xmlns="" class="jmri.jmrit.operations.trains.TrainEditBuildOptionsFrame:Train Build Options" height="600.0" locX="62.0" locY="62.0" width="600.0"/>
+        <window xmlns="" class="PanelPro" height="298.0" locX="1261.0" locY="4.0" width="502.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Edit Route" height="629.0" locX="62.0" locY="62.0" width="1175.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.routes.RouteEditFrame:Bearbeite Strecke" height="629.0" locX="654.0" locY="72.0" width="1158.0"/>
         <window xmlns="" class="jmri.jmrit.operations.locations.LocationEditFrame:Ort bearbeiten" height="886.0" locX="62.0" locY="62.0" width="1072.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1032.0" locX="0.0" locY="0.0" width="916.0"/>
+        <window xmlns="" class="JMRI System Console" height="729.0" locX="1042.0" locY="294.0" width="868.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.trains.TrainsTableFrame" height="300.0" locX="0.0" locY="0.0" width="1397.0"/>
+        <window xmlns="" class="JMRI Systemkonsole" height="686.0" locX="1041.0" locY="338.0" width="861.0"/>
+        <window xmlns="" class="jmri.jmrit.operations.locations.LocationsTableFrame:Orte" height="328.0" locX="31.0" locY="31.0" width="1175.0"/>
     </windowDetails>
 </auxiliary-configuration>
