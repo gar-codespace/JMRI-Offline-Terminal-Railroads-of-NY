@@ -57,14 +57,19 @@
     "CP": {
       "AP": true, 
       "DR": true, 
+      "EC": {
+        "400": "400 - Bad Request: Unable to translate the current language.", 
+        "402": "402 - Requested page not found", 
+        "403": "403 - Forbidden. The key is invalid."
+      }, 
       "EH": false, 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
       "OC": true, 
-      "PH": 631, 
+      "PH": 575, 
       "PW": 1000, 
-      "PX": 0, 
-      "PY": 0, 
-      "RV": 20230805, 
+      "PX": 23, 
+      "PY": 456, 
+      "RV": 20230807, 
       "SE": "utf-8", 
       "TC": "UD", 
       "TS": {
@@ -110,11 +115,16 @@
     "AL": [], 
     "AS": true, 
     "PA": false, 
-    "PD": "", 
+    "PD": null, 
     "PH": 16, 
     "PI": true, 
-    "PL": "", 
-    "PT": {}, 
+    "PL": "Bronx Terminal", 
+    "PT": {
+      "Freight House": false, 
+      "Gantry": true, 
+      "Team Tracks": false, 
+      "Yard": false
+    }, 
     "PW": 260, 
     "RD": "", 
     "RF": 8, 
@@ -169,18 +179,24 @@
     "TD": "", 
     "TN": ""
   }, 
+  "Template": {
+    "SV": false
+  }, 
   "Throwback": {
     "SS": [
       [
         "", 
         ""
+      ], 
+      [
+        "2023.08.30.10.33.00", 
+        "initial"
       ]
     ], 
     "SV": true
   }, 
   "jPlus": {
-    "SV": true, 
-    "XH": false
+    "SV": true
   }, 
   "o2o": {
     "CC": {
