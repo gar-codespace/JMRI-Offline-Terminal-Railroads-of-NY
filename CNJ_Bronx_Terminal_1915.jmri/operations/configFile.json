@@ -63,13 +63,20 @@
         "403": "403 - Forbidden. The key is invalid."
       }, 
       "EH": false, 
+      "EO": {
+        "CA": "utf-8", 
+        "CB": "ascii", 
+        "CC": "utf-16", 
+        "CD": "ISO-8859"
+      }, 
+      "ES": "CA", 
       "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
       "OC": true, 
-      "PH": 575, 
+      "PH": 574, 
       "PW": 1000, 
       "PX": 23, 
-      "PY": 456, 
-      "RV": 20230807, 
+      "PY": 389, 
+      "RV": 20230809, 
       "SE": "utf-8", 
       "TC": "UD", 
       "TS": {
@@ -78,14 +85,14 @@
       }
     }, 
     "LD": {
-      "BD": "", 
-      "JN": "", 
-      "LN": "", 
-      "LO": "", 
-      "OR": "", 
-      "SC": "", 
-      "TR": "", 
-      "YR": ""
+      "BD": "08/30/2023-21:04:23", 
+      "JN": "Central Railroad of New Jersey\nBronx Terminal\nMott Haven, the Bronx, New York", 
+      "LN": "CNJ Bronx Terminal 1915", 
+      "LO": "Mott Haven, the Bronx, New York", 
+      "OR": "Central Railroad of New Jersey", 
+      "SC": "HO", 
+      "TR": "Bronx Terminal", 
+      "YR": "1915"
     }, 
     "SR": {
       "G": 11, 
@@ -189,8 +196,8 @@
         ""
       ], 
       [
-        "2023.08.30.10.33.00", 
-        "initial"
+        "2023.08.30.23.20.08", 
+        "1"
       ]
     ], 
     "SV": true
@@ -233,43 +240,76 @@
     }, 
     "RMF": {
       "MC": [
-        "Road", 
-        "Number", 
-        "Type", 
-        "Load Type", 
-        "Load", 
-        "Final Dest"
+        "A01", 
+        "A02", 
+        "A03", 
+        "A08", 
+        "A07", 
+        "A13"
       ], 
       "PUC": [
-        "Road", 
-        "Number", 
-        "Type", 
-        "Load Type", 
-        "Load", 
-        "Destination"
+        "A01", 
+        "A02", 
+        "A03", 
+        "A08", 
+        "A07", 
+        "A11"
       ], 
       "PUL": [
-        "Road", 
-        "Number", 
-        "Model", 
-        "Consist", 
-        "Destination"
+        "A01", 
+        "A02", 
+        "A04", 
+        "A16", 
+        "A11"
       ], 
       "SOC": [
-        "Road", 
-        "Number", 
-        "Type", 
-        "Load Type", 
-        "Load", 
-        "Destination"
+        "A01", 
+        "A02", 
+        "A03", 
+        "A08", 
+        "A07", 
+        "A11"
       ], 
       "SOL": [
-        "Road", 
-        "Number", 
-        "Model", 
-        "Consist", 
-        "Destination"
+        "A01", 
+        "A02", 
+        "A04", 
+        "A16", 
+        "A11"
       ]
+    }, 
+    "RMO": {
+      "A01": "Road", 
+      "A02": "Number", 
+      "A03": "Type", 
+      "A04": "Model", 
+      "A05": "Length", 
+      "A06": "Weight", 
+      "A07": "Load", 
+      "A08": "Load_Type", 
+      "A09": "Color", 
+      "A10": "Track", 
+      "A11": "Destination", 
+      "A12": "Dest&Track", 
+      "A13": "Final_Dest", 
+      "A14": "FD&Track", 
+      "A15": "Location", 
+      "A16": "Consist", 
+      "A17": "DCC_Address", 
+      "A18": "Kernel", 
+      "A19": "Owner", 
+      "A20": "Division", 
+      "A21": "RWE", 
+      "A22": "Comment", 
+      "A23": "SetOut_Msg", 
+      "A24": "PickUp_Msg", 
+      "A25": "Hazardous", 
+      "A26": " ", 
+      "A27": "Tab", 
+      "A28": "Tab2", 
+      "A29": "Tab3", 
+      "A30": " [ ] ", 
+      "A31": "Kernel_Size"
     }, 
     "RN": "o2o-Workevents", 
     "SM": {

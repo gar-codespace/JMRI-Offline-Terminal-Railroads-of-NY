@@ -1,18 +1,68 @@
 {
-  "buildDate": "07/17/2023-10:37:22", 
-  "carAAR": [
-    "RS", 
-    "HK", 
-    "FM", 
-    "M", 
-    "TG", 
-    "XM", 
-    "GA"
+  "AAR_Caboose": [
+    "N", 
+    "NE", 
+    "NM"
   ], 
-  "carKernel": [
+  "AAR_Engine": [
+    "E", 
+    "ES", 
+    "ED", 
+    "EE", 
+    "EP"
+  ], 
+  "AAR_Express": [
     ""
   ], 
-  "carLoads": {
+  "AAR_MOW": [
+    "F", 
+    "FA", 
+    "FA6", 
+    "FB", 
+    "FC", 
+    "FCA", 
+    "FD", 
+    "FL", 
+    "FM", 
+    "FS", 
+    "FW", 
+    "G", 
+    "GA", 
+    "GB", 
+    "GD", 
+    "GBH", 
+    "GE", 
+    "GS", 
+    "GT", 
+    "H", 
+    "HM", 
+    "LG", 
+    "LO", 
+    "LP", 
+    "LT", 
+    "O", 
+    "RA", 
+    "RBL", 
+    "RP", 
+    "S", 
+    "SH", 
+    "SM", 
+    "T", 
+    "TA", 
+    "TL", 
+    "TW", 
+    "X", 
+    "XAR", 
+    "XMR", 
+    "XI", 
+    "XM", 
+    "XP"
+  ], 
+  "AAR_Passenger": [
+    "HT", 
+    "HK"
+  ], 
+  "CarRoster_loads": {
     "FM": [
       "steel beams", 
       "Tarp3", 
@@ -38,10 +88,121 @@
       "LCL"
     ]
   }, 
-  "divisions": [
+  "CarRoster_newKernels": [
     ""
   ], 
-  "industries": {
+  "CarRoster_roads": [
+    "MDX", 
+    "NYNH&H", 
+    "TCX", 
+    "WJ&S", 
+    "ACL", 
+    "B&O", 
+    "UTLX", 
+    "ER", 
+    "PRR", 
+    "FGEX", 
+    "CNJMoW", 
+    "M&P", 
+    "WCC", 
+    "NYC", 
+    "TELX", 
+    "AT&SF", 
+    "PL", 
+    "P&R", 
+    "B&A", 
+    "SP", 
+    "CNJ"
+  ], 
+  "CarRoster_types": [
+    "RS", 
+    "HK", 
+    "FM", 
+    "M", 
+    "TG", 
+    "XM", 
+    "GA"
+  ], 
+  "EngineRoster_models": [
+    [
+      "0-4-0t", 
+      "ES"
+    ]
+  ], 
+  "EngineRoster_newConsists": [
+    ""
+  ], 
+  "EngineRoster_types": [
+    "ES"
+  ], 
+  "Extended_buildDate": "08/30/2023-21:04:23", 
+  "Extended_divisions": [
+    ""
+  ], 
+  "Extended_layoutName": "CNJ Bronx Terminal 1915", 
+  "Extended_location": "Mott Haven, the Bronx, New York", 
+  "Extended_operatingRoad": "Central Railroad of New Jersey", 
+  "Extended_scale": "HO", 
+  "Extended_territory": "Bronx Terminal", 
+  "Extended_year": "1915", 
+  "LocationRoster_location": {
+    "00": {
+      "capacity": "100", 
+      "label": "~", 
+      "location": "Non d\u00e9clar\u00e9e", 
+      "track": "~", 
+      "type": "class yard"
+    }, 
+    "1": {
+      "capacity": "4", 
+      "label": "G", 
+      "location": "Bronx Terminal", 
+      "track": "Gantry", 
+      "type": "industry"
+    }, 
+    "2": {
+      "capacity": "60", 
+      "label": "T", 
+      "location": "Bronx Terminal", 
+      "track": "Team Tracks", 
+      "type": "industry"
+    }, 
+    "3": {
+      "capacity": "17", 
+      "label": "PF", 
+      "location": "Pier Float", 
+      "track": "Pier Float", 
+      "type": "staging"
+    }, 
+    "4": {
+      "capacity": "12", 
+      "label": "H", 
+      "location": "Bronx Terminal", 
+      "track": "Freight House", 
+      "type": "industry"
+    }, 
+    "5": {
+      "capacity": "29", 
+      "label": "Y", 
+      "location": "Bronx Terminal", 
+      "track": "Yard", 
+      "type": "interchange"
+    }
+  }, 
+  "LocationRoster_locationIds": [
+    "00", 
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5"
+  ], 
+  "LocationRoster_locations": [
+    "Pier Float", 
+    "Bronx Terminal", 
+    "Non d\u00e9clar\u00e9e"
+  ], 
+  "LocationRoster_spurs": {
     "1": {
       "a-location": "Bronx Terminal", 
       "b-track": "Freight House", 
@@ -170,103 +331,5 @@
         ]
       }
     }
-  }, 
-  "layoutName": "CNJ Bronx Terminal 1915", 
-  "locales": {
-    "00": {
-      "capacity": "100", 
-      "label": "~", 
-      "location": "Non d\u00e9clar\u00e9e", 
-      "track": "~", 
-      "type": "class yard"
-    }, 
-    "1": {
-      "capacity": "4", 
-      "label": "G", 
-      "location": "Bronx Terminal", 
-      "track": "Gantry", 
-      "type": "industry"
-    }, 
-    "2": {
-      "capacity": "60", 
-      "label": "T", 
-      "location": "Bronx Terminal", 
-      "track": "Team Tracks", 
-      "type": "industry"
-    }, 
-    "3": {
-      "capacity": "17", 
-      "label": "PF", 
-      "location": "Pier Float", 
-      "track": "Pier Float", 
-      "type": "staging"
-    }, 
-    "4": {
-      "capacity": "12", 
-      "label": "H", 
-      "location": "Bronx Terminal", 
-      "track": "Freight House", 
-      "type": "industry"
-    }, 
-    "5": {
-      "capacity": "29", 
-      "label": "Y", 
-      "location": "Bronx Terminal", 
-      "track": "Yard", 
-      "type": "interchange"
-    }
-  }, 
-  "location": "Mott Haven, the Bronx, New York", 
-  "locationIds": [
-    "00", 
-    "1", 
-    "2", 
-    "3", 
-    "4", 
-    "5"
-  ], 
-  "locations": [
-    "Pier Float", 
-    "Bronx Terminal", 
-    "Non d\u00e9clar\u00e9e"
-  ], 
-  "locoConsists": [
-    ""
-  ], 
-  "locoModels": [
-    [
-      "0-4-0t", 
-      "ES"
-    ]
-  ], 
-  "locoTypes": [
-    "ES"
-  ], 
-  "operatingRoad": "Central Railroad of New Jersey", 
-  "roads": [
-    "MDX", 
-    "NYNH&H", 
-    "TCX", 
-    "WJ&S", 
-    "ACL", 
-    "B&O", 
-    "UTLX", 
-    "ER", 
-    "PRR", 
-    "FGEX", 
-    "CNJMoW", 
-    "M&P", 
-    "WCC", 
-    "NYC", 
-    "TELX", 
-    "AT&SF", 
-    "PL", 
-    "P&R", 
-    "B&A", 
-    "SP", 
-    "CNJ"
-  ], 
-  "scale": "HO", 
-  "territory": "Bronx Terminal", 
-  "year": "1915"
+  }
 }

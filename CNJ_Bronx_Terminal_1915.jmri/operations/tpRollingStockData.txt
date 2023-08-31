@@ -1,0 +1,91 @@
+MDX 7598;ice reefer;RS;Bronx Terminal;Team Tracks;Empty;;26
+MDX 1849;ice reefer;RS;Bronx Terminal;Team Tracks;Empty;;64
+MDX 0593;ice reefer;RS;Bronx Terminal;Team Tracks;Empty;;27
+MDX 2080;ice reefer;RS;Bronx Terminal;Team Tracks;Empty;;2
+PRR 0659;40ft wood box;XM;Bronx Terminal;Team Tracks;Empty;;54
+M&P 2258;flatcar;FM;Bronx Terminal;Team Tracks;Empty;;43
+AT&SF 6628;gondola;GA;Bronx Terminal;Team Tracks;Empty;;10
+UTLX 9580;tankcar;TG;Bronx Terminal;Team Tracks;Empty;;16
+B&O 3213;2 bay hopper;HK;Bronx Terminal;Team Tracks;Empty;;30
+P&R 4369;2 bay hopper;HK;Bronx Terminal;Team Tracks;Empty;;22
+P&R 0961;2 bay hopper;HK;Bronx Terminal;Team Tracks;Empty;;34
+B&O 9021;2 bay hopper;HK;Bronx Terminal;Team Tracks;Empty;;33
+TCX 1465;tankcar;TG;Bronx Terminal;Team Tracks;Empty;;38
+WJ&S 0895;40ft wood box;XM;Bronx Terminal;Team Tracks;Empty;;4
+FGEX 0610;ice reefer;RS;Bronx Terminal;Team Tracks;Empty;;66
+FGEX 6360;ice reefer;RS;Bronx Terminal;Team Tracks;Empty;;67
+PRR 2449;2 bay hopper;HK;Bronx Terminal;Team Tracks;Empty;;36
+P&R 1219;2 bay hopper;HK;Bronx Terminal;Team Tracks;Empty;;29
+PL 9019;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;73
+ACL 8559;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;6
+B&A 2864;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;31
+PL 0025;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;77
+B&O 8331;flatcar;FM;Bronx Terminal;Gantry;Empty;;41
+PL 3381;gondola;GA;Bronx Terminal;Gantry;Empty;;56
+PL 2119;flatcar;FM;Bronx Terminal;Gantry;Empty;;46
+ER 2298;flatcar;FM;Bronx Terminal;Gantry;Empty;;60
+PRR 4156;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;80
+B&A 7634;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;82
+B&A 0295;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;74
+P&R 3842;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;50
+NYNH&H 4231;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;83
+NYC 4278;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;37
+PRR 9849;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;14
+PRR 6937;40ft wood box;XM;Bronx Terminal;Freight House;Empty;;76
+PRR 7751;40ft wood box;XM;Bronx Terminal;Team Tracks;Empty;;88
+PL 7653;40ft wood box;XM;Bronx Terminal;Team Tracks;Empty;;51
+ER 7492;40ft wood box;XM;Bronx Terminal;Team Tracks;Empty;;70
+FGEX 5195;ice reefer;RS;Bronx Terminal;Team Tracks;Empty;;28
+PL 1566;40ft wood box;XM;Bronx Terminal;Team Tracks;Empty;;86
+MDX 7493;ice reefer;RS;Bronx Terminal;Team Tracks;Empty;;15
+PRR 5413;40ft wood box;XM;Bronx Terminal;Team Tracks;Empty;;69
+AT&SF 8252;40ft wood box;XM;Bronx Terminal;Team Tracks;Empty;;79
+PRR 7125;tankcar;TG;Bronx Terminal;Yard;Empty;;61
+PL 8484;gondola;GA;Bronx Terminal;Yard;Empty;;9
+MDX 9826;ice reefer;RS;Bronx Terminal;Yard;Empty;;1
+PRR 3374;2 bay hopper;HK;Bronx Terminal;Yard;Empty;;32
+TCX 3907;tankcar;TG;Bronx Terminal;Yard;Empty;;53
+TELX 1397;tankcar;TG;Bronx Terminal;Yard;Empty;;39
+UTLX 8914;tankcar;TG;Bronx Terminal;Yard;Empty;;55
+UTLX 6343;tankcar;TG;Bronx Terminal;Yard;Empty;;19
+NYC 4838;40ft wood box;XM;Bronx Terminal;Yard;Empty;;35
+NYC 8504;40ft wood box;XM;Bronx Terminal;Yard;Empty;;75
+AT&SF 6585;40ft wood box;XM;Bronx Terminal;Yard;Empty;;5
+M&P 8372;40ft wood box;XM;Bronx Terminal;Yard;Empty;;68
+AT&SF 7671;40ft wood box;XM;Bronx Terminal;Yard;Empty;;7
+PL 4685;40ft wood box;XM;Bronx Terminal;Yard;Empty;;59
+PL 0815;40ft wood box;XM;Bronx Terminal;Yard;Empty;;40
+ER 1358;gondola;GA;Bronx Terminal;Yard;Empty;;12
+TELX 1808;tankcar;TG;Bronx Terminal;Yard;Empty;;49
+UTLX 4906;tankcar;TG;Bronx Terminal;Yard;Empty;;48
+M&P 6575;40ft wood box;XM;Bronx Terminal;Yard;Empty;;71
+NYNH&H 3255;40ft wood box;XM;Bronx Terminal;Yard;Empty;;52
+ACL 1321;flatcar;FM;Bronx Terminal;Yard;Empty;;20
+B&A 3657;flatcar;FM;Bronx Terminal;Yard;Empty;;17
+PRR 6786;2 bay hopper;HK;Bronx Terminal;Yard;Empty;;21
+AT&SF 9085;40ft wood box;XM;Bronx Terminal;Yard;Empty;;57
+PRR 6631;40ft wood box;XM;Bronx Terminal;Yard;Empty;;81
+PL 0039;40ft wood box;XM;Bronx Terminal;Yard;Empty;;3
+ACL 3676;flatcar;FM;Bronx Terminal;Yard;Empty;;13
+PRR 6585;flatcar;FM;Bronx Terminal;Yard;Empty;;47
+M&P 9146;gondola;GA;Bronx Terminal;Yard;Empty;;11
+PL 0555;gondola;GA;Bronx Terminal;Yard;Empty;;93
+WCC 8301;2 bay hopper;HK;Pier Float;Pier Float;Empty;;44
+FGEX 8258;ice reefer;RS;Pier Float;Pier Float;Empty;;63
+FGEX 5598;ice reefer;RS;Pier Float;Pier Float;Empty;;62
+WCC 5805;2 bay hopper;HK;Pier Float;Pier Float;Empty;;24
+WJ&S 0295;40ft wood box;XM;Pier Float;Pier Float;Empty;;87
+FGEX 6460;ice reefer;RS;Pier Float;Pier Float;Empty;;8
+NYC 8516;40ft wood box;XM;Pier Float;Pier Float;Empty;;42
+PRR 4451;40ft wood box;XM;Pier Float;Pier Float;Empty;;58
+PRR 8166;40ft wood box;XM;Pier Float;Pier Float;Empty;;78
+PRR 3027;40ft wood box;XM;Pier Float;Pier Float;Empty;;45
+FGEX 6932;ice reefer;RS;Pier Float;Pier Float;Empty;;65
+PRR 5553;40ft wood box;XM;Pier Float;Pier Float;Empty;;89
+PL 5657;40ft wood box;XM;Pier Float;Pier Float;Empty;;72
+PRR 7594;2 bay hopper;HK;Pier Float;Pier Float;Empty;;18
+FGEX 7469;ice reefer;RS;Pier Float;Pier Float;Empty;;23
+FGEX 2592;ice reefer;RS;Pier Float;Pier Float;Empty;;25
+SP 6867;40ft wood box;XM;Pier Float;Pier Float;Empty;;85
+CNJMoW 092;mow flat;M;Unreported;~;Empty;;84
+CNJ 420;0-4-0t;ES;Unreported;~;unloadable;;91
