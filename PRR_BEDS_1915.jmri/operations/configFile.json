@@ -1,74 +1,26 @@
 {
   "Main Script": {
-    "CD": {
-      "BLANCH": {
-        "A": 210, 
-        "B": 255, 
-        "D": "Lighten a bit", 
-        "G": 255, 
-        "R": 255
-      }, 
-      "DUST": {
-        "A": 255, 
-        "B": 218, 
-        "D": "Light tan", 
-        "G": 242, 
-        "R": 252
-      }, 
-      "FADED": {
-        "A": 255, 
-        "B": 245, 
-        "D": "Light purple", 
-        "G": 225, 
-        "R": 237
-      }, 
-      "GLOOM": {
-        "A": 10, 
-        "B": 0, 
-        "D": "Darken a bit", 
-        "G": 0, 
-        "R": 0
-      }, 
-      "LICHEN": {
-        "A": 255, 
-        "B": 244, 
-        "D": "Light green", 
-        "G": 255, 
-        "R": 236
-      }, 
-      "PALE": {
-        "A": 255, 
-        "B": 250, 
-        "D": "Light blue", 
-        "G": 243, 
-        "R": 237
-      }, 
-      "RASH": {
-        "A": 255, 
-        "B": 224, 
-        "D": "Light red", 
-        "G": 208, 
-        "R": 240
-      }, 
-      "colorA": "DUST", 
-      "colorB": "FADED", 
-      "colorC": "RASH"
-    }, 
     "CP": {
-      "AP": true, 
-      "DR": true, 
+      "EC": {
+        "400": "400 - Bad Request: Unable to translate the current language.", 
+        "402": "402 - Requested page not found", 
+        "403": "403 - Forbidden. The key is invalid."
+      }, 
       "EH": false, 
-      "OC": true, 
-      "PH": 603, 
-      "PW": 1027, 
-      "PX": -7, 
-      "PY": 431, 
-      "RV": 20230305, 
+      "EO": {
+        "CA": "utf-8", 
+        "CB": "ascii", 
+        "CC": "utf-16", 
+        "CD": "ISO-8859"
+      }, 
+      "ES": "CA", 
+      "GP": "https://github.com/gar-codespace/OperationsPatternScripts", 
+      "PH": 713, 
+      "PW": 1000, 
+      "PX": 0, 
+      "PY": 0, 
+      "RV": 20230812, 
       "SE": "utf-8", 
-      "Subroutines.Patterns": false, 
-      "Subroutines.Throwback": false, 
-      "Subroutines.jPlus": false, 
-      "Subroutines.o2o": false, 
       "TC": "UD", 
       "TS": {
         "UD": "UseDeepL", 
@@ -76,14 +28,14 @@
       }
     }, 
     "LD": {
-      "BD": "07/17/2023-14:05:31", 
-      "JN": "Pennsylvania Railroad\nBrooklyn Eastern District Station\nWilliamsburg, Brooklyn, New York", 
-      "LO": "Williamsburg, Brooklyn, New York", 
-      "OR": "Pennsylvania Railroad", 
-      "RN": "PRR BEDS-1914", 
-      "SC": "HO", 
-      "TR": "Brooklyn Eastern District Station", 
-      "YR": "1914"
+      "BD": "", 
+      "JN": "", 
+      "LN": "", 
+      "LO": "", 
+      "OR": "", 
+      "SC": "", 
+      "TR": "", 
+      "YR": ""
     }, 
     "SR": {
       "G": 11, 
@@ -98,80 +50,132 @@
       "TT": 3, 
       "Z": 1
     }, 
-    "TO": {
-      "CWS": true, 
-      "SBA": true, 
-      "SCT": "ARR Codes", 
-      "SIA": true, 
-      "SME": true, 
-      "TNB": false
+    "US": {
+      "CD": {
+        "BLANCH": {
+          "A": 210, 
+          "B": 255, 
+          "D": "Lighten a bit", 
+          "G": 255, 
+          "R": 255
+        }, 
+        "DUST": {
+          "A": 255, 
+          "B": 218, 
+          "D": "Light tan", 
+          "G": 242, 
+          "R": 252
+        }, 
+        "FADED": {
+          "A": 255, 
+          "B": 245, 
+          "D": "Light purple", 
+          "G": 225, 
+          "R": 237
+        }, 
+        "GLOOM": {
+          "A": 10, 
+          "B": 0, 
+          "D": "Darken a bit", 
+          "G": 0, 
+          "R": 0
+        }, 
+        "LICHEN": {
+          "A": 255, 
+          "B": 244, 
+          "D": "Light green", 
+          "G": 255, 
+          "R": 236
+        }, 
+        "PALE": {
+          "A": 255, 
+          "B": 250, 
+          "D": "Light blue", 
+          "G": 243, 
+          "R": 237
+        }, 
+        "RASH": {
+          "A": 255, 
+          "B": 224, 
+          "D": "Light red", 
+          "G": 208, 
+          "R": 240
+        }, 
+        "colorA": "DUST", 
+        "colorB": "FADED", 
+        "colorC": "RASH"
+      }, 
+      "OC": true
     }
   }, 
   "Patterns": {
     "AD": [], 
-    "AL": [
-      "North 4th St", 
-      "Pier Float", 
-      "Sin notificar"
-    ], 
+    "AL": [], 
     "AS": true, 
     "PA": false, 
-    "PD": "", 
+    "PD": null, 
     "PH": 16, 
     "PI": true, 
-    "PL": "Pier Float", 
+    "PL": null, 
     "PT": {}, 
     "PW": 260, 
     "RD": "", 
     "RF": 8, 
-    "RM": {
+    "SV": true, 
+    "TC": "", 
+    "TD": "", 
+    "TN": "", 
+    "US": {
       "AW": {
         " ": 1, 
         "Color": 6, 
         "Comment": 15, 
         "Consist": 8, 
+        "DCC_Address": 10, 
         "Dest&Track": 27, 
         "Destination": 15, 
+        "Division": 15, 
         "FD&Track": 23, 
-        "Final Dest": 11, 
+        "Final_Dest": 11, 
         "Hazardous": 10, 
         "Kernel": 7, 
-        "Kernel Size": 3, 
+        "Kernel_Size": 3, 
         "Length": 7, 
         "Load": 6, 
-        "Load Type": 1, 
+        "Load_Type": 1, 
         "Location": 9, 
         "Model": 5, 
         "Number": 7, 
-        "On Train": 0, 
-        "Owner": 6, 
-        "PUSO": 6, 
-        "PickUp Msg": 12, 
+        "Owner": 20, 
+        "PickUp_Msg": 12, 
         "RWE": 10, 
         "RWL": 10, 
         "Road": 5, 
-        "Set to": 6, 
-        "SetOut Msg": 12, 
+        "SetOut_Msg": 12, 
         "Track": 6, 
         "Type": 6, 
-        "Weight": 7
+        "Weight": 7, 
+        "onTrain": 0, 
+        "puso": 6, 
+        "setTo": 6
       }, 
-      "DS": "No Waybill", 
-      "DT": "*Not Consigned", 
-      "FD": "Any Line", 
-      "FT": "*Any Line", 
+      "DS": "Not Assigned", 
+      "DT": "Not Scheduled", 
+      "EH": "Available", 
+      "FD": "Unconsigned", 
+      "FT": "No Waybill", 
       "SC": [
-        "Load Type", 
+        "Load_Type", 
         "FD&Track"
       ], 
       "SL": [
         "Model"
       ]
-    }, 
+    }
+  }, 
+  "Template": {
     "SV": true, 
-    "TC": "", 
-    "TD": "", 
-    "TN": ""
+    "US": {}
   }, 
   "Throwback": {
     "SS": [
@@ -180,141 +184,184 @@
         ""
       ], 
       [
-        "2023.07.17.14.11.13", 
-        "initial"
+        "2023.09.07.12.56.20", 
+        "1"
       ]
     ], 
-    "SV": true
+    "SV": true, 
+    "US": {}
   }, 
   "jPlus": {
-    "SV": true
+    "SV": true, 
+    "US": {}
   }, 
   "o2o": {
-    "CC": {
-      "alertColor": "RASH", 
-      "carColor": "DUST", 
-      "locoColor": "FADED"
-    }, 
-    "CFL": [
-      "CMX", 
-      "EMX", 
-      "LMX"
-    ], 
-    "CX": [
-      "N", 
-      "NM", 
-      "NE"
-    ], 
     "DL": 40, 
-    "PX": [
-      "B", 
-      "BE", 
-      "BH", 
-      "BM", 
-      "BMR", 
-      "BMT", 
-      "BP", 
-      "BR", 
-      "BX", 
-      "Bd", 
-      "Bn", 
-      "Bdr", 
-      "B60", 
-      "CA", 
-      "CS", 
-      "D", 
-      "DA", 
-      "DB", 
-      "DC", 
-      "DL", 
-      "DO", 
-      "DP", 
-      "DPA", 
-      "MA", 
-      "MB", 
-      "MR", 
-      "Ok", 
-      "P", 
-      "PA", 
-      "PAS", 
-      "PB", 
-      "PBC", 
-      "PBO", 
-      "PC", 
-      "PL", 
-      "PO", 
-      "PS", 
-      "PSA"
-    ], 
-    "RA": [
-      "PUSO", 
-      "Road", 
-      "Number", 
-      "Model", 
-      "Load_Type", 
-      "Load", 
-      "Location", 
-      "Dest&Track", 
-      "FD&Track"
-    ], 
     "RF": {
+      "RRD": "tpRailroadData", 
+      "RSD": "tpRollingStockData", 
       "TRI": "TrainPlayer Report - Industries.txt", 
       "TRL": "TrainPlayer Report - Locations.txt", 
       "TRR": "TrainPlayer Report - Rolling Stock.txt"
     }, 
     "RMF": {
       "MC": [
-        "Road", 
-        "Number", 
-        "Type", 
-        "Load Type", 
-        "Load", 
-        "Final Dest"
+        "A01", 
+        "A02", 
+        "A03", 
+        "A08", 
+        "A07", 
+        "A13"
       ], 
       "PUC": [
-        "Road", 
-        "Number", 
-        "Type", 
-        "Load Type", 
-        "Load", 
-        "Destination"
+        "A01", 
+        "A02", 
+        "A03", 
+        "A08", 
+        "A07", 
+        "A11"
       ], 
       "PUL": [
-        "Road", 
-        "Number", 
-        "Model", 
-        "Consist", 
-        "Destination"
+        "A01", 
+        "A02", 
+        "A04", 
+        "A16", 
+        "A11"
       ], 
       "SOC": [
-        "Road", 
-        "Number", 
-        "Type", 
-        "Load Type", 
-        "Load", 
-        "Destination"
+        "A01", 
+        "A02", 
+        "A03", 
+        "A08", 
+        "A07", 
+        "A11"
       ], 
       "SOL": [
-        "Road", 
-        "Number", 
-        "Model", 
-        "Consist", 
-        "Destination"
+        "A01", 
+        "A02", 
+        "A04", 
+        "A16", 
+        "A11"
       ]
     }, 
-    "RN": "o2o-Work-Events", 
+    "RMO": {
+      "A01": "Road", 
+      "A02": "Number", 
+      "A03": "Type", 
+      "A04": "Model", 
+      "A05": "Length", 
+      "A06": "Weight", 
+      "A07": "Load", 
+      "A08": "Load_Type", 
+      "A09": "Color", 
+      "A10": "Track", 
+      "A11": "Destination", 
+      "A12": "Dest&Track", 
+      "A13": "Final_Dest", 
+      "A14": "FD&Track", 
+      "A15": "Location", 
+      "A16": "Consist", 
+      "A17": "DCC_Address", 
+      "A18": "Kernel", 
+      "A19": "Owner", 
+      "A20": "Division", 
+      "A21": "RWE", 
+      "A22": "Comment", 
+      "A23": "SetOut_Msg", 
+      "A24": "PickUp_Msg", 
+      "A25": "Hazardous", 
+      "A26": " ", 
+      "A27": "Tab", 
+      "A28": "Tab2", 
+      "A29": "Tab3", 
+      "A30": " [ ] ", 
+      "A31": "Kernel_Size"
+    }, 
+    "RN": "o2o-Workevents", 
     "SM": {
       "LEE": true, 
       "RCL": true, 
       "SCL": true
     }, 
     "SV": true, 
+    "TO": {
+      "ASE": true, 
+      "CWS": true, 
+      "SBA": true, 
+      "SCT": "ARR Codes", 
+      "SIA": true, 
+      "SME": true, 
+      "TNB": false
+    }, 
     "TR": {
       "XO reserved": "Spur", 
       "class yard": "Yard", 
       "industry": "Spur", 
       "interchange": "Interchange", 
       "staging": "Staging"
+    }, 
+    "US": {
+      "XC": [
+        "N", 
+        "NM", 
+        "NE"
+      ], 
+      "XE": [
+        "E", 
+        "ES", 
+        "ED", 
+        "EE", 
+        "ET"
+      ], 
+      "XM": [
+        "M", 
+        "MWB", 
+        "MWC", 
+        "MWD", 
+        "MWG", 
+        "MWF", 
+        "MWK", 
+        "MWR", 
+        "MWX"
+      ], 
+      "XP": [
+        "EP", 
+        "CA", 
+        "CS", 
+        "D", 
+        "DA", 
+        "DB", 
+        "DC", 
+        "DL", 
+        "DO", 
+        "DP", 
+        "DPA", 
+        "P", 
+        "PA", 
+        "PAS", 
+        "PB", 
+        "PBC", 
+        "PBO", 
+        "PC", 
+        "PL", 
+        "PO", 
+        "PS", 
+        "PSA"
+      ], 
+      "XX": [
+        "B", 
+        "BE", 
+        "BH", 
+        "BM", 
+        "BMR", 
+        "BMT", 
+        "BP", 
+        "BR", 
+        "BX", 
+        "MA", 
+        "MB", 
+        "MR"
+      ]
     }
   }
 }
