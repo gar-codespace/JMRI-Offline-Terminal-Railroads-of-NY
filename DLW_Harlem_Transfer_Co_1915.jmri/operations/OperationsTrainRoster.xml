@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Mon Jul 17 11:07:48 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Sep 06 18:30:22 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Zurückstellen" />
     <conductorOptions showHyphenName="false" />
@@ -23,25 +23,25 @@
       <rowColor name="" resetRowColor="" />
       <route name="Float Switch" id="1" />
       <types>
-        <carType name="XM" />
-        <carType name="TG" />
-        <carType name="M" />
-        <carType name="HK" />
-        <carType name="GA" />
         <carType name="FM" />
+        <carType name="GA" />
+        <carType name="HK" />
+        <carType name="M" />
+        <carType name="TG" />
+        <carType name="XM" />
         <locoType name="ES" />
       </types>
     </train>
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Dimanche" trainIds="," />
-    <schedule id="2" name="Lundi" trainIds="," />
-    <schedule id="3" name="Mardi" trainIds="," />
-    <schedule id="4" name="Mercredi" trainIds="," />
-    <schedule id="5" name="Jeudi" trainIds="," />
-    <schedule id="6" name="Vendredi" trainIds="," />
-    <schedule id="7" name="Samedi" trainIds="," />
+    <schedule id="1" name="Dimanche" trainIds="" />
+    <schedule id="2" name="Lundi" trainIds="" />
+    <schedule id="3" name="Mardi" trainIds="" />
+    <schedule id="4" name="Mercredi" trainIds="" />
+    <schedule id="5" name="Jeudi" trainIds="" />
+    <schedule id="6" name="Vendredi" trainIds="" />
+    <schedule id="7" name="Samedi" trainIds="" />
   </schedules>
   <automationOptions automationStartupId="" />
   <automations />

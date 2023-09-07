@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/operations-trains.xsl" type="text/xsl"?>
 <!DOCTYPE operations-config SYSTEM "/xml/DTD/operations-trains.dtd">
 <operations-config>
-  <!--Written by JMRI version 5.2+R760b98537f on Wed Aug 30 21:06:29 PDT 2023-->
+  <!--Written by JMRI version 5.2+R760b98537f on Wed Sep 06 18:29:28 PDT 2023-->
   <options>
     <trainOptions buildMessages="true" buildReport="false" printPreview="true" openFile="false" runFile="false" trainAction="Réinitialiser" />
     <conductorOptions showHyphenName="false" />
@@ -19,7 +19,7 @@
     </switchlistCreator>
   </options>
   <trains>
-    <train id="1" name="Float Switch" description="" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="false" buildFailedMessage="" printed="false" modified="false" switchListStatus="" status="Réinitialisation du train " TerminationDate="6/20/2023 21:55" RequestedCars="34" statusCode="0" oldStatusCode="20" comment="" showTimes="true">
+    <train id="1" name="Float Switch" description="" departHour="00" departMinute="00" builtStartYear="" builtEndYear="" numberEngines="0" engineRoad="" engineModel="" requires="0" cabooseRoad="" buildNormal="false" toTerminal="false" allowLocalMoves="false" allowReturn="false" allowThroughCars="true" serviceAll="false" sendCustomStaging="false" buildConsist="false" built="false" build="false" buildFailed="true" buildFailedMessage="Impossible de trouver une voie de départ de la coulisse à Pier Float qui satisfasse aux exigences du train" printed="false" modified="false" switchListStatus="" status="échec Assemblage" TerminationDate="6/20/2023 21:55" RequestedCars="34" statusCode="2" oldStatusCode="20" comment="" showTimes="true">
       <rowColor name="" resetRowColor="" />
       <route name="Float Switch" id="1" />
       <types />
@@ -32,13 +32,13 @@
   </trains>
   <trainScheduleOptions activeId="" />
   <schedules>
-    <schedule id="1" name="Sunday" trainIds="," />
-    <schedule id="2" name="Monday" trainIds="," />
-    <schedule id="3" name="Tuesday" trainIds="," />
-    <schedule id="4" name="Wednesday" trainIds="," />
-    <schedule id="5" name="Thursday" trainIds="," />
-    <schedule id="6" name="Friday" trainIds="," />
-    <schedule id="7" name="Saturday" trainIds="," />
+    <schedule id="1" name="Sunday" trainIds="" />
+    <schedule id="2" name="Monday" trainIds="" />
+    <schedule id="3" name="Tuesday" trainIds="" />
+    <schedule id="4" name="Wednesday" trainIds="" />
+    <schedule id="5" name="Thursday" trainIds="" />
+    <schedule id="6" name="Friday" trainIds="" />
+    <schedule id="7" name="Saturday" trainIds="" />
   </schedules>
   <automationOptions automationStartupId="" />
   <automations />
